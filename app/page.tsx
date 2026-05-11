@@ -1,65 +1,162 @@
-import Image from "next/image";
+"use client";
+
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation"; // useRouter 추가
+import { isLoggedIn, logout } from "../lib/api";
 
 export default function Home() {
+  const router = useRouter(); // 라우터 초기화
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); // 로딩 상태 추가
+
+  useEffect(() => {
+    // 클라이언트 마운트 후 로그인 상태 확인 (SSR-safe: localStorage는 클라이언트에만 존재)
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLoggedIn(isLoggedIn());
+    setIsLoading(false);
+  }, []);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50 px-6 py-8 text-slate-800">
+      {/* 배경 장식 */}
+      <div className="pointer-events-none absolute top-0 right-0 h-72 w-72 rounded-full bg-emerald-200/30 blur-3xl" />
+      <div className="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-teal-200/20 blur-3xl" />
+
+      <div className="relative mx-auto max-w-5xl">
+        {/* ── 헤더 ── */}
+        <header className="flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-2">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500 shadow-md shadow-emerald-200">
+              <span className="text-xl">🧊</span>
+            </div>
+            <span className="text-2xl font-extrabold tracking-tight text-slate-800">
+              A3semble
+            </span>
+          </Link>
+
+          <div className="flex gap-2">
+            {isLoading ? (
+              // 로딩 중일 때 보여줄 스켈레톤 UI (깜빡임 방지)
+              <>
+                <div className="h-10 w-20 animate-pulse rounded-full bg-slate-200/60"></div>
+                <div className="h-10 w-24 animate-pulse rounded-full bg-emerald-200/30"></div>
+              </>
+            ) : loggedIn ? (
+              // 로그인 상태일 때 UI
+              <>
+                <Link
+                  href="/mypage"
+                  className="rounded-full bg-white px-5 py-2.5 text-sm font-bold text-slate-700 shadow-sm border border-slate-100 transition hover:bg-slate-50"
+                >
+                  내 정보
+                </Link>
+                <button
+                  onClick={() => {
+                    logout();
+                    setLoggedIn(false);
+                    router.push("/"); // 새로고침 없이 부드럽게 이동
+                  }}
+                  className="rounded-full bg-slate-100 px-5 py-2.5 text-sm font-bold text-slate-500 transition hover:bg-slate-200"
+                >
+                  로그아웃
+                </button>
+              </>
+            ) : (
+              // 비로그인 상태일 때 UI
+              <>
+                <Link
+                  href="/login"
+                  className="rounded-full bg-white px-5 py-2.5 text-sm font-bold text-slate-700 shadow-sm border border-slate-100 transition hover:bg-slate-50"
+                >
+                  로그인
+                </Link>
+                <Link
+                  href="/signup"
+                  className="rounded-full bg-emerald-500 px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600"
+                >
+                  회원가입
+                </Link>
+              </>
+            )}
+          </div>
+        </header>
+
+        {/* ── 히어로 ── */}
+        <section className="mt-16">
+          <p className="text-xs font-bold uppercase tracking-[0.35em] text-emerald-600">
+            My Smart Refrigerator
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+
+          <div className="mt-5 leading-tight">
+            <h1 className="text-6xl font-extrabold text-slate-900 md:text-7xl">
+              나의
+            </h1>
+            <h1 className="mt-2 bg-gradient-to-r from-emerald-500 to-teal-500 bg-clip-text text-6xl font-extrabold text-transparent md:text-7xl">
+              냉장고
+            </h1>
+          </div>
+
+          <p className="mt-8 max-w-xl text-xl leading-relaxed text-slate-500">
+            냉장고 속 식재료를 스마트하게 관리하고
+            <br />
+            레시피를 추천받아보세요
+          </p>
+        </section>
+
+        {/* ── 메뉴 카드 ── */}
+        <section className="mt-16 grid grid-cols-1 gap-5 md:grid-cols-2">
+          <Link
+            href="/fridge"
+            className="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-100"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-50 text-3xl">
+              🧺
+            </div>
+            <h3 className="mt-8 text-3xl font-extrabold text-slate-900">
+              내 냉장고 보기
+            </h3>
+            <p className="mt-3 text-base text-slate-500">
+              저장된 식재료 목록과 소비기한을 확인해보세요
+            </p>
+          </Link>
+
+          <Link
+            href="/add"
+            className="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-100"
           >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl">
+              ➕
+            </div>
+            <h3 className="mt-8 text-3xl font-extrabold text-slate-900">
+              식재료 추가
+            </h3>
+            <p className="mt-3 text-base text-slate-500">
+              새 식재료를 냉장고에 등록해요
+            </p>
+          </Link>
+
+          <Link
+            href="/recipe"
+            className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-500 to-teal-500 p-8 shadow-lg shadow-emerald-200 transition hover:-translate-y-1 hover:shadow-xl md:col-span-2"
+          >
+            <div className="absolute -top-8 -right-8 h-40 w-40 rounded-full bg-white/10" />
+            <div className="absolute top-8 right-12 h-24 w-24 rounded-full bg-white/10" />
+
+            <div className="relative">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/20 text-3xl backdrop-blur">
+                ⭐
+              </div>
+              <h3 className="mt-8 text-3xl font-extrabold text-white">
+                오늘 뭐 먹을까?
+              </h3>
+              <p className="mt-3 text-base text-emerald-50">
+                냉장고 속 재료로 만들 수 있는 요리를 추천해드려요
+              </p>
+            </div>
+          </Link>
+        </section>
+      </div>
+    </main>
   );
 }
