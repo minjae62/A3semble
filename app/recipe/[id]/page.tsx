@@ -407,7 +407,7 @@ export default function RecipeDetailPage() {
               </div>
 
               <div className="mt-4 rounded-xl bg-emerald-50 p-3 text-[11px] text-emerald-700">
-                💡 FIFO 방식으로 소비기한 임박 재고부터 차감돼요. 임팩트 통계에 자동 반영됩니다.
+                💡 FEFO 방식으로 소비기한 임박 재고부터 차감돼요. 임팩트 통계에 자동 반영됩니다.
               </div>
 
               <div className="mt-4 flex gap-2">
