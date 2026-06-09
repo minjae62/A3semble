@@ -1,0 +1,49 @@
+import { readFileSync } from "node:fs";
+const DIR = new URL("../sim-data/", import.meta.url).pathname;
+const load = (f) => JSON.parse(readFileSync(`${DIR}/${f}`, "utf8"));
+const TODAY = new Date("2026-06-06T00:00:00");
+const dday = (s) => Math.ceil((new Date(s).getTime() - TODAY.getTime()) / 86400000);
+
+const inv = load("inventory.json");
+const recScored = load("recipes_scored.json").items;
+
+// 1) 식재료 score: 백엔드 vs  risk*qty/((Dday+1)^2+1)
+let okItem = 0, badItem = [];
+for (const it of inv) {
+  const risk = parseFloat(it.ingredient.risk_factor);
+  const qty = parseFloat(it.quantity);
+  const d = dday(it.expire_date);
+  const pred = risk * qty / ((d + 1) * (d + 1) + 1);
+  if (Math.abs(pred - it.score) < 1e-6 || Math.abs(pred - it.score) / (it.score || 1) < 1e-9) okItem++;
+  else badItem.push({ name: it.ingredient.name, d, qty, risk, backend: it.score, pred });
+}
+console.log(`[식재료 score] (Dday+1)^2+1 공식 일치: ${okItem}/${inv.length}`);
+if (badItem.length) console.log("  불일치:", JSON.stringify(badItem.slice(0, 5)));
+
+// 비교: 설계서 원식 (Dday)^2+1 이었다면 몇 개나 맞나
+let okSpec = 0;
+for (const it of inv) {
+  const risk = parseFloat(it.ingredient.risk_factor), qty = parseFloat(it.quantity), d = dday(it.expire_date);
+  const spec = risk * qty / (d * d + 1);
+  if (Math.abs(spec - it.score) < 1e-6) okSpec++;
+}
+console.log(`[참고] 설계서 원식 (Dday)^2+1 일치: ${okSpec}/${inv.length}  ← 구현은 Dday+1로 시프트됨`);
+
+// 2) 레시피 score: 백엔드 vs sum(매칭 보유재료 score)
+const invByMaster = new Map();
+for (const it of inv) invByMaster.set(it.ingredient_master_id, (invByMaster.get(it.ingredient_master_id) || 0) + it.score);
+const invSet = new Set(inv.map((i) => i.ingredient_master_id));
+let okRec = 0, badRec = [];
+for (const rec of recScored) {
+  const matched = rec.ingredients.map((i) => i.ingredient_master_id).filter((id) => invSet.has(id));
+  const sum = matched.reduce((a, id) => a + (invByMaster.get(id) || 0), 0);
+  if (Math.abs(sum - rec.score) < 1e-3 || Math.abs(sum - rec.score) / (rec.score || 1) < 1e-6) okRec++;
+  else badRec.push({ name: rec.name, backend: rec.score, sum, matched: matched.length });
+}
+console.log(`[레시피 score] sum(매칭 보유재료 score) 일치: ${okRec}/${recScored.length}`);
+if (badRec.length) console.log("  불일치:", JSON.stringify(badRec.slice(0, 5)));
+
+// 3) 랭킹 단조성: rank 오름차순 == score 내림차순?
+let mono = true;
+for (let i = 1; i < recScored.length; i++) if (recScored[i].score > recScored[i - 1].score + 1e-9) mono = false;
+console.log(`[랭킹] score 내림차순 정렬 일치: ${mono ? "OK" : "불일치"} (rank1 score=${recScored[0].score.toFixed(1)}, last=${recScored.at(-1).score.toFixed(3)})`);

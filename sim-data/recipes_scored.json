@@ -1,0 +1,6460 @@
+{
+  "total": 50,
+  "items": [
+    {
+      "id": 162,
+      "name": "누룽지탕",
+      "cook_time_min": 50,
+      "servings": 2,
+      "score": 3011.8811881188117,
+      "rank": 1,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "누룽지",
+        "표고버섯",
+        "죽순",
+        "완두콩",
+        "홍고추",
+        "식용유",
+        "진간장",
+        "식초",
+        "녹말가루"
+      ],
+      "ingredients": [
+        {
+          "id": 1748,
+          "recipe_id": 162,
+          "ingredient_master_id": 72,
+          "quantity": "3",
+          "unit": "조각",
+          "ingredient_name": "누룽지"
+        },
+        {
+          "id": 1749,
+          "recipe_id": 162,
+          "ingredient_master_id": 366,
+          "quantity": "2",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 1750,
+          "recipe_id": 162,
+          "ingredient_master_id": 302,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "죽순"
+        },
+        {
+          "id": 1751,
+          "recipe_id": 162,
+          "ingredient_master_id": 192,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 1752,
+          "recipe_id": 162,
+          "ingredient_master_id": 270,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "완두콩"
+        },
+        {
+          "id": 1753,
+          "recipe_id": 162,
+          "ingredient_master_id": 386,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 1754,
+          "recipe_id": 162,
+          "ingredient_master_id": 121,
+          "quantity": "3",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 1755,
+          "recipe_id": 162,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 1756,
+          "recipe_id": 162,
+          "ingredient_master_id": 229,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 1757,
+          "recipe_id": 162,
+          "ingredient_master_id": 192,
+          "quantity": "1",
+          "unit": "과1/2컵",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 1758,
+          "recipe_id": 162,
+          "ingredient_master_id": 203,
+          "quantity": "6",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 1759,
+          "recipe_id": 162,
+          "ingredient_master_id": 303,
+          "quantity": "3/4",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1760,
+          "recipe_id": 162,
+          "ingredient_master_id": 230,
+          "quantity": "4",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 1761,
+          "recipe_id": 162,
+          "ingredient_master_id": 397,
+          "quantity": "1",
+          "unit": "과1/2큰술",
+          "ingredient_name": "녹말가루"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "해물국수",
+      "cook_time_min": 40,
+      "servings": 4,
+      "score": 1730.1783563411984,
+      "rank": 2,
+      "missing_count": 7,
+      "missing_ingredients": [
+        "청주",
+        "국수",
+        "녹말가루",
+        "홍합",
+        "표고버섯",
+        "죽순",
+        "멸치"
+      ],
+      "ingredients": [
+        {
+          "id": 157,
+          "recipe_id": 15,
+          "ingredient_master_id": 320,
+          "quantity": " ",
+          "unit": "약간",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 145,
+          "recipe_id": 15,
+          "ingredient_master_id": 40,
+          "quantity": "400",
+          "unit": "g",
+          "ingredient_name": "국수"
+        },
+        {
+          "id": 146,
+          "recipe_id": 15,
+          "ingredient_master_id": 97,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 147,
+          "recipe_id": 15,
+          "ingredient_master_id": 397,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "녹말가루"
+        },
+        {
+          "id": 148,
+          "recipe_id": 15,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 149,
+          "recipe_id": 15,
+          "ingredient_master_id": 264,
+          "quantity": "1/2",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 150,
+          "recipe_id": 15,
+          "ingredient_master_id": 192,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 151,
+          "recipe_id": 15,
+          "ingredient_master_id": 387,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "홍합"
+        },
+        {
+          "id": 152,
+          "recipe_id": 15,
+          "ingredient_master_id": 366,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 153,
+          "recipe_id": 15,
+          "ingredient_master_id": 302,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "죽순"
+        },
+        {
+          "id": 156,
+          "recipe_id": 15,
+          "ingredient_master_id": 139,
+          "quantity": "8",
+          "unit": "컵",
+          "ingredient_name": "멸치"
+        },
+        {
+          "id": 154,
+          "recipe_id": 15,
+          "ingredient_master_id": 87,
+          "quantity": " ",
+          "unit": "약간",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 155,
+          "recipe_id": 15,
+          "ingredient_master_id": 121,
+          "quantity": " ",
+          "unit": "약간",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 158,
+          "recipe_id": 15,
+          "ingredient_master_id": 403,
+          "quantity": " ",
+          "unit": "약간",
+          "ingredient_name": "소금"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "name": "해물밥전",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 1584.009153864644,
+      "rank": 3,
+      "missing_count": 7,
+      "missing_ingredients": [
+        "밥",
+        "밀가루",
+        "후추",
+        "깨소금",
+        "참기름",
+        "진간장",
+        "식초"
+      ],
+      "ingredients": [
+        {
+          "id": 2428,
+          "recipe_id": 228,
+          "ingredient_master_id": 396,
+          "quantity": "3",
+          "unit": "공기",
+          "ingredient_name": "밥"
+        },
+        {
+          "id": 2429,
+          "recipe_id": 228,
+          "ingredient_master_id": 192,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 2430,
+          "recipe_id": 228,
+          "ingredient_master_id": 264,
+          "quantity": "1/2",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 2431,
+          "recipe_id": 228,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 2432,
+          "recipe_id": 228,
+          "ingredient_master_id": 83,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 2433,
+          "recipe_id": 228,
+          "ingredient_master_id": 87,
+          "quantity": "4",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2434,
+          "recipe_id": 228,
+          "ingredient_master_id": 79,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 2435,
+          "recipe_id": 228,
+          "ingredient_master_id": 411,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "밀가루"
+        },
+        {
+          "id": 2436,
+          "recipe_id": 228,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 2437,
+          "recipe_id": 228,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2438,
+          "recipe_id": 228,
+          "ingredient_master_id": 51,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "깨소금"
+        },
+        {
+          "id": 2439,
+          "recipe_id": 228,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 2440,
+          "recipe_id": 228,
+          "ingredient_master_id": 303,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 2441,
+          "recipe_id": 228,
+          "ingredient_master_id": 230,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 2442,
+          "recipe_id": 228,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2443,
+          "recipe_id": 228,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "마늘"
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "name": "해파리해물냉채",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 1581.2691998929624,
+      "rank": 4,
+      "missing_count": 7,
+      "missing_ingredients": [
+        "해파리",
+        "쭈꾸미",
+        "겨자",
+        "머스타드",
+        "식초",
+        "진간장",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 2966,
+          "recipe_id": 275,
+          "ingredient_master_id": 378,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "해파리"
+        },
+        {
+          "id": 2967,
+          "recipe_id": 275,
+          "ingredient_master_id": 192,
+          "quantity": "6",
+          "unit": "개",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 2968,
+          "recipe_id": 275,
+          "ingredient_master_id": 306,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "쭈꾸미"
+        },
+        {
+          "id": 2969,
+          "recipe_id": 275,
+          "ingredient_master_id": 263,
+          "quantity": "1/3",
+          "unit": "개",
+          "ingredient_name": "오이"
+        },
+        {
+          "id": 2970,
+          "recipe_id": 275,
+          "ingredient_master_id": 83,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 2971,
+          "recipe_id": 275,
+          "ingredient_master_id": 370,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 2972,
+          "recipe_id": 275,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 2973,
+          "recipe_id": 275,
+          "ingredient_master_id": 17,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "겨자"
+        },
+        {
+          "id": 2974,
+          "recipe_id": 275,
+          "ingredient_master_id": 134,
+          "quantity": "1/2",
+          "unit": "큰술",
+          "ingredient_name": "머스타드"
+        },
+        {
+          "id": 2975,
+          "recipe_id": 275,
+          "ingredient_master_id": 121,
+          "quantity": "2",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2976,
+          "recipe_id": 275,
+          "ingredient_master_id": 230,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 2977,
+          "recipe_id": 275,
+          "ingredient_master_id": 203,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 2978,
+          "recipe_id": 275,
+          "ingredient_master_id": 303,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 2979,
+          "recipe_id": 275,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 2980,
+          "recipe_id": 275,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "낙지전골",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 1572.5945568165714,
+      "rank": 5,
+      "missing_count": 11,
+      "missing_ingredients": [
+        "낙지",
+        "소고기",
+        "두부",
+        "표고버섯",
+        "홍고추",
+        "쑥갓",
+        "밀가루",
+        "식용유",
+        "국간장",
+        "깨소금",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 843,
+          "recipe_id": 78,
+          "ingredient_master_id": 63,
+          "quantity": "2",
+          "unit": "마리",
+          "ingredient_name": "낙지"
+        },
+        {
+          "id": 844,
+          "recipe_id": 78,
+          "ingredient_master_id": 192,
+          "quantity": "60",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 845,
+          "recipe_id": 78,
+          "ingredient_master_id": 204,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "소고기"
+        },
+        {
+          "id": 846,
+          "recipe_id": 78,
+          "ingredient_master_id": 101,
+          "quantity": "1/4",
+          "unit": "모",
+          "ingredient_name": "두부"
+        },
+        {
+          "id": 847,
+          "recipe_id": 78,
+          "ingredient_master_id": 87,
+          "quantity": "5",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 848,
+          "recipe_id": 78,
+          "ingredient_master_id": 366,
+          "quantity": "3",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 849,
+          "recipe_id": 78,
+          "ingredient_master_id": 386,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 850,
+          "recipe_id": 78,
+          "ingredient_master_id": 237,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "쑥갓"
+        },
+        {
+          "id": 851,
+          "recipe_id": 78,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 852,
+          "recipe_id": 78,
+          "ingredient_master_id": 411,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "밀가루"
+        },
+        {
+          "id": 853,
+          "recipe_id": 78,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 854,
+          "recipe_id": 78,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 855,
+          "recipe_id": 78,
+          "ingredient_master_id": 39,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "국간장"
+        },
+        {
+          "id": 856,
+          "recipe_id": 78,
+          "ingredient_master_id": 87,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 857,
+          "recipe_id": 78,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 858,
+          "recipe_id": 78,
+          "ingredient_master_id": 51,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "깨소금"
+        },
+        {
+          "id": 859,
+          "recipe_id": 78,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 860,
+          "recipe_id": 78,
+          "ingredient_master_id": 203,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 861,
+          "recipe_id": 78,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "name": "김치주먹밥",
+      "cook_time_min": 40,
+      "servings": 4,
+      "score": 1560.608758204914,
+      "rank": 6,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "김치",
+        "밥",
+        "다짐육(소고기)",
+        "단무지",
+        "미나리",
+        "청주",
+        "진간장",
+        "후추",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 2542,
+          "recipe_id": 238,
+          "ingredient_master_id": 48,
+          "quantity": "1/2",
+          "unit": "포기",
+          "ingredient_name": "김치"
+        },
+        {
+          "id": 2543,
+          "recipe_id": 238,
+          "ingredient_master_id": 396,
+          "quantity": "2",
+          "unit": "공기",
+          "ingredient_name": "밥"
+        },
+        {
+          "id": 2544,
+          "recipe_id": 238,
+          "ingredient_master_id": 76,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "다짐육(소고기)"
+        },
+        {
+          "id": 2545,
+          "recipe_id": 238,
+          "ingredient_master_id": 263,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "오이"
+        },
+        {
+          "id": 2546,
+          "recipe_id": 238,
+          "ingredient_master_id": 83,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 2547,
+          "recipe_id": 238,
+          "ingredient_master_id": 77,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "단무지"
+        },
+        {
+          "id": 2548,
+          "recipe_id": 238,
+          "ingredient_master_id": 153,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "미나리"
+        },
+        {
+          "id": 2549,
+          "recipe_id": 238,
+          "ingredient_master_id": 192,
+          "quantity": "10",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 2550,
+          "recipe_id": 238,
+          "ingredient_master_id": 320,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 2551,
+          "recipe_id": 238,
+          "ingredient_master_id": 303,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 2552,
+          "recipe_id": 238,
+          "ingredient_master_id": 203,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 2553,
+          "recipe_id": 238,
+          "ingredient_master_id": 121,
+          "quantity": "1/2",
+          "unit": "작은술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2554,
+          "recipe_id": 238,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2555,
+          "recipe_id": 238,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2556,
+          "recipe_id": 238,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "해물잡채",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 1555.0330075377703,
+      "rank": 7,
+      "missing_count": 6,
+      "missing_ingredients": [
+        "낙지",
+        "당면",
+        "진간장",
+        "참기름",
+        "식용유",
+        "굴소스"
+      ],
+      "ingredients": [
+        {
+          "id": 1884,
+          "recipe_id": 176,
+          "ingredient_master_id": null,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "조객살"
+        },
+        {
+          "id": 1881,
+          "recipe_id": 176,
+          "ingredient_master_id": 264,
+          "quantity": "1",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 1882,
+          "recipe_id": 176,
+          "ingredient_master_id": 63,
+          "quantity": "1",
+          "unit": "마리",
+          "ingredient_name": "낙지"
+        },
+        {
+          "id": 1883,
+          "recipe_id": 176,
+          "ingredient_master_id": 192,
+          "quantity": "4",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 1885,
+          "recipe_id": 176,
+          "ingredient_master_id": 249,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 1886,
+          "recipe_id": 176,
+          "ingredient_master_id": 370,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 1887,
+          "recipe_id": 176,
+          "ingredient_master_id": 370,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 1888,
+          "recipe_id": 176,
+          "ingredient_master_id": 85,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "당면"
+        },
+        {
+          "id": 1889,
+          "recipe_id": 176,
+          "ingredient_master_id": 303,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1890,
+          "recipe_id": 176,
+          "ingredient_master_id": 203,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 1891,
+          "recipe_id": 176,
+          "ingredient_master_id": 309,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 1892,
+          "recipe_id": 176,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 1893,
+          "recipe_id": 176,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 1894,
+          "recipe_id": 176,
+          "ingredient_master_id": 42,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "굴소스"
+        },
+        {
+          "id": 1895,
+          "recipe_id": 176,
+          "ingredient_master_id": 83,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "당근"
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "name": "해물떡꼬치",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 1554.6978671158051,
+      "rank": 8,
+      "missing_count": 8,
+      "missing_ingredients": [
+        "가래떡",
+        "식초",
+        "토마토케찹",
+        "진간장",
+        "고춧가루",
+        "핫소스",
+        "참기름",
+        "후추"
+      ],
+      "ingredients": [
+        {
+          "id": 3071,
+          "recipe_id": 285,
+          "ingredient_master_id": 264,
+          "quantity": "1",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 3072,
+          "recipe_id": 285,
+          "ingredient_master_id": 192,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3073,
+          "recipe_id": 285,
+          "ingredient_master_id": 2,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "가래떡"
+        },
+        {
+          "id": 3074,
+          "recipe_id": 285,
+          "ingredient_master_id": 370,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 3075,
+          "recipe_id": 285,
+          "ingredient_master_id": 31,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "고추장"
+        },
+        {
+          "id": 3076,
+          "recipe_id": 285,
+          "ingredient_master_id": 203,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 3077,
+          "recipe_id": 285,
+          "ingredient_master_id": 230,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 3078,
+          "recipe_id": 285,
+          "ingredient_master_id": 351,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "토마토케찹"
+        },
+        {
+          "id": 3079,
+          "recipe_id": 285,
+          "ingredient_master_id": 303,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 3080,
+          "recipe_id": 285,
+          "ingredient_master_id": 32,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 3081,
+          "recipe_id": 285,
+          "ingredient_master_id": 121,
+          "quantity": null,
+          "unit": "적당량",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 3082,
+          "recipe_id": 285,
+          "ingredient_master_id": 87,
+          "quantity": null,
+          "unit": "적당량",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 3083,
+          "recipe_id": 285,
+          "ingredient_master_id": 375,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "핫소스"
+        },
+        {
+          "id": 3084,
+          "recipe_id": 285,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 3085,
+          "recipe_id": 285,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "name": "비빔쌀국수",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 1552.134120415353,
+      "rank": 9,
+      "missing_count": 8,
+      "missing_ingredients": [
+        "쌀국수",
+        "소고기",
+        "상추",
+        "레몬",
+        "진간장",
+        "식초",
+        "고추",
+        "후추"
+      ],
+      "ingredients": [
+        {
+          "id": 3281,
+          "recipe_id": 304,
+          "ingredient_master_id": 233,
+          "quantity": "500",
+          "unit": "g",
+          "ingredient_name": "쌀국수"
+        },
+        {
+          "id": 3282,
+          "recipe_id": 304,
+          "ingredient_master_id": 204,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "소고기"
+        },
+        {
+          "id": 3283,
+          "recipe_id": 304,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 3284,
+          "recipe_id": 304,
+          "ingredient_master_id": 192,
+          "quantity": "8",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3285,
+          "recipe_id": 304,
+          "ingredient_master_id": 189,
+          "quantity": "8",
+          "unit": "잎",
+          "ingredient_name": "상추"
+        },
+        {
+          "id": 3286,
+          "recipe_id": 304,
+          "ingredient_master_id": 116,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "레몬"
+        },
+        {
+          "id": 3287,
+          "recipe_id": 304,
+          "ingredient_master_id": 303,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 3288,
+          "recipe_id": 304,
+          "ingredient_master_id": 230,
+          "quantity": "1/4",
+          "unit": "컵",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 3289,
+          "recipe_id": 304,
+          "ingredient_master_id": 203,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 3290,
+          "recipe_id": 304,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "컵",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 3291,
+          "recipe_id": 304,
+          "ingredient_master_id": 28,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "고추"
+        },
+        {
+          "id": 3292,
+          "recipe_id": 304,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 3293,
+          "recipe_id": 304,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 3294,
+          "recipe_id": 304,
+          "ingredient_master_id": 121,
+          "quantity": "1/2",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 3295,
+          "recipe_id": 304,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "name": "깐풍새우",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 1550.0222848756785,
+      "rank": 10,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "녹말가루",
+        "식용유",
+        "청고추",
+        "홍고추",
+        "생강",
+        "진간장",
+        "식초",
+        "후추",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 3878,
+          "recipe_id": 367,
+          "ingredient_master_id": 192,
+          "quantity": "12",
+          "unit": "��리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3879,
+          "recipe_id": 367,
+          "ingredient_master_id": 397,
+          "quantity": "1/2",
+          "unit": "컵",
+          "ingredient_name": "녹말가루"
+        },
+        {
+          "id": 3880,
+          "recipe_id": 367,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 3881,
+          "recipe_id": 367,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 3882,
+          "recipe_id": 367,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 3883,
+          "recipe_id": 367,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 3884,
+          "recipe_id": 367,
+          "ingredient_master_id": 315,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "청고추"
+        },
+        {
+          "id": 3885,
+          "recipe_id": 367,
+          "ingredient_master_id": 386,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 3886,
+          "recipe_id": 367,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 3887,
+          "recipe_id": 367,
+          "ingredient_master_id": 195,
+          "quantity": "1",
+          "unit": "쪽",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 3888,
+          "recipe_id": 367,
+          "ingredient_master_id": 303,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 3889,
+          "recipe_id": 367,
+          "ingredient_master_id": 230,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 3890,
+          "recipe_id": 367,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 3891,
+          "recipe_id": 367,
+          "ingredient_master_id": 309,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "name": "오코노미야키",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1541.1113937865696,
+      "rank": 11,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "양배추",
+        "베이컨",
+        "굴소스",
+        "가다랑어포",
+        "마요네즈",
+        "팽이버섯",
+        "후추",
+        "밀가루",
+        "다시마"
+      ],
+      "ingredients": [
+        {
+          "id": 5118,
+          "recipe_id": 483,
+          "ingredient_master_id": 245,
+          "quantity": "1/4",
+          "unit": "통",
+          "ingredient_name": "양배추"
+        },
+        {
+          "id": 5119,
+          "recipe_id": 483,
+          "ingredient_master_id": 192,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 5120,
+          "recipe_id": 483,
+          "ingredient_master_id": 87,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 5121,
+          "recipe_id": 483,
+          "ingredient_master_id": 174,
+          "quantity": "4",
+          "unit": "장",
+          "ingredient_name": "베이컨"
+        },
+        {
+          "id": 5122,
+          "recipe_id": 483,
+          "ingredient_master_id": 42,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "굴소스"
+        },
+        {
+          "id": 5123,
+          "recipe_id": 483,
+          "ingredient_master_id": 1,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "가다랑어포"
+        },
+        {
+          "id": 5124,
+          "recipe_id": 483,
+          "ingredient_master_id": 125,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "마요네즈"
+        },
+        {
+          "id": 5125,
+          "recipe_id": 483,
+          "ingredient_master_id": 361,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "팽이버섯"
+        },
+        {
+          "id": 5126,
+          "recipe_id": 483,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 5127,
+          "recipe_id": 483,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 5128,
+          "recipe_id": 483,
+          "ingredient_master_id": 411,
+          "quantity": "3",
+          "unit": "컵",
+          "ingredient_name": "밀가루"
+        },
+        {
+          "id": 5129,
+          "recipe_id": 483,
+          "ingredient_master_id": 74,
+          "quantity": "2",
+          "unit": "컵",
+          "ingredient_name": "다시마"
+        },
+        {
+          "id": 5130,
+          "recipe_id": 483,
+          "ingredient_master_id": 79,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 5131,
+          "recipe_id": 483,
+          "ingredient_master_id": 249,
+          "quantity": "1/3",
+          "unit": "개",
+          "ingredient_name": "양파"
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "name": "해물국시",
+      "cook_time_min": 60,
+      "servings": 2,
+      "score": 1540.7256969258133,
+      "rank": 12,
+      "missing_count": 6,
+      "missing_ingredients": [
+        "다시마",
+        "바지락",
+        "청고추",
+        "국간장",
+        "참기름",
+        "칼국수면"
+      ],
+      "ingredients": [
+        {
+          "id": 3667,
+          "recipe_id": 345,
+          "ingredient_master_id": 74,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "다시마"
+        },
+        {
+          "id": 3668,
+          "recipe_id": 345,
+          "ingredient_master_id": 192,
+          "quantity": "4",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3669,
+          "recipe_id": 345,
+          "ingredient_master_id": 163,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "바지락"
+        },
+        {
+          "id": 3670,
+          "recipe_id": 345,
+          "ingredient_master_id": 383,
+          "quantity": "15",
+          "unit": "g",
+          "ingredient_name": "호박"
+        },
+        {
+          "id": 3671,
+          "recipe_id": 345,
+          "ingredient_master_id": 10,
+          "quantity": "15",
+          "unit": "g",
+          "ingredient_name": "감자"
+        },
+        {
+          "id": 3672,
+          "recipe_id": 345,
+          "ingredient_master_id": 87,
+          "quantity": "5",
+          "unit": "g",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 3673,
+          "recipe_id": 345,
+          "ingredient_master_id": 315,
+          "quantity": "5",
+          "unit": "g",
+          "ingredient_name": "청고추"
+        },
+        {
+          "id": 3674,
+          "recipe_id": 345,
+          "ingredient_master_id": 39,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "국간장"
+        },
+        {
+          "id": 3675,
+          "recipe_id": 345,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 3676,
+          "recipe_id": 345,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 3677,
+          "recipe_id": 345,
+          "ingredient_master_id": 334,
+          "quantity": "120",
+          "unit": "g",
+          "ingredient_name": "칼국수면"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "name": "새우만두",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 1540.675140487022,
+      "rank": 13,
+      "missing_count": 5,
+      "missing_ingredients": [
+        "콘플레이크",
+        "생크림",
+        "죽순",
+        "만두피",
+        "통후추"
+      ],
+      "ingredients": [
+        {
+          "id": 2090,
+          "recipe_id": 198,
+          "ingredient_master_id": 192,
+          "quantity": "70",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 2091,
+          "recipe_id": 198,
+          "ingredient_master_id": 339,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "콘플레이크"
+        },
+        {
+          "id": 2092,
+          "recipe_id": 198,
+          "ingredient_master_id": 79,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 2093,
+          "recipe_id": 198,
+          "ingredient_master_id": 198,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "생크림"
+        },
+        {
+          "id": 2094,
+          "recipe_id": 198,
+          "ingredient_master_id": 83,
+          "quantity": "15",
+          "unit": "g",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 2095,
+          "recipe_id": 198,
+          "ingredient_master_id": 383,
+          "quantity": "15",
+          "unit": "g",
+          "ingredient_name": "호박"
+        },
+        {
+          "id": 2096,
+          "recipe_id": 198,
+          "ingredient_master_id": 302,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "죽순"
+        },
+        {
+          "id": 2097,
+          "recipe_id": 198,
+          "ingredient_master_id": 126,
+          "quantity": "12",
+          "unit": "장",
+          "ingredient_name": "만두피"
+        },
+        {
+          "id": 2098,
+          "recipe_id": 198,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 2099,
+          "recipe_id": 198,
+          "ingredient_master_id": 421,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "통후추"
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "name": "해물찌개",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 1535.281583778542,
+      "rank": 14,
+      "missing_count": 12,
+      "missing_ingredients": [
+        "쭈꾸미",
+        "진간장",
+        "모시조개",
+        "홍합",
+        "무",
+        "홍고추",
+        "미나리",
+        "고춧가루",
+        "생강",
+        "후추",
+        "다시마",
+        "청고추"
+      ],
+      "ingredients": [
+        {
+          "id": 5083,
+          "recipe_id": 480,
+          "ingredient_master_id": 306,
+          "quantity": "2",
+          "unit": "마리",
+          "ingredient_name": "쭈꾸미"
+        },
+        {
+          "id": 5084,
+          "recipe_id": 480,
+          "ingredient_master_id": 303,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 5085,
+          "recipe_id": 480,
+          "ingredient_master_id": 264,
+          "quantity": "1/2",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 5086,
+          "recipe_id": 480,
+          "ingredient_master_id": 192,
+          "quantity": "8",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 5087,
+          "recipe_id": 480,
+          "ingredient_master_id": 145,
+          "quantity": "1",
+          "unit": "봉",
+          "ingredient_name": "모시조개"
+        },
+        {
+          "id": 5088,
+          "recipe_id": 480,
+          "ingredient_master_id": 387,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "홍합"
+        },
+        {
+          "id": 5089,
+          "recipe_id": 480,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 5090,
+          "recipe_id": 480,
+          "ingredient_master_id": 148,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "무"
+        },
+        {
+          "id": 5091,
+          "recipe_id": 480,
+          "ingredient_master_id": 386,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 5092,
+          "recipe_id": 480,
+          "ingredient_master_id": 87,
+          "quantity": "2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 5093,
+          "recipe_id": 480,
+          "ingredient_master_id": 153,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "미나리"
+        },
+        {
+          "id": 5094,
+          "recipe_id": 480,
+          "ingredient_master_id": 32,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 5095,
+          "recipe_id": 480,
+          "ingredient_master_id": 121,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 5096,
+          "recipe_id": 480,
+          "ingredient_master_id": 195,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 5097,
+          "recipe_id": 480,
+          "ingredient_master_id": 31,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "고추장"
+        },
+        {
+          "id": 5098,
+          "recipe_id": 480,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 5099,
+          "recipe_id": 480,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 5100,
+          "recipe_id": 480,
+          "ingredient_master_id": 74,
+          "quantity": "1",
+          "unit": "장",
+          "ingredient_name": "다시마"
+        },
+        {
+          "id": 5101,
+          "recipe_id": 480,
+          "ingredient_master_id": 315,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "청고추"
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "name": "새우겨자채",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1531.7701317508543,
+      "rank": 15,
+      "missing_count": 7,
+      "missing_ingredients": [
+        "석이버섯",
+        "팽이버섯",
+        "양상추",
+        "부추",
+        "무순",
+        "겨자",
+        "식초"
+      ],
+      "ingredients": [
+        {
+          "id": 4646,
+          "recipe_id": 432,
+          "ingredient_master_id": 192,
+          "quantity": "5",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 4647,
+          "recipe_id": 432,
+          "ingredient_master_id": 201,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "석이버섯"
+        },
+        {
+          "id": 4648,
+          "recipe_id": 432,
+          "ingredient_master_id": 361,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "팽이버섯"
+        },
+        {
+          "id": 4649,
+          "recipe_id": 432,
+          "ingredient_master_id": 263,
+          "quantity": "1/3",
+          "unit": "개",
+          "ingredient_name": "오이"
+        },
+        {
+          "id": 4650,
+          "recipe_id": 432,
+          "ingredient_master_id": 83,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 4651,
+          "recipe_id": 432,
+          "ingredient_master_id": 246,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "양상추"
+        },
+        {
+          "id": 4652,
+          "recipe_id": 432,
+          "ingredient_master_id": 176,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "부추"
+        },
+        {
+          "id": 4653,
+          "recipe_id": 432,
+          "ingredient_master_id": 150,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "무순"
+        },
+        {
+          "id": 4654,
+          "recipe_id": 432,
+          "ingredient_master_id": 170,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "배"
+        },
+        {
+          "id": 4655,
+          "recipe_id": 432,
+          "ingredient_master_id": 17,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "겨자"
+        },
+        {
+          "id": 4656,
+          "recipe_id": 432,
+          "ingredient_master_id": 230,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 4657,
+          "recipe_id": 432,
+          "ingredient_master_id": 203,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 4658,
+          "recipe_id": 432,
+          "ingredient_master_id": 403,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "소금"
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "name": "류산슬",
+      "cook_time_min": 40,
+      "servings": 4,
+      "score": 1529.8346078169022,
+      "rank": 16,
+      "missing_count": 14,
+      "missing_ingredients": [
+        "소고기",
+        "해삼",
+        "표고버섯",
+        "죽순",
+        "부추",
+        "완두콩",
+        "생강",
+        "진간장",
+        "굴소스",
+        "청주",
+        "후추",
+        "참기름",
+        "식용유",
+        "녹말가루"
+      ],
+      "ingredients": [
+        {
+          "id": 3319,
+          "recipe_id": 308,
+          "ingredient_master_id": 204,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "소고기"
+        },
+        {
+          "id": 3320,
+          "recipe_id": 308,
+          "ingredient_master_id": 192,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3321,
+          "recipe_id": 308,
+          "ingredient_master_id": 376,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "해삼"
+        },
+        {
+          "id": 3322,
+          "recipe_id": 308,
+          "ingredient_master_id": 366,
+          "quantity": "2",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 3323,
+          "recipe_id": 308,
+          "ingredient_master_id": 302,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "죽순"
+        },
+        {
+          "id": 3324,
+          "recipe_id": 308,
+          "ingredient_master_id": 176,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "부추"
+        },
+        {
+          "id": 3325,
+          "recipe_id": 308,
+          "ingredient_master_id": 270,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "완두콩"
+        },
+        {
+          "id": 3326,
+          "recipe_id": 308,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 3327,
+          "recipe_id": 308,
+          "ingredient_master_id": 121,
+          "quantity": "2",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 3328,
+          "recipe_id": 308,
+          "ingredient_master_id": 195,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 3329,
+          "recipe_id": 308,
+          "ingredient_master_id": 303,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 3330,
+          "recipe_id": 308,
+          "ingredient_master_id": 42,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "굴소스"
+        },
+        {
+          "id": 3331,
+          "recipe_id": 308,
+          "ingredient_master_id": 320,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 3332,
+          "recipe_id": 308,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 3333,
+          "recipe_id": 308,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 3334,
+          "recipe_id": 308,
+          "ingredient_master_id": 229,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 3335,
+          "recipe_id": 308,
+          "ingredient_master_id": 397,
+          "quantity": "8",
+          "unit": "큰술",
+          "ingredient_name": "녹말가루"
+        }
+      ]
+    },
+    {
+      "id": 479,
+      "name": "고추잡채와꽃빵",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1529.7840513781107,
+      "rank": 17,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "청고추",
+        "홍고추",
+        "포도씨유",
+        "후추",
+        "굴소스",
+        "꽃빵",
+        "새송이버섯",
+        "청주",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 5071,
+          "recipe_id": 479,
+          "ingredient_master_id": 315,
+          "quantity": "4",
+          "unit": "개",
+          "ingredient_name": "청고추"
+        },
+        {
+          "id": 5072,
+          "recipe_id": 479,
+          "ingredient_master_id": 386,
+          "quantity": "3",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 5073,
+          "recipe_id": 479,
+          "ingredient_master_id": 263,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "오이"
+        },
+        {
+          "id": 5074,
+          "recipe_id": 479,
+          "ingredient_master_id": 83,
+          "quantity": "1/3",
+          "unit": "개",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 5075,
+          "recipe_id": 479,
+          "ingredient_master_id": 192,
+          "quantity": "6",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 5076,
+          "recipe_id": 479,
+          "ingredient_master_id": 364,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "포도씨유"
+        },
+        {
+          "id": 5077,
+          "recipe_id": 479,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 5078,
+          "recipe_id": 479,
+          "ingredient_master_id": 42,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "굴소스"
+        },
+        {
+          "id": 5079,
+          "recipe_id": 479,
+          "ingredient_master_id": 59,
+          "quantity": "4",
+          "unit": "개",
+          "ingredient_name": "꽃빵"
+        },
+        {
+          "id": 5080,
+          "recipe_id": 479,
+          "ingredient_master_id": 190,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "새송이버섯"
+        },
+        {
+          "id": 5081,
+          "recipe_id": 479,
+          "ingredient_master_id": 320,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 5082,
+          "recipe_id": 479,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "name": "토마토해산물스파게티",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1524.3399382308398,
+      "rank": 18,
+      "missing_count": 13,
+      "missing_ingredients": [
+        "홍합",
+        "모시조개",
+        "동태",
+        "꼴뚜기",
+        "샐러리",
+        "스파게티면",
+        "토마토",
+        "토마토페이스트",
+        "월계수잎",
+        "후추",
+        "올리브유",
+        "파마산치즈",
+        "바질"
+      ],
+      "ingredients": [
+        {
+          "id": 4005,
+          "recipe_id": 378,
+          "ingredient_master_id": 264,
+          "quantity": "1/2",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 4006,
+          "recipe_id": 378,
+          "ingredient_master_id": 192,
+          "quantity": "4",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 4007,
+          "recipe_id": 378,
+          "ingredient_master_id": 387,
+          "quantity": "6",
+          "unit": "개",
+          "ingredient_name": "홍합"
+        },
+        {
+          "id": 4008,
+          "recipe_id": 378,
+          "ingredient_master_id": 145,
+          "quantity": "4",
+          "unit": "개",
+          "ingredient_name": "모시조개"
+        },
+        {
+          "id": 4009,
+          "recipe_id": 378,
+          "ingredient_master_id": 95,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "동태"
+        },
+        {
+          "id": 4010,
+          "recipe_id": 378,
+          "ingredient_master_id": 55,
+          "quantity": "3",
+          "unit": "마리",
+          "ingredient_name": "꼴뚜기"
+        },
+        {
+          "id": 4011,
+          "recipe_id": 378,
+          "ingredient_master_id": 121,
+          "quantity": "3",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 4012,
+          "recipe_id": 378,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 4013,
+          "recipe_id": 378,
+          "ingredient_master_id": 83,
+          "quantity": "1/8",
+          "unit": "개",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 4014,
+          "recipe_id": 378,
+          "ingredient_master_id": 194,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "샐러리"
+        },
+        {
+          "id": 4015,
+          "recipe_id": 378,
+          "ingredient_master_id": 221,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "스파게티면"
+        },
+        {
+          "id": 4016,
+          "recipe_id": 378,
+          "ingredient_master_id": 349,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "토마토"
+        },
+        {
+          "id": 4017,
+          "recipe_id": 378,
+          "ingredient_master_id": 352,
+          "quantity": "4",
+          "unit": "큰술",
+          "ingredient_name": "토마토페이스트"
+        },
+        {
+          "id": 4018,
+          "recipe_id": 378,
+          "ingredient_master_id": 278,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "월계수잎"
+        },
+        {
+          "id": 4019,
+          "recipe_id": 378,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 4020,
+          "recipe_id": 378,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 4021,
+          "recipe_id": 378,
+          "ingredient_master_id": 268,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "올리브유"
+        },
+        {
+          "id": 4022,
+          "recipe_id": 378,
+          "ingredient_master_id": 355,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "파마산치즈"
+        },
+        {
+          "id": 4023,
+          "recipe_id": 378,
+          "ingredient_master_id": 164,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "바질"
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "name": "해산물두부수프",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1523.9272143430558,
+      "rank": 19,
+      "missing_count": 6,
+      "missing_ingredients": [
+        "게맛살",
+        "두부",
+        "대구",
+        "전분",
+        "정종",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 3892,
+          "recipe_id": 368,
+          "ingredient_master_id": 16,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "게맛살"
+        },
+        {
+          "id": 3893,
+          "recipe_id": 368,
+          "ingredient_master_id": 192,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3894,
+          "recipe_id": 368,
+          "ingredient_master_id": 101,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "두부"
+        },
+        {
+          "id": 3895,
+          "recipe_id": 368,
+          "ingredient_master_id": 427,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "대구"
+        },
+        {
+          "id": 3896,
+          "recipe_id": 368,
+          "ingredient_master_id": 264,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 3897,
+          "recipe_id": 368,
+          "ingredient_master_id": 410,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "전분"
+        },
+        {
+          "id": 3898,
+          "recipe_id": 368,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 3899,
+          "recipe_id": 368,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 3900,
+          "recipe_id": 368,
+          "ingredient_master_id": 296,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "정종"
+        },
+        {
+          "id": 3901,
+          "recipe_id": 368,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "name": "해초무침",
+      "cook_time_min": 20,
+      "servings": 2,
+      "score": 1523.3498392209387,
+      "rank": 20,
+      "missing_count": 8,
+      "missing_ingredients": [
+        "해초",
+        "미역",
+        "진간장",
+        "식용유",
+        "식초",
+        "사과",
+        "레몬",
+        "후추"
+      ],
+      "ingredients": [
+        {
+          "id": 3959,
+          "recipe_id": 374,
+          "ingredient_master_id": 377,
+          "quantity": "60",
+          "unit": "g",
+          "ingredient_name": "해초"
+        },
+        {
+          "id": 3960,
+          "recipe_id": 374,
+          "ingredient_master_id": 157,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "미역"
+        },
+        {
+          "id": 3961,
+          "recipe_id": 374,
+          "ingredient_master_id": 264,
+          "quantity": "1/4",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 3962,
+          "recipe_id": 374,
+          "ingredient_master_id": 192,
+          "quantity": "2",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3963,
+          "recipe_id": 374,
+          "ingredient_master_id": 303,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 3964,
+          "recipe_id": 374,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "반컵",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 3965,
+          "recipe_id": 374,
+          "ingredient_master_id": 230,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 3966,
+          "recipe_id": 374,
+          "ingredient_master_id": 249,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 3967,
+          "recipe_id": 374,
+          "ingredient_master_id": 83,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 3968,
+          "recipe_id": 374,
+          "ingredient_master_id": 182,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "사과"
+        },
+        {
+          "id": 3969,
+          "recipe_id": 374,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 3970,
+          "recipe_id": 374,
+          "ingredient_master_id": 116,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "레몬"
+        },
+        {
+          "id": 3971,
+          "recipe_id": 374,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        }
+      ]
+    },
+    {
+      "id": 90799,
+      "name": "바질페스토 스파게티",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1521.7821782178219,
+      "rank": 21,
+      "missing_count": 7,
+      "missing_ingredients": [
+        "스파게티면",
+        "바질",
+        "잣",
+        "올리브유",
+        "파마산치즈",
+        "후추",
+        "올리브유",
+        "화이트와인",
+        "후추"
+      ],
+      "ingredients": [
+        {
+          "id": 5593,
+          "recipe_id": 90799,
+          "ingredient_master_id": 221,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "스파게티면"
+        },
+        {
+          "id": 5594,
+          "recipe_id": 90799,
+          "ingredient_master_id": 164,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "바질"
+        },
+        {
+          "id": 5595,
+          "recipe_id": 90799,
+          "ingredient_master_id": 288,
+          "quantity": "1",
+          "unit": "T",
+          "ingredient_name": "잣"
+        },
+        {
+          "id": 5596,
+          "recipe_id": 90799,
+          "ingredient_master_id": 121,
+          "quantity": "1/2",
+          "unit": "T",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 5597,
+          "recipe_id": 90799,
+          "ingredient_master_id": 268,
+          "quantity": "4",
+          "unit": "T",
+          "ingredient_name": "올리브유"
+        },
+        {
+          "id": 5598,
+          "recipe_id": 90799,
+          "ingredient_master_id": 355,
+          "quantity": "1",
+          "unit": "T",
+          "ingredient_name": "파마산치즈"
+        },
+        {
+          "id": 5599,
+          "recipe_id": 90799,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 5600,
+          "recipe_id": 90799,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 5601,
+          "recipe_id": 90799,
+          "ingredient_master_id": 268,
+          "quantity": "1",
+          "unit": "T",
+          "ingredient_name": "올리브유"
+        },
+        {
+          "id": 5602,
+          "recipe_id": 90799,
+          "ingredient_master_id": 192,
+          "quantity": "12",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 5603,
+          "recipe_id": 90799,
+          "ingredient_master_id": 388,
+          "quantity": "1/2",
+          "unit": "T",
+          "ingredient_name": "화이트와인"
+        },
+        {
+          "id": 5604,
+          "recipe_id": 90799,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "T",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 5605,
+          "recipe_id": 90799,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 5606,
+          "recipe_id": 90799,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "name": "두부알찜",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 1520.846133261975,
+      "rank": 22,
+      "missing_count": 7,
+      "missing_ingredients": [
+        "두부",
+        "모시조개",
+        "표고버섯",
+        "다시마",
+        "은행",
+        "맛술",
+        "진간장"
+      ],
+      "ingredients": [
+        {
+          "id": 3048,
+          "recipe_id": 282,
+          "ingredient_master_id": 101,
+          "quantity": "1/2",
+          "unit": "모",
+          "ingredient_name": "두부"
+        },
+        {
+          "id": 3049,
+          "recipe_id": 282,
+          "ingredient_master_id": 79,
+          "quantity": "3",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 3050,
+          "recipe_id": 282,
+          "ingredient_master_id": 145,
+          "quantity": "70",
+          "unit": "g",
+          "ingredient_name": "모시조개"
+        },
+        {
+          "id": 3051,
+          "recipe_id": 282,
+          "ingredient_master_id": 192,
+          "quantity": "5",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3052,
+          "recipe_id": 282,
+          "ingredient_master_id": 366,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 3053,
+          "recipe_id": 282,
+          "ingredient_master_id": 74,
+          "quantity": "1",
+          "unit": "과1/2컵",
+          "ingredient_name": "다시마"
+        },
+        {
+          "id": 3054,
+          "recipe_id": 282,
+          "ingredient_master_id": 280,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "은행"
+        },
+        {
+          "id": 3055,
+          "recipe_id": 282,
+          "ingredient_master_id": 130,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "맛술"
+        },
+        {
+          "id": 3056,
+          "recipe_id": 282,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 3057,
+          "recipe_id": 282,
+          "ingredient_master_id": 303,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "진간장"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "국수계란말이",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1520.7920792079208,
+      "rank": 23,
+      "missing_count": 10,
+      "missing_ingredients": [
+        "국수",
+        "게맛살",
+        "치커리",
+        "미나리",
+        "다시다",
+        "가다랑어포",
+        "진간장",
+        "맛술",
+        "와사비",
+        "무"
+      ],
+      "ingredients": [
+        {
+          "id": 1250,
+          "recipe_id": 120,
+          "ingredient_master_id": 79,
+          "quantity": "4",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 1251,
+          "recipe_id": 120,
+          "ingredient_master_id": 40,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "국수"
+        },
+        {
+          "id": 1252,
+          "recipe_id": 120,
+          "ingredient_master_id": 192,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 1253,
+          "recipe_id": 120,
+          "ingredient_master_id": 16,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "게맛살"
+        },
+        {
+          "id": 1254,
+          "recipe_id": 120,
+          "ingredient_master_id": 331,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "치커리"
+        },
+        {
+          "id": 1255,
+          "recipe_id": 120,
+          "ingredient_master_id": 153,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "미나리"
+        },
+        {
+          "id": 1256,
+          "recipe_id": 120,
+          "ingredient_master_id": 426,
+          "quantity": "10",
+          "unit": "cm*10cm",
+          "ingredient_name": "다시다"
+        },
+        {
+          "id": 1257,
+          "recipe_id": 120,
+          "ingredient_master_id": 1,
+          "quantity": "1/2",
+          "unit": "컵",
+          "ingredient_name": "가다랑어포"
+        },
+        {
+          "id": 1258,
+          "recipe_id": 120,
+          "ingredient_master_id": 303,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1259,
+          "recipe_id": 120,
+          "ingredient_master_id": 130,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "맛술"
+        },
+        {
+          "id": 1260,
+          "recipe_id": 120,
+          "ingredient_master_id": 269,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "와사비"
+        },
+        {
+          "id": 1261,
+          "recipe_id": 120,
+          "ingredient_master_id": 148,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "무"
+        },
+        {
+          "id": 1262,
+          "recipe_id": 120,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "name": "김치어묵",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 1520.7920792079208,
+      "rank": 24,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "생선살",
+        "김치",
+        "풋고추",
+        "홍고추",
+        "밀가루",
+        "녹말가루",
+        "후추",
+        "깻잎",
+        "식용유"
+      ],
+      "ingredients": [
+        {
+          "id": 2109,
+          "recipe_id": 201,
+          "ingredient_master_id": 414,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "생선살"
+        },
+        {
+          "id": 2110,
+          "recipe_id": 201,
+          "ingredient_master_id": 192,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 2111,
+          "recipe_id": 201,
+          "ingredient_master_id": 48,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "김치"
+        },
+        {
+          "id": 2112,
+          "recipe_id": 201,
+          "ingredient_master_id": 367,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "풋고추"
+        },
+        {
+          "id": 2113,
+          "recipe_id": 201,
+          "ingredient_master_id": 386,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 2114,
+          "recipe_id": 201,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 2115,
+          "recipe_id": 201,
+          "ingredient_master_id": 411,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "밀가루"
+        },
+        {
+          "id": 2116,
+          "recipe_id": 201,
+          "ingredient_master_id": 397,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "녹말가루"
+        },
+        {
+          "id": 2117,
+          "recipe_id": 201,
+          "ingredient_master_id": 403,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 2118,
+          "recipe_id": 201,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2119,
+          "recipe_id": 201,
+          "ingredient_master_id": 53,
+          "quantity": "8",
+          "unit": "장",
+          "ingredient_name": "깻잎"
+        },
+        {
+          "id": 2120,
+          "recipe_id": 201,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "적당량",
+          "ingredient_name": "식용유"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "name": "생선초밥",
+      "cook_time_min": 60,
+      "servings": 4,
+      "score": 1519.8019801980197,
+      "rank": 25,
+      "missing_count": 12,
+      "missing_ingredients": [
+        "참치",
+        "광어",
+        "피조개",
+        "갑오징어",
+        "청어알",
+        "연어알",
+        "무순",
+        "전복",
+        "김",
+        "생강",
+        "밥",
+        "와사비"
+      ],
+      "ingredients": [
+        {
+          "id": 2398,
+          "recipe_id": 226,
+          "ingredient_master_id": 312,
+          "quantity": "3",
+          "unit": "쪽",
+          "ingredient_name": "참치"
+        },
+        {
+          "id": 2399,
+          "recipe_id": 226,
+          "ingredient_master_id": 192,
+          "quantity": "2",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 2400,
+          "recipe_id": 226,
+          "ingredient_master_id": 38,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "광어"
+        },
+        {
+          "id": 2401,
+          "recipe_id": 226,
+          "ingredient_master_id": 373,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "피조개"
+        },
+        {
+          "id": 2402,
+          "recipe_id": 226,
+          "ingredient_master_id": 11,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "갑오징어"
+        },
+        {
+          "id": 2403,
+          "recipe_id": 226,
+          "ingredient_master_id": 79,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 2404,
+          "recipe_id": 226,
+          "ingredient_master_id": 319,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "청어알"
+        },
+        {
+          "id": 2405,
+          "recipe_id": 226,
+          "ingredient_master_id": 256,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "연어알"
+        },
+        {
+          "id": 2406,
+          "recipe_id": 226,
+          "ingredient_master_id": 150,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "무순"
+        },
+        {
+          "id": 2407,
+          "recipe_id": 226,
+          "ingredient_master_id": 293,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "전복"
+        },
+        {
+          "id": 2408,
+          "recipe_id": 226,
+          "ingredient_master_id": 46,
+          "quantity": "1",
+          "unit": "장",
+          "ingredient_name": "김"
+        },
+        {
+          "id": 2409,
+          "recipe_id": 226,
+          "ingredient_master_id": 195,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 2410,
+          "recipe_id": 226,
+          "ingredient_master_id": 396,
+          "quantity": "3",
+          "unit": "공기",
+          "ingredient_name": "밥"
+        },
+        {
+          "id": 2411,
+          "recipe_id": 226,
+          "ingredient_master_id": 269,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "와사비"
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "name": "해물스파게티",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1514.3578670507486,
+      "rank": 26,
+      "missing_count": 11,
+      "missing_ingredients": [
+        "스파게티면",
+        "홍합",
+        "샐러리",
+        "양송이버섯",
+        "토마토",
+        "버터",
+        "밀가루",
+        "오레가노",
+        "올리브유",
+        "파마산치즈",
+        "토마토",
+        "후추"
+      ],
+      "ingredients": [
+        {
+          "id": 3701,
+          "recipe_id": 349,
+          "ingredient_master_id": 221,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "스파게티면"
+        },
+        {
+          "id": 3702,
+          "recipe_id": 349,
+          "ingredient_master_id": 387,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "홍합"
+        },
+        {
+          "id": 3703,
+          "recipe_id": 349,
+          "ingredient_master_id": 264,
+          "quantity": "1/2",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 3704,
+          "recipe_id": 349,
+          "ingredient_master_id": 192,
+          "quantity": "3",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 3705,
+          "recipe_id": 349,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 3706,
+          "recipe_id": 349,
+          "ingredient_master_id": 194,
+          "quantity": "1",
+          "unit": "대",
+          "ingredient_name": "샐러리"
+        },
+        {
+          "id": 3707,
+          "recipe_id": 349,
+          "ingredient_master_id": 247,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "양송이버섯"
+        },
+        {
+          "id": 3708,
+          "recipe_id": 349,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 3709,
+          "recipe_id": 349,
+          "ingredient_master_id": 349,
+          "quantity": "1/2",
+          "unit": "컵",
+          "ingredient_name": "토마토"
+        },
+        {
+          "id": 3710,
+          "recipe_id": 349,
+          "ingredient_master_id": 173,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "버터"
+        },
+        {
+          "id": 3711,
+          "recipe_id": 349,
+          "ingredient_master_id": 411,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "밀가루"
+        },
+        {
+          "id": 3712,
+          "recipe_id": 349,
+          "ingredient_master_id": 259,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "오레가노"
+        },
+        {
+          "id": 3713,
+          "recipe_id": 349,
+          "ingredient_master_id": 268,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "올리브유"
+        },
+        {
+          "id": 3714,
+          "recipe_id": 349,
+          "ingredient_master_id": 355,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "파마산치즈"
+        },
+        {
+          "id": 3715,
+          "recipe_id": 349,
+          "ingredient_master_id": 349,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "토마토"
+        },
+        {
+          "id": 3716,
+          "recipe_id": 349,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 3717,
+          "recipe_id": 349,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "name": "해물샤브샤브",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1510.9721701899923,
+      "rank": 27,
+      "missing_count": 12,
+      "missing_ingredients": [
+        "맛조개",
+        "낙지",
+        "팽이버섯",
+        "표고버섯",
+        "미나리",
+        "곤약",
+        "다시마",
+        "가다랑어포",
+        "청주",
+        "폰즈소스",
+        "와사비",
+        "깨소스"
+      ],
+      "ingredients": [
+        {
+          "id": 4347,
+          "recipe_id": 404,
+          "ingredient_master_id": 192,
+          "quantity": "3",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 4348,
+          "recipe_id": 404,
+          "ingredient_master_id": 131,
+          "quantity": "6",
+          "unit": "개",
+          "ingredient_name": "맛조개"
+        },
+        {
+          "id": 4349,
+          "recipe_id": 404,
+          "ingredient_master_id": 63,
+          "quantity": "12",
+          "unit": "g",
+          "ingredient_name": "낙지"
+        },
+        {
+          "id": 4350,
+          "recipe_id": 404,
+          "ingredient_master_id": 83,
+          "quantity": "15",
+          "unit": "g",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 4351,
+          "recipe_id": 404,
+          "ingredient_master_id": 361,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "팽이버섯"
+        },
+        {
+          "id": 4352,
+          "recipe_id": 404,
+          "ingredient_master_id": 366,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 4353,
+          "recipe_id": 404,
+          "ingredient_master_id": 153,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "미나리"
+        },
+        {
+          "id": 4354,
+          "recipe_id": 404,
+          "ingredient_master_id": 33,
+          "quantity": "15",
+          "unit": "g",
+          "ingredient_name": "곤약"
+        },
+        {
+          "id": 4355,
+          "recipe_id": 404,
+          "ingredient_master_id": 74,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "다시마"
+        },
+        {
+          "id": 4356,
+          "recipe_id": 404,
+          "ingredient_master_id": 1,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "가다랑어포"
+        },
+        {
+          "id": 4357,
+          "recipe_id": 404,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 4358,
+          "recipe_id": 404,
+          "ingredient_master_id": 320,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 4359,
+          "recipe_id": 404,
+          "ingredient_master_id": 365,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "폰즈소스"
+        },
+        {
+          "id": 4360,
+          "recipe_id": 404,
+          "ingredient_master_id": 269,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "와사비"
+        },
+        {
+          "id": 4361,
+          "recipe_id": 404,
+          "ingredient_master_id": 52,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "깨소스"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "해산물샐러드",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1510.3677680408477,
+      "rank": 28,
+      "missing_count": 12,
+      "missing_ingredients": [
+        "삶은 문어살",
+        "갑오징어",
+        "꼴뚜기",
+        "쭈꾸미",
+        "소라",
+        "모시조개",
+        "가리비",
+        "홍합",
+        "가재새우",
+        "샐러리",
+        "루콜라",
+        "트레비스"
+      ],
+      "ingredients": [
+        {
+          "id": 253,
+          "recipe_id": 26,
+          "ingredient_master_id": 188,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "삶은 문어살"
+        },
+        {
+          "id": 254,
+          "recipe_id": 26,
+          "ingredient_master_id": 11,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "갑오징어"
+        },
+        {
+          "id": 255,
+          "recipe_id": 26,
+          "ingredient_master_id": 55,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "꼴뚜기"
+        },
+        {
+          "id": 256,
+          "recipe_id": 26,
+          "ingredient_master_id": 192,
+          "quantity": "6",
+          "unit": "개",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 257,
+          "recipe_id": 26,
+          "ingredient_master_id": 306,
+          "quantity": "4",
+          "unit": "개",
+          "ingredient_name": "쭈꾸미"
+        },
+        {
+          "id": 258,
+          "recipe_id": 26,
+          "ingredient_master_id": 206,
+          "quantity": "60",
+          "unit": "g",
+          "ingredient_name": "소라"
+        },
+        {
+          "id": 259,
+          "recipe_id": 26,
+          "ingredient_master_id": 145,
+          "quantity": "10",
+          "unit": "개",
+          "ingredient_name": "모시조개"
+        },
+        {
+          "id": 260,
+          "recipe_id": 26,
+          "ingredient_master_id": 3,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "가리비"
+        },
+        {
+          "id": 261,
+          "recipe_id": 26,
+          "ingredient_master_id": 387,
+          "quantity": "10",
+          "unit": "개",
+          "ingredient_name": "홍합"
+        },
+        {
+          "id": 262,
+          "recipe_id": 26,
+          "ingredient_master_id": 4,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "가재새우"
+        },
+        {
+          "id": 263,
+          "recipe_id": 26,
+          "ingredient_master_id": 249,
+          "quantity": "60",
+          "unit": "g",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 264,
+          "recipe_id": 26,
+          "ingredient_master_id": 194,
+          "quantity": "40",
+          "unit": "g",
+          "ingredient_name": "샐러리"
+        },
+        {
+          "id": 265,
+          "recipe_id": 26,
+          "ingredient_master_id": 83,
+          "quantity": "40",
+          "unit": "g",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 266,
+          "recipe_id": 26,
+          "ingredient_master_id": 120,
+          "quantity": "40",
+          "unit": "g",
+          "ingredient_name": "루콜라"
+        },
+        {
+          "id": 267,
+          "recipe_id": 26,
+          "ingredient_master_id": 353,
+          "quantity": "4",
+          "unit": "잎",
+          "ingredient_name": "트레비스"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "모듬초밥",
+      "cook_time_min": 50,
+      "servings": 4,
+      "score": 1506.0503880117742,
+      "rank": 29,
+      "missing_count": 4,
+      "missing_ingredients": [
+        "식초",
+        "참치",
+        "문어",
+        "고추냉이"
+      ],
+      "ingredients": [
+        {
+          "id": 1152,
+          "recipe_id": 110,
+          "ingredient_master_id": 399,
+          "quantity": "3",
+          "unit": "컵",
+          "ingredient_name": "쌀"
+        },
+        {
+          "id": 1153,
+          "recipe_id": 110,
+          "ingredient_master_id": 230,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 1154,
+          "recipe_id": 110,
+          "ingredient_master_id": 203,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 1155,
+          "recipe_id": 110,
+          "ingredient_master_id": 403,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 1156,
+          "recipe_id": 110,
+          "ingredient_master_id": 312,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "참치"
+        },
+        {
+          "id": 1157,
+          "recipe_id": 110,
+          "ingredient_master_id": 264,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 1158,
+          "recipe_id": 110,
+          "ingredient_master_id": 151,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "문어"
+        },
+        {
+          "id": 1159,
+          "recipe_id": 110,
+          "ingredient_master_id": 192,
+          "quantity": "8",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 1160,
+          "recipe_id": 110,
+          "ingredient_master_id": 30,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "고추냉이"
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "name": "해물볶음밥",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1504.0711800909821,
+      "rank": 30,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "파프리카",
+        "팽이버섯",
+        "바지락",
+        "날치알",
+        "청주",
+        "후추",
+        "굴소스",
+        "밥",
+        "참기름",
+        "파프리카"
+      ],
+      "ingredients": [
+        {
+          "id": 5132,
+          "recipe_id": 484,
+          "ingredient_master_id": 358,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "파프리카"
+        },
+        {
+          "id": 5133,
+          "recipe_id": 484,
+          "ingredient_master_id": 361,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "팽이버섯"
+        },
+        {
+          "id": 5134,
+          "recipe_id": 484,
+          "ingredient_master_id": 192,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 5135,
+          "recipe_id": 484,
+          "ingredient_master_id": 264,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 5136,
+          "recipe_id": 484,
+          "ingredient_master_id": 163,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "바지락"
+        },
+        {
+          "id": 5137,
+          "recipe_id": 484,
+          "ingredient_master_id": 64,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "날치알"
+        },
+        {
+          "id": 5138,
+          "recipe_id": 484,
+          "ingredient_master_id": 320,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 5139,
+          "recipe_id": 484,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 5140,
+          "recipe_id": 484,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 5141,
+          "recipe_id": 484,
+          "ingredient_master_id": 42,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "굴소스"
+        },
+        {
+          "id": 5142,
+          "recipe_id": 484,
+          "ingredient_master_id": 396,
+          "quantity": "2",
+          "unit": "공기",
+          "ingredient_name": "밥"
+        },
+        {
+          "id": 5143,
+          "recipe_id": 484,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 5144,
+          "recipe_id": 484,
+          "ingredient_master_id": 358,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "파프리카"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "컬리플라워해물샐러드",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1504.0711800909821,
+      "rank": 31,
+      "missing_count": 3,
+      "missing_ingredients": [
+        "컬리플라워",
+        "마요네즈",
+        "머스타드"
+      ],
+      "ingredients": [
+        {
+          "id": 1474,
+          "recipe_id": 140,
+          "ingredient_master_id": 335,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "컬리플라워"
+        },
+        {
+          "id": 1475,
+          "recipe_id": 140,
+          "ingredient_master_id": 264,
+          "quantity": "1",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 1476,
+          "recipe_id": 140,
+          "ingredient_master_id": 192,
+          "quantity": "8",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 1477,
+          "recipe_id": 140,
+          "ingredient_master_id": 125,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "마요네즈"
+        },
+        {
+          "id": 1478,
+          "recipe_id": 140,
+          "ingredient_master_id": 134,
+          "quantity": "2",
+          "unit": "작은술",
+          "ingredient_name": "머스타드"
+        },
+        {
+          "id": 1479,
+          "recipe_id": 140,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        }
+      ]
+    },
+    {
+      "id": 180363,
+      "name": "쪽파 새우강회",
+      "cook_time_min": 20,
+      "servings": 2,
+      "score": 1502.9702970297033,
+      "rank": 32,
+      "missing_count": 3,
+      "missing_ingredients": [
+        "깨",
+        "쪽파",
+        "식초"
+      ],
+      "ingredients": [
+        {
+          "id": 5832,
+          "recipe_id": 180363,
+          "ingredient_master_id": 192,
+          "quantity": "15",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 5833,
+          "recipe_id": 180363,
+          "ingredient_master_id": 31,
+          "quantity": "2",
+          "unit": "T",
+          "ingredient_name": "고추장"
+        },
+        {
+          "id": 5834,
+          "recipe_id": 180363,
+          "ingredient_master_id": 203,
+          "quantity": "1",
+          "unit": "+1/2T",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 5835,
+          "recipe_id": 180363,
+          "ingredient_master_id": 50,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "깨"
+        },
+        {
+          "id": 5836,
+          "recipe_id": 180363,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 5837,
+          "recipe_id": 180363,
+          "ingredient_master_id": 304,
+          "quantity": "15",
+          "unit": "대",
+          "ingredient_name": "쪽파"
+        },
+        {
+          "id": 5838,
+          "recipe_id": 180363,
+          "ingredient_master_id": 230,
+          "quantity": "2",
+          "unit": "T",
+          "ingredient_name": "식초"
+        }
+      ]
+    },
+    {
+      "id": 488,
+      "name": "김치우동",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1501.9801980198022,
+      "rank": 33,
+      "missing_count": 11,
+      "missing_ingredients": [
+        "우동면",
+        "김치",
+        "쑥갓",
+        "김",
+        "시판용장국",
+        "고춧가루",
+        "국간장",
+        "후추",
+        "맛술",
+        "식초",
+        "고춧가루",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 5192,
+          "recipe_id": 488,
+          "ingredient_master_id": 273,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "우동면"
+        },
+        {
+          "id": 5193,
+          "recipe_id": 488,
+          "ingredient_master_id": 192,
+          "quantity": "4",
+          "unit": "마리",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 5194,
+          "recipe_id": 488,
+          "ingredient_master_id": 48,
+          "quantity": "1/8",
+          "unit": "포기",
+          "ingredient_name": "김치"
+        },
+        {
+          "id": 5195,
+          "recipe_id": 488,
+          "ingredient_master_id": 237,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "쑥갓"
+        },
+        {
+          "id": 5196,
+          "recipe_id": 488,
+          "ingredient_master_id": 46,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "김"
+        },
+        {
+          "id": 5197,
+          "recipe_id": 488,
+          "ingredient_master_id": 227,
+          "quantity": "1",
+          "unit": "컵",
+          "ingredient_name": "시판용장국"
+        },
+        {
+          "id": 5198,
+          "recipe_id": 488,
+          "ingredient_master_id": 32,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 5199,
+          "recipe_id": 488,
+          "ingredient_master_id": 39,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "국간장"
+        },
+        {
+          "id": 5200,
+          "recipe_id": 488,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 5201,
+          "recipe_id": 488,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 5202,
+          "recipe_id": 488,
+          "ingredient_master_id": 130,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "맛술"
+        },
+        {
+          "id": 5203,
+          "recipe_id": 488,
+          "ingredient_master_id": 203,
+          "quantity": "1/2",
+          "unit": "작은술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 5204,
+          "recipe_id": 488,
+          "ingredient_master_id": 230,
+          "quantity": "1/2",
+          "unit": "작은술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 5205,
+          "recipe_id": 488,
+          "ingredient_master_id": 32,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 5206,
+          "recipe_id": 488,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "name": "새우죽",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 1501.979207920792,
+      "rank": 34,
+      "missing_count": 1,
+      "missing_ingredients": [
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 4820,
+          "recipe_id": 452,
+          "ingredient_master_id": 399,
+          "quantity": "1",
+          "unit": "컵",
+          "ingredient_name": "쌀"
+        },
+        {
+          "id": 4821,
+          "recipe_id": 452,
+          "ingredient_master_id": 192,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 4822,
+          "recipe_id": 452,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 4823,
+          "recipe_id": 452,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "name": "아스파라거스새우볶음",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 1500.990099009901,
+      "rank": 35,
+      "missing_count": 5,
+      "missing_ingredients": [
+        "아스파라거스",
+        "샐러리",
+        "미림",
+        "후추",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 2990,
+          "recipe_id": 277,
+          "ingredient_master_id": 241,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "아스파라거스"
+        },
+        {
+          "id": 2991,
+          "recipe_id": 277,
+          "ingredient_master_id": 192,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "새우"
+        },
+        {
+          "id": 2992,
+          "recipe_id": 277,
+          "ingredient_master_id": 194,
+          "quantity": "2",
+          "unit": "대",
+          "ingredient_name": "샐러리"
+        },
+        {
+          "id": 2993,
+          "recipe_id": 277,
+          "ingredient_master_id": 155,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "미림"
+        },
+        {
+          "id": 2994,
+          "recipe_id": 277,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 2995,
+          "recipe_id": 277,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2996,
+          "recipe_id": 277,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "name": "라조육",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 266.8328731760298,
+      "rank": 36,
+      "missing_count": 8,
+      "missing_ingredients": [
+        "표고버섯",
+        "생강즙",
+        "고추기름",
+        "진간장",
+        "청주",
+        "녹말가루",
+        "참기름",
+        "홍고추"
+      ],
+      "ingredients": [
+        {
+          "id": 4172,
+          "recipe_id": 390,
+          "ingredient_master_id": 97,
+          "quantity": "300",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 4173,
+          "recipe_id": 390,
+          "ingredient_master_id": 366,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 4174,
+          "recipe_id": 390,
+          "ingredient_master_id": 370,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 4175,
+          "recipe_id": 390,
+          "ingredient_master_id": 87,
+          "quantity": "10",
+          "unit": "g",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 4176,
+          "recipe_id": 390,
+          "ingredient_master_id": 121,
+          "quantity": "5",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 4177,
+          "recipe_id": 390,
+          "ingredient_master_id": 196,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "생강즙"
+        },
+        {
+          "id": 4178,
+          "recipe_id": 390,
+          "ingredient_master_id": 29,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "고추기름"
+        },
+        {
+          "id": 4179,
+          "recipe_id": 390,
+          "ingredient_master_id": 303,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 4180,
+          "recipe_id": 390,
+          "ingredient_master_id": 320,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 4181,
+          "recipe_id": 390,
+          "ingredient_master_id": 397,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "녹말가루"
+        },
+        {
+          "id": 4182,
+          "recipe_id": 390,
+          "ingredient_master_id": 309,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 4183,
+          "recipe_id": 390,
+          "ingredient_master_id": 386,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 4184,
+          "recipe_id": 390,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 4185,
+          "recipe_id": 390,
+          "ingredient_master_id": 87,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 4186,
+          "recipe_id": 390,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "탕수육",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 246.8486990193455,
+      "rank": 37,
+      "missing_count": 6,
+      "missing_ingredients": [
+        "진간장",
+        "식용유",
+        "죽순",
+        "표고버섯",
+        "녹말가루",
+        "식초",
+        "녹말가루"
+      ],
+      "ingredients": [
+        {
+          "id": 1103,
+          "recipe_id": 105,
+          "ingredient_master_id": 370,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 1104,
+          "recipe_id": 105,
+          "ingredient_master_id": 303,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1105,
+          "recipe_id": 105,
+          "ingredient_master_id": 83,
+          "quantity": "1/3",
+          "unit": "개",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 1106,
+          "recipe_id": 105,
+          "ingredient_master_id": 203,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 1107,
+          "recipe_id": 105,
+          "ingredient_master_id": 229,
+          "quantity": "2",
+          "unit": "컵",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 1108,
+          "recipe_id": 105,
+          "ingredient_master_id": 302,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "죽순"
+        },
+        {
+          "id": 1109,
+          "recipe_id": 105,
+          "ingredient_master_id": 79,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 1110,
+          "recipe_id": 105,
+          "ingredient_master_id": 366,
+          "quantity": "3",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 1111,
+          "recipe_id": 105,
+          "ingredient_master_id": 97,
+          "quantity": "300",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 1112,
+          "recipe_id": 105,
+          "ingredient_master_id": 397,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "녹말가루"
+        },
+        {
+          "id": 1113,
+          "recipe_id": 105,
+          "ingredient_master_id": 370,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 1114,
+          "recipe_id": 105,
+          "ingredient_master_id": 230,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        },
+        {
+          "id": 1115,
+          "recipe_id": 105,
+          "ingredient_master_id": 397,
+          "quantity": "2",
+          "unit": "작은술",
+          "ingredient_name": "녹말가루"
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "name": "제육불고기",
+      "cook_time_min": 50,
+      "servings": 4,
+      "score": 239.11010089880216,
+      "rank": 38,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "고춧가루",
+        "진간장",
+        "맛술",
+        "생강즙",
+        "깨소금",
+        "후추",
+        "참기름",
+        "된장",
+        "식초"
+      ],
+      "ingredients": [
+        {
+          "id": 2590,
+          "recipe_id": 242,
+          "ingredient_master_id": 97,
+          "quantity": "600",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 2591,
+          "recipe_id": 242,
+          "ingredient_master_id": 31,
+          "quantity": "5",
+          "unit": "큰술",
+          "ingredient_name": "고추장"
+        },
+        {
+          "id": 2592,
+          "recipe_id": 242,
+          "ingredient_master_id": 32,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 2593,
+          "recipe_id": 242,
+          "ingredient_master_id": 303,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 2594,
+          "recipe_id": 242,
+          "ingredient_master_id": 130,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "맛술"
+        },
+        {
+          "id": 2595,
+          "recipe_id": 242,
+          "ingredient_master_id": 196,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "생강즙"
+        },
+        {
+          "id": 2596,
+          "recipe_id": 242,
+          "ingredient_master_id": 203,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "설탕"
+        },
+        {
+          "id": 2597,
+          "recipe_id": 242,
+          "ingredient_master_id": 121,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2598,
+          "recipe_id": 242,
+          "ingredient_master_id": 87,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2599,
+          "recipe_id": 242,
+          "ingredient_master_id": 51,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "깨소금"
+        },
+        {
+          "id": 2600,
+          "recipe_id": 242,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2601,
+          "recipe_id": 242,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 2602,
+          "recipe_id": 242,
+          "ingredient_master_id": 98,
+          "quantity": "5",
+          "unit": "큰술",
+          "ingredient_name": "된장"
+        },
+        {
+          "id": 2603,
+          "recipe_id": 242,
+          "ingredient_master_id": 31,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "고추장"
+        },
+        {
+          "id": 2604,
+          "recipe_id": 242,
+          "ingredient_master_id": 121,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2605,
+          "recipe_id": 242,
+          "ingredient_master_id": 87,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2606,
+          "recipe_id": 242,
+          "ingredient_master_id": 230,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "식초"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "name": "짬뽕해물탕밥",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 230.6451342830359,
+      "rank": 39,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "밥",
+        "조갯살",
+        "홍합",
+        "목이버섯",
+        "고춧가루",
+        "진간장",
+        "생강",
+        "후추",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 2354,
+          "recipe_id": 223,
+          "ingredient_master_id": 396,
+          "quantity": "2",
+          "unit": "그릇",
+          "ingredient_name": "밥"
+        },
+        {
+          "id": 2355,
+          "recipe_id": 223,
+          "ingredient_master_id": 97,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 2356,
+          "recipe_id": 223,
+          "ingredient_master_id": 264,
+          "quantity": "1/2",
+          "unit": "마리",
+          "ingredient_name": "오징어"
+        },
+        {
+          "id": 2357,
+          "recipe_id": 223,
+          "ingredient_master_id": 299,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "조갯살"
+        },
+        {
+          "id": 2358,
+          "recipe_id": 223,
+          "ingredient_master_id": 387,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "홍합"
+        },
+        {
+          "id": 2359,
+          "recipe_id": 223,
+          "ingredient_master_id": 249,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 2360,
+          "recipe_id": 223,
+          "ingredient_master_id": 83,
+          "quantity": "20",
+          "unit": "g",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 2361,
+          "recipe_id": 223,
+          "ingredient_master_id": 383,
+          "quantity": "700",
+          "unit": "g",
+          "ingredient_name": "호박"
+        },
+        {
+          "id": 2362,
+          "recipe_id": 223,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2363,
+          "recipe_id": 223,
+          "ingredient_master_id": 147,
+          "quantity": "6",
+          "unit": "장",
+          "ingredient_name": "목이버섯"
+        },
+        {
+          "id": 2364,
+          "recipe_id": 223,
+          "ingredient_master_id": 32,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 2365,
+          "recipe_id": 223,
+          "ingredient_master_id": 303,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 2366,
+          "recipe_id": 223,
+          "ingredient_master_id": 121,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2367,
+          "recipe_id": 223,
+          "ingredient_master_id": 195,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 2368,
+          "recipe_id": 223,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 2369,
+          "recipe_id": 223,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2370,
+          "recipe_id": 223,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "가는파잡채",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 227.6146096407465,
+      "rank": 40,
+      "missing_count": 6,
+      "missing_ingredients": [
+        "청주",
+        "진간장",
+        "생강",
+        "생강",
+        "식용유",
+        "후추",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 1279,
+          "recipe_id": 123,
+          "ingredient_master_id": 87,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 1280,
+          "recipe_id": 123,
+          "ingredient_master_id": 249,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 1281,
+          "recipe_id": 123,
+          "ingredient_master_id": 97,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 1282,
+          "recipe_id": 123,
+          "ingredient_master_id": 320,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 1283,
+          "recipe_id": 123,
+          "ingredient_master_id": 303,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1284,
+          "recipe_id": 123,
+          "ingredient_master_id": 195,
+          "quantity": "1",
+          "unit": "쪽",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 1285,
+          "recipe_id": 123,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 1286,
+          "recipe_id": 123,
+          "ingredient_master_id": 121,
+          "quantity": "2",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 1287,
+          "recipe_id": 123,
+          "ingredient_master_id": 195,
+          "quantity": "1",
+          "unit": "쪽",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 1288,
+          "recipe_id": 123,
+          "ingredient_master_id": 229,
+          "quantity": "3",
+          "unit": "큰술",
+          "ingredient_name": "식용유"
+        },
+        {
+          "id": 1289,
+          "recipe_id": 123,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 1290,
+          "recipe_id": 123,
+          "ingredient_master_id": 403,
+          "quantity": "1/2",
+          "unit": "작은술",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 1291,
+          "recipe_id": 123,
+          "ingredient_master_id": 309,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "중국식볶음밥",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 227.5640532019548,
+      "rank": 41,
+      "missing_count": 4,
+      "missing_ingredients": [
+        "밥",
+        "표고버섯",
+        "후추",
+        "식용유"
+      ],
+      "ingredients": [
+        {
+          "id": 1226,
+          "recipe_id": 118,
+          "ingredient_master_id": 396,
+          "quantity": "800",
+          "unit": "g",
+          "ingredient_name": "밥"
+        },
+        {
+          "id": 1227,
+          "recipe_id": 118,
+          "ingredient_master_id": 79,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 1228,
+          "recipe_id": 118,
+          "ingredient_master_id": 97,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 1229,
+          "recipe_id": 118,
+          "ingredient_master_id": 83,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 1230,
+          "recipe_id": 118,
+          "ingredient_master_id": 249,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 1231,
+          "recipe_id": 118,
+          "ingredient_master_id": 366,
+          "quantity": "4",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 1232,
+          "recipe_id": 118,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 1233,
+          "recipe_id": 118,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 1234,
+          "recipe_id": 118,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 1235,
+          "recipe_id": 118,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "식용유"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "순두부찌개",
+      "cook_time_min": 25,
+      "servings": 4,
+      "score": 227.4829721208737,
+      "rank": 42,
+      "missing_count": 6,
+      "missing_ingredients": [
+        "순두부",
+        "바지락",
+        "김치",
+        "고춧가루",
+        "후추",
+        "식용유"
+      ],
+      "ingredients": [
+        {
+          "id": 563,
+          "recipe_id": 54,
+          "ingredient_master_id": 215,
+          "quantity": "800",
+          "unit": "g",
+          "ingredient_name": "순두부"
+        },
+        {
+          "id": 564,
+          "recipe_id": 54,
+          "ingredient_master_id": 97,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 565,
+          "recipe_id": 54,
+          "ingredient_master_id": 163,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "바지락"
+        },
+        {
+          "id": 566,
+          "recipe_id": 54,
+          "ingredient_master_id": 48,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "김치"
+        },
+        {
+          "id": 567,
+          "recipe_id": 54,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 568,
+          "recipe_id": 54,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 569,
+          "recipe_id": 54,
+          "ingredient_master_id": 32,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 570,
+          "recipe_id": 54,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 571,
+          "recipe_id": 54,
+          "ingredient_master_id": 79,
+          "quantity": "4",
+          "unit": "개",
+          "ingredient_name": "달걀"
+        },
+        {
+          "id": 572,
+          "recipe_id": 54,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 573,
+          "recipe_id": 54,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 574,
+          "recipe_id": 54,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "식용유"
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "name": "돼지고기표고볶음",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 227.4829721208737,
+      "rank": 43,
+      "missing_count": 7,
+      "missing_ingredients": [
+        "표고버섯",
+        "청고추",
+        "생강",
+        "녹말가루",
+        "굴소스",
+        "후추",
+        "맛술"
+      ],
+      "ingredients": [
+        {
+          "id": 3011,
+          "recipe_id": 279,
+          "ingredient_master_id": 97,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 3012,
+          "recipe_id": 279,
+          "ingredient_master_id": 366,
+          "quantity": "2",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 3013,
+          "recipe_id": 279,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 3014,
+          "recipe_id": 279,
+          "ingredient_master_id": 370,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 3015,
+          "recipe_id": 279,
+          "ingredient_master_id": 315,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "청고추"
+        },
+        {
+          "id": 3016,
+          "recipe_id": 279,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 3017,
+          "recipe_id": 279,
+          "ingredient_master_id": 121,
+          "quantity": "3",
+          "unit": "쪽",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 3018,
+          "recipe_id": 279,
+          "ingredient_master_id": 195,
+          "quantity": "1",
+          "unit": "쪽",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 3019,
+          "recipe_id": 279,
+          "ingredient_master_id": 397,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "녹말가루"
+        },
+        {
+          "id": 3020,
+          "recipe_id": 279,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 3021,
+          "recipe_id": 279,
+          "ingredient_master_id": 42,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "굴소스"
+        },
+        {
+          "id": 3022,
+          "recipe_id": 279,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 3023,
+          "recipe_id": 279,
+          "ingredient_master_id": 130,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "맛술"
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "name": "가지된장찜",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 227.4829721208737,
+      "rank": 44,
+      "missing_count": 8,
+      "missing_ingredients": [
+        "밀가루",
+        "후추",
+        "참기름",
+        "멸치",
+        "청고추",
+        "홍고추",
+        "된장",
+        "고춧가루"
+      ],
+      "ingredients": [
+        {
+          "id": 2465,
+          "recipe_id": 232,
+          "ingredient_master_id": 5,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "가지"
+        },
+        {
+          "id": 2466,
+          "recipe_id": 232,
+          "ingredient_master_id": 97,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 2467,
+          "recipe_id": 232,
+          "ingredient_master_id": 411,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "밀가루"
+        },
+        {
+          "id": 2468,
+          "recipe_id": 232,
+          "ingredient_master_id": 87,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2469,
+          "recipe_id": 232,
+          "ingredient_master_id": 121,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2470,
+          "recipe_id": 232,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 2471,
+          "recipe_id": 232,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2472,
+          "recipe_id": 232,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 2473,
+          "recipe_id": 232,
+          "ingredient_master_id": 139,
+          "quantity": "8",
+          "unit": "g",
+          "ingredient_name": "멸치"
+        },
+        {
+          "id": 2474,
+          "recipe_id": 232,
+          "ingredient_master_id": 249,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 2475,
+          "recipe_id": 232,
+          "ingredient_master_id": 315,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "청고추"
+        },
+        {
+          "id": 2476,
+          "recipe_id": 232,
+          "ingredient_master_id": 386,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 2477,
+          "recipe_id": 232,
+          "ingredient_master_id": 98,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "된장"
+        },
+        {
+          "id": 2478,
+          "recipe_id": 232,
+          "ingredient_master_id": 32,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "고춧가루"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "빈대떡",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 227.22891277999025,
+      "rank": 45,
+      "missing_count": 10,
+      "missing_ingredients": [
+        "녹두",
+        "숙주",
+        "느타리버섯",
+        "석이버섯",
+        "실고추",
+        "진간장",
+        "참기름",
+        "깨소금",
+        "후추",
+        "포도씨유"
+      ],
+      "ingredients": [
+        {
+          "id": 1607,
+          "recipe_id": 152,
+          "ingredient_master_id": 70,
+          "quantity": "2",
+          "unit": "컵",
+          "ingredient_name": "녹두"
+        },
+        {
+          "id": 1608,
+          "recipe_id": 152,
+          "ingredient_master_id": 403,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 1609,
+          "recipe_id": 152,
+          "ingredient_master_id": 97,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 1610,
+          "recipe_id": 152,
+          "ingredient_master_id": 213,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "숙주"
+        },
+        {
+          "id": 1611,
+          "recipe_id": 152,
+          "ingredient_master_id": 73,
+          "quantity": "200",
+          "unit": "g",
+          "ingredient_name": "느타리버섯"
+        },
+        {
+          "id": 1612,
+          "recipe_id": 152,
+          "ingredient_master_id": 201,
+          "quantity": "4",
+          "unit": "장",
+          "ingredient_name": "석이버섯"
+        },
+        {
+          "id": 1613,
+          "recipe_id": 152,
+          "ingredient_master_id": 87,
+          "quantity": "1/4",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 1614,
+          "recipe_id": 152,
+          "ingredient_master_id": 231,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "실고추"
+        },
+        {
+          "id": 1615,
+          "recipe_id": 152,
+          "ingredient_master_id": 303,
+          "quantity": "2",
+          "unit": "작은술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1616,
+          "recipe_id": 152,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 1617,
+          "recipe_id": 152,
+          "ingredient_master_id": 121,
+          "quantity": "1/2",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 1618,
+          "recipe_id": 152,
+          "ingredient_master_id": 309,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 1619,
+          "recipe_id": 152,
+          "ingredient_master_id": 51,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "깨소금"
+        },
+        {
+          "id": 1620,
+          "recipe_id": 152,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 1621,
+          "recipe_id": 152,
+          "ingredient_master_id": 364,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "포도씨유"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "잡채밥",
+      "cook_time_min": 30,
+      "servings": 4,
+      "score": 227.17835634119854,
+      "rank": 46,
+      "missing_count": 9,
+      "missing_ingredients": [
+        "당면",
+        "표고버섯",
+        "부추",
+        "청고추",
+        "홍고추",
+        "진간장",
+        "참기름",
+        "밥",
+        "후추"
+      ],
+      "ingredients": [
+        {
+          "id": 25,
+          "recipe_id": 3,
+          "ingredient_master_id": 85,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "당면"
+        },
+        {
+          "id": 26,
+          "recipe_id": 3,
+          "ingredient_master_id": 97,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 27,
+          "recipe_id": 3,
+          "ingredient_master_id": 366,
+          "quantity": "2",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 28,
+          "recipe_id": 3,
+          "ingredient_master_id": 383,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "호박"
+        },
+        {
+          "id": 29,
+          "recipe_id": 3,
+          "ingredient_master_id": 83,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "당근"
+        },
+        {
+          "id": 30,
+          "recipe_id": 3,
+          "ingredient_master_id": 176,
+          "quantity": "30",
+          "unit": "g",
+          "ingredient_name": "부추"
+        },
+        {
+          "id": 31,
+          "recipe_id": 3,
+          "ingredient_master_id": 315,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "청고추"
+        },
+        {
+          "id": 32,
+          "recipe_id": 3,
+          "ingredient_master_id": 386,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "홍고추"
+        },
+        {
+          "id": 33,
+          "recipe_id": 3,
+          "ingredient_master_id": 87,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 34,
+          "recipe_id": 3,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 35,
+          "recipe_id": 3,
+          "ingredient_master_id": 303,
+          "quantity": "4",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 36,
+          "recipe_id": 3,
+          "ingredient_master_id": 309,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 37,
+          "recipe_id": 3,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 38,
+          "recipe_id": 3,
+          "ingredient_master_id": 396,
+          "quantity": "3",
+          "unit": "공기",
+          "ingredient_name": "밥"
+        },
+        {
+          "id": 39,
+          "recipe_id": 3,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "김치채소볶음",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 227.09727526011744,
+      "rank": 47,
+      "missing_count": 10,
+      "missing_ingredients": [
+        "김치",
+        "죽순",
+        "양송이버섯",
+        "마른고추",
+        "생강",
+        "청주",
+        "후추",
+        "참기름",
+        "진간장",
+        "식용유"
+      ],
+      "ingredients": [
+        {
+          "id": 1701,
+          "recipe_id": 159,
+          "ingredient_master_id": 48,
+          "quantity": "1/8",
+          "unit": "포기",
+          "ingredient_name": "김치"
+        },
+        {
+          "id": 1702,
+          "recipe_id": 159,
+          "ingredient_master_id": 97,
+          "quantity": "80",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 1703,
+          "recipe_id": 159,
+          "ingredient_master_id": 302,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "죽순"
+        },
+        {
+          "id": 1704,
+          "recipe_id": 159,
+          "ingredient_master_id": 247,
+          "quantity": "2",
+          "unit": "개",
+          "ingredient_name": "양송이버섯"
+        },
+        {
+          "id": 1705,
+          "recipe_id": 159,
+          "ingredient_master_id": 370,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "피망"
+        },
+        {
+          "id": 1706,
+          "recipe_id": 159,
+          "ingredient_master_id": 123,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "마른고추"
+        },
+        {
+          "id": 1707,
+          "recipe_id": 159,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 1708,
+          "recipe_id": 159,
+          "ingredient_master_id": 121,
+          "quantity": "2",
+          "unit": "톨",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 1709,
+          "recipe_id": 159,
+          "ingredient_master_id": 195,
+          "quantity": "1/3",
+          "unit": "개",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 1710,
+          "recipe_id": 159,
+          "ingredient_master_id": 320,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "청주"
+        },
+        {
+          "id": 1711,
+          "recipe_id": 159,
+          "ingredient_master_id": 403,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "소금"
+        },
+        {
+          "id": 1712,
+          "recipe_id": 159,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 1713,
+          "recipe_id": 159,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 1714,
+          "recipe_id": 159,
+          "ingredient_master_id": 303,
+          "quantity": "1",
+          "unit": "작은술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1715,
+          "recipe_id": 159,
+          "ingredient_master_id": 229,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "식용유"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "name": "콩나물무밥",
+      "cook_time_min": 30,
+      "servings": 2,
+      "score": 227.09628516110752,
+      "rank": 48,
+      "missing_count": 6,
+      "missing_ingredients": [
+        "참기름",
+        "무",
+        "취나물",
+        "진간장",
+        "깨소금",
+        "풋고추"
+      ],
+      "ingredients": [
+        {
+          "id": 1909,
+          "recipe_id": 179,
+          "ingredient_master_id": 399,
+          "quantity": "2",
+          "unit": "컵",
+          "ingredient_name": "쌀"
+        },
+        {
+          "id": 1910,
+          "recipe_id": 179,
+          "ingredient_master_id": 341,
+          "quantity": "500",
+          "unit": "g",
+          "ingredient_name": "콩나물"
+        },
+        {
+          "id": 1911,
+          "recipe_id": 179,
+          "ingredient_master_id": 97,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 1912,
+          "recipe_id": 179,
+          "ingredient_master_id": 309,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "참기름"
+        },
+        {
+          "id": 1913,
+          "recipe_id": 179,
+          "ingredient_master_id": 148,
+          "quantity": "1/5",
+          "unit": "개",
+          "ingredient_name": "무"
+        },
+        {
+          "id": 1914,
+          "recipe_id": 179,
+          "ingredient_master_id": 328,
+          "quantity": "150",
+          "unit": "g",
+          "ingredient_name": "취나물"
+        },
+        {
+          "id": 1915,
+          "recipe_id": 179,
+          "ingredient_master_id": 303,
+          "quantity": "6",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 1916,
+          "recipe_id": 179,
+          "ingredient_master_id": 87,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 1917,
+          "recipe_id": 179,
+          "ingredient_master_id": 121,
+          "quantity": "1",
+          "unit": "½큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 1918,
+          "recipe_id": 179,
+          "ingredient_master_id": 51,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "깨소금"
+        },
+        {
+          "id": 1919,
+          "recipe_id": 179,
+          "ingredient_master_id": 367,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "풋고추"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "name": "버섯두부찌개",
+      "cook_time_min": 40,
+      "servings": 2,
+      "score": 227.06426154565585,
+      "rank": 49,
+      "missing_count": 11,
+      "missing_ingredients": [
+        "두부",
+        "느타리버섯",
+        "표고버섯",
+        "팽이버섯",
+        "김치",
+        "청고추",
+        "고춧가루",
+        "국간장",
+        "깨소금",
+        "후추",
+        "참기름"
+      ],
+      "ingredients": [
+        {
+          "id": 2525,
+          "recipe_id": 237,
+          "ingredient_master_id": 101,
+          "quantity": "1",
+          "unit": "모",
+          "ingredient_name": "두부"
+        },
+        {
+          "id": 2526,
+          "recipe_id": 237,
+          "ingredient_master_id": 97,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 2527,
+          "recipe_id": 237,
+          "ingredient_master_id": 73,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "느타리버섯"
+        },
+        {
+          "id": 2528,
+          "recipe_id": 237,
+          "ingredient_master_id": 366,
+          "quantity": "2",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 2529,
+          "recipe_id": 237,
+          "ingredient_master_id": 361,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "팽이버섯"
+        },
+        {
+          "id": 2530,
+          "recipe_id": 237,
+          "ingredient_master_id": 48,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "김치"
+        },
+        {
+          "id": 2531,
+          "recipe_id": 237,
+          "ingredient_master_id": 249,
+          "quantity": "1/2",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 2532,
+          "recipe_id": 237,
+          "ingredient_master_id": 315,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "청고추"
+        },
+        {
+          "id": 2533,
+          "recipe_id": 237,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2534,
+          "recipe_id": 237,
+          "ingredient_master_id": 32,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 2535,
+          "recipe_id": 237,
+          "ingredient_master_id": 39,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "국간장"
+        },
+        {
+          "id": 2536,
+          "recipe_id": 237,
+          "ingredient_master_id": 249,
+          "quantity": "1/4",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 2537,
+          "recipe_id": 237,
+          "ingredient_master_id": 87,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2538,
+          "recipe_id": 237,
+          "ingredient_master_id": 121,
+          "quantity": "1/2",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2539,
+          "recipe_id": 237,
+          "ingredient_master_id": 51,
+          "quantity": "1",
+          "unit": "큰술",
+          "ingredient_name": "깨소금"
+        },
+        {
+          "id": 2540,
+          "recipe_id": 237,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        },
+        {
+          "id": 2541,
+          "recipe_id": 237,
+          "ingredient_master_id": 309,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "참기름"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "name": "버섯만두전골",
+      "cook_time_min": 60,
+      "servings": 4,
+      "score": 226.67856468489958,
+      "rank": 50,
+      "missing_count": 11,
+      "missing_ingredients": [
+        "만두피",
+        "두부",
+        "숙주",
+        "김치",
+        "미나리",
+        "느타리버섯",
+        "표고버섯",
+        "고춧가루",
+        "진간장",
+        "생강",
+        "후추"
+      ],
+      "ingredients": [
+        {
+          "id": 2412,
+          "recipe_id": 227,
+          "ingredient_master_id": 126,
+          "quantity": "12",
+          "unit": "장",
+          "ingredient_name": "만두피"
+        },
+        {
+          "id": 2413,
+          "recipe_id": 227,
+          "ingredient_master_id": 97,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "돼지고기"
+        },
+        {
+          "id": 2414,
+          "recipe_id": 227,
+          "ingredient_master_id": 101,
+          "quantity": "1",
+          "unit": "모",
+          "ingredient_name": "두부"
+        },
+        {
+          "id": 2415,
+          "recipe_id": 227,
+          "ingredient_master_id": 213,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "숙주"
+        },
+        {
+          "id": 2416,
+          "recipe_id": 227,
+          "ingredient_master_id": 48,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "김치"
+        },
+        {
+          "id": 2417,
+          "recipe_id": 227,
+          "ingredient_master_id": 249,
+          "quantity": "1",
+          "unit": "개",
+          "ingredient_name": "양파"
+        },
+        {
+          "id": 2418,
+          "recipe_id": 227,
+          "ingredient_master_id": 153,
+          "quantity": "50",
+          "unit": "g",
+          "ingredient_name": "미나리"
+        },
+        {
+          "id": 2419,
+          "recipe_id": 227,
+          "ingredient_master_id": 73,
+          "quantity": "100",
+          "unit": "g",
+          "ingredient_name": "느타리버섯"
+        },
+        {
+          "id": 2420,
+          "recipe_id": 227,
+          "ingredient_master_id": 366,
+          "quantity": "4",
+          "unit": "장",
+          "ingredient_name": "표고버섯"
+        },
+        {
+          "id": 2421,
+          "recipe_id": 227,
+          "ingredient_master_id": 87,
+          "quantity": "1/2",
+          "unit": "뿌리",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2422,
+          "recipe_id": 227,
+          "ingredient_master_id": 32,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "고춧가루"
+        },
+        {
+          "id": 2423,
+          "recipe_id": 227,
+          "ingredient_master_id": 303,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "진간장"
+        },
+        {
+          "id": 2424,
+          "recipe_id": 227,
+          "ingredient_master_id": 87,
+          "quantity": "2",
+          "unit": "큰술",
+          "ingredient_name": "대파"
+        },
+        {
+          "id": 2425,
+          "recipe_id": 227,
+          "ingredient_master_id": 121,
+          "quantity": "1/2",
+          "unit": "큰술",
+          "ingredient_name": "마늘"
+        },
+        {
+          "id": 2426,
+          "recipe_id": 227,
+          "ingredient_master_id": 195,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "생강"
+        },
+        {
+          "id": 2427,
+          "recipe_id": 227,
+          "ingredient_master_id": 391,
+          "quantity": null,
+          "unit": "약간",
+          "ingredient_name": "후추"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7553 @@
+[
+  {
+    "id": 162,
+    "name": "누룽지탕",
+    "cook_time_min": 50,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1748,
+        "recipe_id": 162,
+        "ingredient_master_id": 72,
+        "quantity": "3",
+        "unit": "조각",
+        "ingredient_name": "누룽지"
+      },
+      {
+        "id": 1749,
+        "recipe_id": 162,
+        "ingredient_master_id": 366,
+        "quantity": "2",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 1750,
+        "recipe_id": 162,
+        "ingredient_master_id": 302,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "죽순"
+      },
+      {
+        "id": 1751,
+        "recipe_id": 162,
+        "ingredient_master_id": 192,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 1752,
+        "recipe_id": 162,
+        "ingredient_master_id": 270,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "완두콩"
+      },
+      {
+        "id": 1753,
+        "recipe_id": 162,
+        "ingredient_master_id": 386,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 1754,
+        "recipe_id": 162,
+        "ingredient_master_id": 121,
+        "quantity": "3",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 1755,
+        "recipe_id": 162,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 1756,
+        "recipe_id": 162,
+        "ingredient_master_id": 229,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 1757,
+        "recipe_id": 162,
+        "ingredient_master_id": 192,
+        "quantity": "1",
+        "unit": "과1/2컵",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 1758,
+        "recipe_id": 162,
+        "ingredient_master_id": 203,
+        "quantity": "6",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 1759,
+        "recipe_id": 162,
+        "ingredient_master_id": 303,
+        "quantity": "3/4",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1760,
+        "recipe_id": 162,
+        "ingredient_master_id": 230,
+        "quantity": "4",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 1761,
+        "recipe_id": 162,
+        "ingredient_master_id": 397,
+        "quantity": "1",
+        "unit": "과1/2큰술",
+        "ingredient_name": "녹말가루"
+      }
+    ],
+    "steps": [
+      {
+        "id": 871,
+        "recipe_id": 162,
+        "step_order": 1,
+        "description": "표고버섯은 따뜻한 물에 불려 밑동을 떼어내서 채썰고 죽순도 깨끗이 씻어 빗살 모양으로 얇게 썬다.",
+        "tip": null
+      },
+      {
+        "id": 872,
+        "recipe_id": 162,
+        "step_order": 2,
+        "description": "새우살은 끓는 물에 소금을 약간 넣어 데쳐낸다. 말린새우를 삶아낸 물 1과 1/2컵을 남겨서 소스용 재료로 사용한다.",
+        "tip": null
+      },
+      {
+        "id": 873,
+        "recipe_id": 162,
+        "step_order": 3,
+        "description": "달군 팬에 채썬 표고버섯, 죽순, 새우살, 완두콩을 넣고 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 874,
+        "recipe_id": 162,
+        "step_order": 4,
+        "description": "식용유에 누룽지를 튀긴다.",
+        "tip": null
+      },
+      {
+        "id": 875,
+        "recipe_id": 162,
+        "step_order": 5,
+        "description": "튀겨낸 누룽지에 ③을 넣고 홍고추, 다진 마늘을 넣고 소금으로 간한다.",
+        "tip": null
+      },
+      {
+        "id": 876,
+        "recipe_id": 162,
+        "step_order": 6,
+        "description": "팬에 분량의 소스 재료를 넣어 끓인 후 녹말물을 풀어 넣어 걸쭉한 소스를 만든 다음 ⑤에 붓고 살짝 끓인다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "해물국수",
+    "cook_time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 157,
+        "recipe_id": 15,
+        "ingredient_master_id": 320,
+        "quantity": " ",
+        "unit": "약간",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 145,
+        "recipe_id": 15,
+        "ingredient_master_id": 40,
+        "quantity": "400",
+        "unit": "g",
+        "ingredient_name": "국수"
+      },
+      {
+        "id": 146,
+        "recipe_id": 15,
+        "ingredient_master_id": 97,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 147,
+        "recipe_id": 15,
+        "ingredient_master_id": 397,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "녹말가루"
+      },
+      {
+        "id": 148,
+        "recipe_id": 15,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 149,
+        "recipe_id": 15,
+        "ingredient_master_id": 264,
+        "quantity": "1/2",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 150,
+        "recipe_id": 15,
+        "ingredient_master_id": 192,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 151,
+        "recipe_id": 15,
+        "ingredient_master_id": 387,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "홍합"
+      },
+      {
+        "id": 152,
+        "recipe_id": 15,
+        "ingredient_master_id": 366,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 153,
+        "recipe_id": 15,
+        "ingredient_master_id": 302,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "죽순"
+      },
+      {
+        "id": 156,
+        "recipe_id": 15,
+        "ingredient_master_id": 139,
+        "quantity": "8",
+        "unit": "컵",
+        "ingredient_name": "멸치"
+      },
+      {
+        "id": 154,
+        "recipe_id": 15,
+        "ingredient_master_id": 87,
+        "quantity": " ",
+        "unit": "약간",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 155,
+        "recipe_id": 15,
+        "ingredient_master_id": 121,
+        "quantity": " ",
+        "unit": "약간",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 158,
+        "recipe_id": 15,
+        "ingredient_master_id": 403,
+        "quantity": " ",
+        "unit": "약간",
+        "ingredient_name": "소금"
+      }
+    ],
+    "steps": [
+      {
+        "id": 77,
+        "recipe_id": 15,
+        "step_order": 1,
+        "description": "고기는 저며서 녹말가루, 계란흰자, 청주, 소금으로 양념한다.",
+        "tip": null
+      },
+      {
+        "id": 78,
+        "recipe_id": 15,
+        "step_order": 2,
+        "description": "해물은 한 입 크기로 손질해 데친다.",
+        "tip": null
+      },
+      {
+        "id": 79,
+        "recipe_id": 15,
+        "step_order": 3,
+        "description": "채소는 얄팍하게 저며썬다.",
+        "tip": null
+      },
+      {
+        "id": 80,
+        "recipe_id": 15,
+        "step_order": 4,
+        "description": "팬에 식용유를 둘러 다진 마늘을 볶다가 고기를 넣어 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 81,
+        "recipe_id": 15,
+        "step_order": 5,
+        "description": "어느정도 익으면 멸치국물을 부어 끓이다가 해물과 채소를 넣고 간을 한다.",
+        "tip": null
+      },
+      {
+        "id": 82,
+        "recipe_id": 15,
+        "step_order": 6,
+        "description": "삶은 국수에 ⑤의 해물장국을 부어낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "name": "해물밥전",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 2428,
+        "recipe_id": 228,
+        "ingredient_master_id": 396,
+        "quantity": "3",
+        "unit": "공기",
+        "ingredient_name": "밥"
+      },
+      {
+        "id": 2429,
+        "recipe_id": 228,
+        "ingredient_master_id": 192,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 2430,
+        "recipe_id": 228,
+        "ingredient_master_id": 264,
+        "quantity": "1/2",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 2431,
+        "recipe_id": 228,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 2432,
+        "recipe_id": 228,
+        "ingredient_master_id": 83,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 2433,
+        "recipe_id": 228,
+        "ingredient_master_id": 87,
+        "quantity": "4",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2434,
+        "recipe_id": 228,
+        "ingredient_master_id": 79,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 2435,
+        "recipe_id": 228,
+        "ingredient_master_id": 411,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "밀가루"
+      },
+      {
+        "id": 2436,
+        "recipe_id": 228,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 2437,
+        "recipe_id": 228,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2438,
+        "recipe_id": 228,
+        "ingredient_master_id": 51,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "깨소금"
+      },
+      {
+        "id": 2439,
+        "recipe_id": 228,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 2440,
+        "recipe_id": 228,
+        "ingredient_master_id": 303,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 2441,
+        "recipe_id": 228,
+        "ingredient_master_id": 230,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 2442,
+        "recipe_id": 228,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2443,
+        "recipe_id": 228,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "마늘"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1230,
+        "recipe_id": 228,
+        "step_order": 1,
+        "description": "말린새우는 막말린새우를 준비하여 잘 씻어 물기를 빼고 잘게 썬다. 오징어는 배를 갈라 내장을 손질하고 껍질을 벗겨내어 잘게 썬다.",
+        "tip": "**해물과 야채는 일단 한 번 볶은 다음 섞는다.  해물과 야채를 손질하여 기름 두른 팬에 한번 볶아낸 다음 밀가루와 달걀을 넣으면 재료들이 잘 섞여 전을 부치기가 좋다. 반죽의 농도는 숟가락으로 들어올렸을 때 재료들이 천천히 흘러내릴 정도가 알맞다."
+      },
+      {
+        "id": 1231,
+        "recipe_id": 228,
+        "step_order": 2,
+        "description": "양파와 당근은 손질하여 오징어와 비슷한 크기로 입자 있게 잘게 썰고, 실파는 송송 썬다.",
+        "tip": null
+      },
+      {
+        "id": 1232,
+        "recipe_id": 228,
+        "step_order": 3,
+        "description": "팬에 식용유를 두르고 말린새우, 오징어, 양파, 당근, 실파를 넣고 소금, 후춧가루로 간하여 중불에서 약간 익을 정도로 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 1233,
+        "recipe_id": 228,
+        "step_order": 4,
+        "description": "고슬고슬하게 지어진 밥을 준비하여 볶은 재료를 넣고 소금, 깨소금, 참기름으로 간을 맞춘 다음 밀가루를 잘 섞고 계란을 깨뜨려 넣어 끈기가 나게 섞는다.",
+        "tip": null
+      },
+      {
+        "id": 1234,
+        "recipe_id": 228,
+        "step_order": 5,
+        "description": "팬에 식용유를 넉넉히 두르고 뜨겁게 달구어지면 해물밥을 한 스푼씩 떠넣어 둥글납작하게 완자 모양을 만들어 앞 뒤로 노릇하게 지진다.",
+        "tip": null
+      },
+      {
+        "id": 1235,
+        "recipe_id": 228,
+        "step_order": 6,
+        "description": "간장에 식초, 다진 파, 마늘, 통깨, 송송 썬 실파를 넣어 초진진간장를 만들어 곁들인다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "name": "해파리해물냉채",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 2966,
+        "recipe_id": 275,
+        "ingredient_master_id": 378,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "해파리"
+      },
+      {
+        "id": 2967,
+        "recipe_id": 275,
+        "ingredient_master_id": 192,
+        "quantity": "6",
+        "unit": "개",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 2968,
+        "recipe_id": 275,
+        "ingredient_master_id": 306,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "쭈꾸미"
+      },
+      {
+        "id": 2969,
+        "recipe_id": 275,
+        "ingredient_master_id": 263,
+        "quantity": "1/3",
+        "unit": "개",
+        "ingredient_name": "오이"
+      },
+      {
+        "id": 2970,
+        "recipe_id": 275,
+        "ingredient_master_id": 83,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 2971,
+        "recipe_id": 275,
+        "ingredient_master_id": 370,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 2972,
+        "recipe_id": 275,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 2973,
+        "recipe_id": 275,
+        "ingredient_master_id": 17,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "겨자"
+      },
+      {
+        "id": 2974,
+        "recipe_id": 275,
+        "ingredient_master_id": 134,
+        "quantity": "1/2",
+        "unit": "큰술",
+        "ingredient_name": "머스타드"
+      },
+      {
+        "id": 2975,
+        "recipe_id": 275,
+        "ingredient_master_id": 121,
+        "quantity": "2",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2976,
+        "recipe_id": 275,
+        "ingredient_master_id": 230,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 2977,
+        "recipe_id": 275,
+        "ingredient_master_id": 203,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 2978,
+        "recipe_id": 275,
+        "ingredient_master_id": 303,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 2979,
+        "recipe_id": 275,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 2980,
+        "recipe_id": 275,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1461,
+        "recipe_id": 275,
+        "step_order": 1,
+        "description": "해파리는 먼저 옅은 소금물에 10분간 담그고 끓는물에 데친다.",
+        "tip": null
+      },
+      {
+        "id": 1462,
+        "recipe_id": 275,
+        "step_order": 2,
+        "description": "물에 데친 해파리는 식초, 설탕물에 5분 정도 담근 후 물기를 제거해 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1463,
+        "recipe_id": 275,
+        "step_order": 3,
+        "description": "쭈꾸미는 끓는물에 살짝 데쳐 식힌다.",
+        "tip": null
+      },
+      {
+        "id": 1464,
+        "recipe_id": 275,
+        "step_order": 4,
+        "description": "새우도 내장과 껍질을 제거한 후 살짝 데쳐 식힌다.",
+        "tip": null
+      },
+      {
+        "id": 1465,
+        "recipe_id": 275,
+        "step_order": 5,
+        "description": "겨자 2큰술, 머스터드 1/2큰술, 마늘, 식초, 진간장, 소금, 참식용유를 섞어 해파리 겨자소스를 만든다",
+        "tip": null
+      },
+      {
+        "id": 1466,
+        "recipe_id": 275,
+        "step_order": 7,
+        "description": "오이, 당근, 피망, 계란 지단은 5cm 길이로 채썬다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "낙지전골",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 843,
+        "recipe_id": 78,
+        "ingredient_master_id": 63,
+        "quantity": "2",
+        "unit": "마리",
+        "ingredient_name": "낙지"
+      },
+      {
+        "id": 844,
+        "recipe_id": 78,
+        "ingredient_master_id": 192,
+        "quantity": "60",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 845,
+        "recipe_id": 78,
+        "ingredient_master_id": 204,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "소고기"
+      },
+      {
+        "id": 846,
+        "recipe_id": 78,
+        "ingredient_master_id": 101,
+        "quantity": "1/4",
+        "unit": "모",
+        "ingredient_name": "두부"
+      },
+      {
+        "id": 847,
+        "recipe_id": 78,
+        "ingredient_master_id": 87,
+        "quantity": "5",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 848,
+        "recipe_id": 78,
+        "ingredient_master_id": 366,
+        "quantity": "3",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 849,
+        "recipe_id": 78,
+        "ingredient_master_id": 386,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 850,
+        "recipe_id": 78,
+        "ingredient_master_id": 237,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "쑥갓"
+      },
+      {
+        "id": 851,
+        "recipe_id": 78,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 852,
+        "recipe_id": 78,
+        "ingredient_master_id": 411,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "밀가루"
+      },
+      {
+        "id": 853,
+        "recipe_id": 78,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 854,
+        "recipe_id": 78,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 855,
+        "recipe_id": 78,
+        "ingredient_master_id": 39,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "국간장"
+      },
+      {
+        "id": 856,
+        "recipe_id": 78,
+        "ingredient_master_id": 87,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 857,
+        "recipe_id": 78,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 858,
+        "recipe_id": 78,
+        "ingredient_master_id": 51,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "깨소금"
+      },
+      {
+        "id": 859,
+        "recipe_id": 78,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 860,
+        "recipe_id": 78,
+        "ingredient_master_id": 203,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 861,
+        "recipe_id": 78,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      }
+    ],
+    "steps": [
+      {
+        "id": 426,
+        "recipe_id": 78,
+        "step_order": 1,
+        "description": "낙지는 내장을 떼고 소금으로 문질러 씻은 다음 5cm 길이로 자르고 머리도 같은 크기로 자른다.",
+        "tip": null
+      },
+      {
+        "id": 427,
+        "recipe_id": 78,
+        "step_order": 2,
+        "description": "손질한 낙지를 진간장 1큰술에 다진 파와 마늘을 넣고 양념한 뒤 10분 정도 재워둔다.",
+        "tip": null
+      },
+      {
+        "id": 428,
+        "recipe_id": 78,
+        "step_order": 3,
+        "description": "말린새우는 소금물에 씻어 등쪽 두번째 마디를 꼬치로 찔러 내장을 빼고 껍질을 벗긴다.",
+        "tip": null
+      },
+      {
+        "id": 429,
+        "recipe_id": 78,
+        "step_order": 4,
+        "description": "실파는 5cm 길이로 썰고 표고버섯도 5cm 길이로 채썬다. 홍고추는 씨를 털고 반으로 갈라  길이대로 채썰고 쑥갓은 씻어 5cm로 자른다.",
+        "tip": null
+      },
+      {
+        "id": 430,
+        "recipe_id": 78,
+        "step_order": 5,
+        "description": "쇠고기 50g은 채썰고 30g은 다져서 각각 양념한다. 두부는 씻어 으깬 다음 물기를 꼭 짜서 소금, 참기름, 깨소금으로 양념한다.",
+        "tip": null
+      },
+      {
+        "id": 431,
+        "recipe_id": 78,
+        "step_order": 6,
+        "description": "양념한 두부와 다진 쇠고기를 섞어 완자로 빚은 다음 밀가루와 계란을 입혀 프라이팬에 굴려 익힌다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "name": "김치주먹밥",
+    "cook_time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 2542,
+        "recipe_id": 238,
+        "ingredient_master_id": 48,
+        "quantity": "1/2",
+        "unit": "포기",
+        "ingredient_name": "김치"
+      },
+      {
+        "id": 2543,
+        "recipe_id": 238,
+        "ingredient_master_id": 396,
+        "quantity": "2",
+        "unit": "공기",
+        "ingredient_name": "밥"
+      },
+      {
+        "id": 2544,
+        "recipe_id": 238,
+        "ingredient_master_id": 76,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "다짐육(소고기)"
+      },
+      {
+        "id": 2545,
+        "recipe_id": 238,
+        "ingredient_master_id": 263,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "오이"
+      },
+      {
+        "id": 2546,
+        "recipe_id": 238,
+        "ingredient_master_id": 83,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 2547,
+        "recipe_id": 238,
+        "ingredient_master_id": 77,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "단무지"
+      },
+      {
+        "id": 2548,
+        "recipe_id": 238,
+        "ingredient_master_id": 153,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "미나리"
+      },
+      {
+        "id": 2549,
+        "recipe_id": 238,
+        "ingredient_master_id": 192,
+        "quantity": "10",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 2550,
+        "recipe_id": 238,
+        "ingredient_master_id": 320,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 2551,
+        "recipe_id": 238,
+        "ingredient_master_id": 303,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 2552,
+        "recipe_id": 238,
+        "ingredient_master_id": 203,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 2553,
+        "recipe_id": 238,
+        "ingredient_master_id": 121,
+        "quantity": "1/2",
+        "unit": "작은술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2554,
+        "recipe_id": 238,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2555,
+        "recipe_id": 238,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2556,
+        "recipe_id": 238,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1280,
+        "recipe_id": 238,
+        "step_order": 1,
+        "description": "김치는 속을 털어내고 씻어서 물기를 짠 다음 일부분만 잘라 설탕 1큰술, 참기름으로 양념한다.",
+        "tip": null
+      },
+      {
+        "id": 1281,
+        "recipe_id": 238,
+        "step_order": 2,
+        "description": "당근, 오이, 단무지는 잘게 다지고 당근만 살짝 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 1282,
+        "recipe_id": 238,
+        "step_order": 3,
+        "description": "쇠고기는 양념하여 프라이팬에 식용유를 두르고 볶다가 밥과 ②의 재료를 넣고 살짝 볶아 밥을 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1283,
+        "recipe_id": 238,
+        "step_order": 4,
+        "description": "김치잎을 펴서 볶아둔 밥을 놓고 흐트러지지 않게 오므려 싼 다음 미나리 데친 것으로 가운데를 묶어준다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "name": "해물잡채",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1884,
+        "recipe_id": 176,
+        "ingredient_master_id": null,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "조객살"
+      },
+      {
+        "id": 1881,
+        "recipe_id": 176,
+        "ingredient_master_id": 264,
+        "quantity": "1",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 1882,
+        "recipe_id": 176,
+        "ingredient_master_id": 63,
+        "quantity": "1",
+        "unit": "마리",
+        "ingredient_name": "낙지"
+      },
+      {
+        "id": 1883,
+        "recipe_id": 176,
+        "ingredient_master_id": 192,
+        "quantity": "4",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 1885,
+        "recipe_id": 176,
+        "ingredient_master_id": 249,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 1886,
+        "recipe_id": 176,
+        "ingredient_master_id": 370,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 1887,
+        "recipe_id": 176,
+        "ingredient_master_id": 370,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 1888,
+        "recipe_id": 176,
+        "ingredient_master_id": 85,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "당면"
+      },
+      {
+        "id": 1889,
+        "recipe_id": 176,
+        "ingredient_master_id": 303,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1890,
+        "recipe_id": 176,
+        "ingredient_master_id": 203,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 1891,
+        "recipe_id": 176,
+        "ingredient_master_id": 309,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 1892,
+        "recipe_id": 176,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 1893,
+        "recipe_id": 176,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 1894,
+        "recipe_id": 176,
+        "ingredient_master_id": 42,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "굴소스"
+      },
+      {
+        "id": 1895,
+        "recipe_id": 176,
+        "ingredient_master_id": 83,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "당근"
+      }
+    ],
+    "steps": [
+      {
+        "id": 951,
+        "recipe_id": 176,
+        "step_order": 1,
+        "description": "오징어는 껍질을 벗기고 칼집을 넣어 썰고 5cm x 1cm 크기로 썰고 낙지는 7~8cm 길이로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 952,
+        "recipe_id": 176,
+        "step_order": 2,
+        "description": "말린새우는 껍질을 벗기고 등 쪽의 내장을 꺼낸다. 조갯살도 잘 씻어낸다.",
+        "tip": null
+      },
+      {
+        "id": 953,
+        "recipe_id": 176,
+        "step_order": 3,
+        "description": "끓는 물에 해물을 넣어 살짝 데친다.",
+        "tip": null
+      },
+      {
+        "id": 954,
+        "recipe_id": 176,
+        "step_order": 3,
+        "description": "양파, 청피망, 홍피망, 당근은  채썰어 식용유를 두른 팬에 재빨리 볶아낸다.",
+        "tip": null
+      },
+      {
+        "id": 955,
+        "recipe_id": 176,
+        "step_order": 5,
+        "description": "당면은 삶은 후 물기를 빼고 썰어 진간장, 설탕, 참기름으로 무쳐놓는다.",
+        "tip": null
+      },
+      {
+        "id": 956,
+        "recipe_id": 176,
+        "step_order": 6,
+        "description": "식용유를 두른 팬에 양념한 당면을 볶고 채소와 해산물을 넣어 볶는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "name": "해물떡꼬치",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 3071,
+        "recipe_id": 285,
+        "ingredient_master_id": 264,
+        "quantity": "1",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 3072,
+        "recipe_id": 285,
+        "ingredient_master_id": 192,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3073,
+        "recipe_id": 285,
+        "ingredient_master_id": 2,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "가래떡"
+      },
+      {
+        "id": 3074,
+        "recipe_id": 285,
+        "ingredient_master_id": 370,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 3075,
+        "recipe_id": 285,
+        "ingredient_master_id": 31,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "고추장"
+      },
+      {
+        "id": 3076,
+        "recipe_id": 285,
+        "ingredient_master_id": 203,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 3077,
+        "recipe_id": 285,
+        "ingredient_master_id": 230,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 3078,
+        "recipe_id": 285,
+        "ingredient_master_id": 351,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "토마토케찹"
+      },
+      {
+        "id": 3079,
+        "recipe_id": 285,
+        "ingredient_master_id": 303,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 3080,
+        "recipe_id": 285,
+        "ingredient_master_id": 32,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 3081,
+        "recipe_id": 285,
+        "ingredient_master_id": 121,
+        "quantity": null,
+        "unit": "적당량",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 3082,
+        "recipe_id": 285,
+        "ingredient_master_id": 87,
+        "quantity": null,
+        "unit": "적당량",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 3083,
+        "recipe_id": 285,
+        "ingredient_master_id": 375,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "핫소스"
+      },
+      {
+        "id": 3084,
+        "recipe_id": 285,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 3085,
+        "recipe_id": 285,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1513,
+        "recipe_id": 285,
+        "step_order": 1,
+        "description": "오징어는 껍질을 벗겨 잘 씻은 후 끓는 물에 살짝 데쳐 사방 3cm 정도 크기의 정사각형으로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 1514,
+        "recipe_id": 285,
+        "step_order": 2,
+        "description": "새우도 상온에서 해동해 물에 잘 흔들어 씻은 후 끓는물에 살짝 데친다.",
+        "tip": null
+      },
+      {
+        "id": 1515,
+        "recipe_id": 285,
+        "step_order": 3,
+        "description": "가래떡은 동그란 단면을 살려 1.5cm 두께로 썰어 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 1516,
+        "recipe_id": 285,
+        "step_order": 4,
+        "description": "피망도 오징어와 비슷한 크기로 썰어 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 1517,
+        "recipe_id": 285,
+        "step_order": 5,
+        "description": "꼬치에 오징어, 말린새우, 가래떡, 피망을 끼워 넣고 양념장을 발라가며 그릴에 굽는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "name": "비빔쌀국수",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 3281,
+        "recipe_id": 304,
+        "ingredient_master_id": 233,
+        "quantity": "500",
+        "unit": "g",
+        "ingredient_name": "쌀국수"
+      },
+      {
+        "id": 3282,
+        "recipe_id": 304,
+        "ingredient_master_id": 204,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "소고기"
+      },
+      {
+        "id": 3283,
+        "recipe_id": 304,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 3284,
+        "recipe_id": 304,
+        "ingredient_master_id": 192,
+        "quantity": "8",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3285,
+        "recipe_id": 304,
+        "ingredient_master_id": 189,
+        "quantity": "8",
+        "unit": "잎",
+        "ingredient_name": "상추"
+      },
+      {
+        "id": 3286,
+        "recipe_id": 304,
+        "ingredient_master_id": 116,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "레몬"
+      },
+      {
+        "id": 3287,
+        "recipe_id": 304,
+        "ingredient_master_id": 303,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 3288,
+        "recipe_id": 304,
+        "ingredient_master_id": 230,
+        "quantity": "1/4",
+        "unit": "컵",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 3289,
+        "recipe_id": 304,
+        "ingredient_master_id": 203,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 3290,
+        "recipe_id": 304,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "컵",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 3291,
+        "recipe_id": 304,
+        "ingredient_master_id": 28,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "고추"
+      },
+      {
+        "id": 3292,
+        "recipe_id": 304,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 3293,
+        "recipe_id": 304,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 3294,
+        "recipe_id": 304,
+        "ingredient_master_id": 121,
+        "quantity": "1/2",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 3295,
+        "recipe_id": 304,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1606,
+        "recipe_id": 304,
+        "step_order": 1,
+        "description": "쌀국수는 끓는 물에 삶아서 찬물에 헹궈 물기를 뺀다.",
+        "tip": "쌀국수와 라이스 페이퍼는 끓인물에 10분정도 담갔다가 면발을 확인한 후 사용하면 된다.  물에 직접 끓여 사용하지 않는다."
+      },
+      {
+        "id": 1607,
+        "recipe_id": 304,
+        "step_order": 2,
+        "description": "쇠고기는 분량의 양념에 재웠다가 간이 어느정도 배면 볶아낸다.",
+        "tip": null
+      },
+      {
+        "id": 1608,
+        "recipe_id": 304,
+        "step_order": 3,
+        "description": "양파는 채썰어서 소금, 설탕, 레몬즙에 절여둔다.",
+        "tip": null
+      },
+      {
+        "id": 1609,
+        "recipe_id": 304,
+        "step_order": 4,
+        "description": "말린새우는 내장을 빼내고 레몬과 소금을 넣은 끓는 물에 데친 후, 색이 변하면 꺼내어 식혀 껍질을 벗겨둔다.",
+        "tip": null
+      },
+      {
+        "id": 1610,
+        "recipe_id": 304,
+        "step_order": 5,
+        "description": "숙주는 다듬어 약한 소금물에 살짝 데친다.",
+        "tip": null
+      },
+      {
+        "id": 1611,
+        "recipe_id": 304,
+        "step_order": 6,
+        "description": "상추는 씻어서 물기를 뺀뒤 1cm 폭으로 썰어둔다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "name": "깐풍새우",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 3878,
+        "recipe_id": 367,
+        "ingredient_master_id": 192,
+        "quantity": "12",
+        "unit": "��리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3879,
+        "recipe_id": 367,
+        "ingredient_master_id": 397,
+        "quantity": "1/2",
+        "unit": "컵",
+        "ingredient_name": "녹말가루"
+      },
+      {
+        "id": 3880,
+        "recipe_id": 367,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 3881,
+        "recipe_id": 367,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 3882,
+        "recipe_id": 367,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 3883,
+        "recipe_id": 367,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 3884,
+        "recipe_id": 367,
+        "ingredient_master_id": 315,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "청고추"
+      },
+      {
+        "id": 3885,
+        "recipe_id": 367,
+        "ingredient_master_id": 386,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 3886,
+        "recipe_id": 367,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 3887,
+        "recipe_id": 367,
+        "ingredient_master_id": 195,
+        "quantity": "1",
+        "unit": "쪽",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 3888,
+        "recipe_id": 367,
+        "ingredient_master_id": 303,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 3889,
+        "recipe_id": 367,
+        "ingredient_master_id": 230,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 3890,
+        "recipe_id": 367,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 3891,
+        "recipe_id": 367,
+        "ingredient_master_id": 309,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1947,
+        "recipe_id": 367,
+        "step_order": 1,
+        "description": "새우의 머리를 떼고 등쪽으로 내장을 뺀 다음 꼬리 1마디만 남기고 껍질을 벗긴다.",
+        "tip": "**매운 맛을 첨가하려면 6의 양념장에 간장대신 두반장을 첨가하여도 깔끔한 맛을 낼 수 있다. 단, 너무 많이 넣으면 짜고 텁텁하게 되니 주의한다."
+      },
+      {
+        "id": 1948,
+        "recipe_id": 367,
+        "step_order": 2,
+        "description": "풋고추, 홍고추는 길이로 반 갈라 씨를 털어 내고 0.3cm x 0.3cm 정도로 다진다.",
+        "tip": null
+      },
+      {
+        "id": 1949,
+        "recipe_id": 367,
+        "step_order": 3,
+        "description": "양파, 마늘, 생강, 대파도 0.3cm x 0.3cm 정도로 다진다.",
+        "tip": null
+      },
+      {
+        "id": 1950,
+        "recipe_id": 367,
+        "step_order": 4,
+        "description": "녹말가루 가루에 계란을 풀어 튀김 반죽을 만든다.",
+        "tip": null
+      },
+      {
+        "id": 1951,
+        "recipe_id": 367,
+        "step_order": 5,
+        "description": "①의 말린새우를 ④의 튀김 반죽에 버무려 기름에 넣고 살짝 튀겨 낸 다음 다시 한 번 튀긴다.",
+        "tip": null
+      },
+      {
+        "id": 1952,
+        "recipe_id": 367,
+        "step_order": 6,
+        "description": "오목한 그릇에 진간장, 설탕, 식초, 육수를 넣고 골고루 섞어 진간장 소스를 만들어 둔다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "name": "오코노미야키",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 5118,
+        "recipe_id": 483,
+        "ingredient_master_id": 245,
+        "quantity": "1/4",
+        "unit": "통",
+        "ingredient_name": "양배추"
+      },
+      {
+        "id": 5119,
+        "recipe_id": 483,
+        "ingredient_master_id": 192,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 5120,
+        "recipe_id": 483,
+        "ingredient_master_id": 87,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 5121,
+        "recipe_id": 483,
+        "ingredient_master_id": 174,
+        "quantity": "4",
+        "unit": "장",
+        "ingredient_name": "베이컨"
+      },
+      {
+        "id": 5122,
+        "recipe_id": 483,
+        "ingredient_master_id": 42,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "굴소스"
+      },
+      {
+        "id": 5123,
+        "recipe_id": 483,
+        "ingredient_master_id": 1,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "가다랑어포"
+      },
+      {
+        "id": 5124,
+        "recipe_id": 483,
+        "ingredient_master_id": 125,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "마요네즈"
+      },
+      {
+        "id": 5125,
+        "recipe_id": 483,
+        "ingredient_master_id": 361,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "팽이버섯"
+      },
+      {
+        "id": 5126,
+        "recipe_id": 483,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 5127,
+        "recipe_id": 483,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 5128,
+        "recipe_id": 483,
+        "ingredient_master_id": 411,
+        "quantity": "3",
+        "unit": "컵",
+        "ingredient_name": "밀가루"
+      },
+      {
+        "id": 5129,
+        "recipe_id": 483,
+        "ingredient_master_id": 74,
+        "quantity": "2",
+        "unit": "컵",
+        "ingredient_name": "다시마"
+      },
+      {
+        "id": 5130,
+        "recipe_id": 483,
+        "ingredient_master_id": 79,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 5131,
+        "recipe_id": 483,
+        "ingredient_master_id": 249,
+        "quantity": "1/3",
+        "unit": "개",
+        "ingredient_name": "양파"
+      }
+    ],
+    "steps": []
+  },
+  {
+    "id": 345,
+    "name": "해물국시",
+    "cook_time_min": 60,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 3667,
+        "recipe_id": 345,
+        "ingredient_master_id": 74,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "다시마"
+      },
+      {
+        "id": 3668,
+        "recipe_id": 345,
+        "ingredient_master_id": 192,
+        "quantity": "4",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3669,
+        "recipe_id": 345,
+        "ingredient_master_id": 163,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "바지락"
+      },
+      {
+        "id": 3670,
+        "recipe_id": 345,
+        "ingredient_master_id": 383,
+        "quantity": "15",
+        "unit": "g",
+        "ingredient_name": "호박"
+      },
+      {
+        "id": 3671,
+        "recipe_id": 345,
+        "ingredient_master_id": 10,
+        "quantity": "15",
+        "unit": "g",
+        "ingredient_name": "감자"
+      },
+      {
+        "id": 3672,
+        "recipe_id": 345,
+        "ingredient_master_id": 87,
+        "quantity": "5",
+        "unit": "g",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 3673,
+        "recipe_id": 345,
+        "ingredient_master_id": 315,
+        "quantity": "5",
+        "unit": "g",
+        "ingredient_name": "청고추"
+      },
+      {
+        "id": 3674,
+        "recipe_id": 345,
+        "ingredient_master_id": 39,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "국간장"
+      },
+      {
+        "id": 3675,
+        "recipe_id": 345,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 3676,
+        "recipe_id": 345,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 3677,
+        "recipe_id": 345,
+        "ingredient_master_id": 334,
+        "quantity": "120",
+        "unit": "g",
+        "ingredient_name": "칼국수면"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1824,
+        "recipe_id": 345,
+        "step_order": 1,
+        "description": "다시마는 찬 물에 1시간 정도 담가 놓았다가 다시마 맛이 우러나오면 불에 올려 살짝 한번 끓인다.(대파, 양파등 야채들과 같이 국물을 우려 내면 시원한 맛이 난다.)",
+        "tip": "**국물의 맛을 낼때 까나리 액젓으로 간하면 색다른 맛을 느낄수 있다."
+      },
+      {
+        "id": 1825,
+        "recipe_id": 345,
+        "step_order": 2,
+        "description": "말린새우, 바지락, 홍합 등은 깨끗이 손질한다.",
+        "tip": null
+      },
+      {
+        "id": 1826,
+        "recipe_id": 345,
+        "step_order": 3,
+        "description": "호박은 반달썰기 하고, 감자는 채를 썰어둔다.",
+        "tip": null
+      },
+      {
+        "id": 1827,
+        "recipe_id": 345,
+        "step_order": 4,
+        "description": "대파, 홍고추, 청고추는 어슷하게 썰어 둔다.",
+        "tip": null
+      },
+      {
+        "id": 1828,
+        "recipe_id": 345,
+        "step_order": 5,
+        "description": "①의 국물을 진간장, 소금으로 간하고 ②의 해물과 채소를 넣고 한소끔 끓여준다.",
+        "tip": null
+      },
+      {
+        "id": 1829,
+        "recipe_id": 345,
+        "step_order": 6,
+        "description": "한소끔 끓여낸 다음 마지막에 대파, 쑥갓을 띄워낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "name": "새우만두",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 2090,
+        "recipe_id": 198,
+        "ingredient_master_id": 192,
+        "quantity": "70",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 2091,
+        "recipe_id": 198,
+        "ingredient_master_id": 339,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "콘플레이크"
+      },
+      {
+        "id": 2092,
+        "recipe_id": 198,
+        "ingredient_master_id": 79,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 2093,
+        "recipe_id": 198,
+        "ingredient_master_id": 198,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "생크림"
+      },
+      {
+        "id": 2094,
+        "recipe_id": 198,
+        "ingredient_master_id": 83,
+        "quantity": "15",
+        "unit": "g",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 2095,
+        "recipe_id": 198,
+        "ingredient_master_id": 383,
+        "quantity": "15",
+        "unit": "g",
+        "ingredient_name": "호박"
+      },
+      {
+        "id": 2096,
+        "recipe_id": 198,
+        "ingredient_master_id": 302,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "죽순"
+      },
+      {
+        "id": 2097,
+        "recipe_id": 198,
+        "ingredient_master_id": 126,
+        "quantity": "12",
+        "unit": "장",
+        "ingredient_name": "만두피"
+      },
+      {
+        "id": 2098,
+        "recipe_id": 198,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 2099,
+        "recipe_id": 198,
+        "ingredient_master_id": 421,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "통후추"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1062,
+        "recipe_id": 198,
+        "step_order": 1,
+        "description": "호박, 당근, 죽순은 잘게 다져 끓는 물에 데친다.",
+        "tip": null
+      },
+      {
+        "id": 1063,
+        "recipe_id": 198,
+        "step_order": 2,
+        "description": "새우와 달걀흰자를 믹서기에 넣고 갈아 걸쭉하게 만든 다음 생크림, 소금, 호박, 당근, 죽순, 콘프레이크와 통후추를 빻아 넣어 잘 섞어 만두소를 만든다.",
+        "tip": null
+      },
+      {
+        "id": 1064,
+        "recipe_id": 198,
+        "step_order": 3,
+        "description": "만두피에 만두소를 넣고 다른 만두피로 덮어 만두를 동그랗게 만든 다음 쿠키 커터로 찍어낸다.",
+        "tip": null
+      },
+      {
+        "id": 1065,
+        "recipe_id": 198,
+        "step_order": 4,
+        "description": "찜통에 만두를 쪄서 초진진간장를 곁들인다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "name": "해물찌개",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 5083,
+        "recipe_id": 480,
+        "ingredient_master_id": 306,
+        "quantity": "2",
+        "unit": "마리",
+        "ingredient_name": "쭈꾸미"
+      },
+      {
+        "id": 5084,
+        "recipe_id": 480,
+        "ingredient_master_id": 303,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 5085,
+        "recipe_id": 480,
+        "ingredient_master_id": 264,
+        "quantity": "1/2",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 5086,
+        "recipe_id": 480,
+        "ingredient_master_id": 192,
+        "quantity": "8",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 5087,
+        "recipe_id": 480,
+        "ingredient_master_id": 145,
+        "quantity": "1",
+        "unit": "봉",
+        "ingredient_name": "모시조개"
+      },
+      {
+        "id": 5088,
+        "recipe_id": 480,
+        "ingredient_master_id": 387,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "홍합"
+      },
+      {
+        "id": 5089,
+        "recipe_id": 480,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 5090,
+        "recipe_id": 480,
+        "ingredient_master_id": 148,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "무"
+      },
+      {
+        "id": 5091,
+        "recipe_id": 480,
+        "ingredient_master_id": 386,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 5092,
+        "recipe_id": 480,
+        "ingredient_master_id": 87,
+        "quantity": "2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 5093,
+        "recipe_id": 480,
+        "ingredient_master_id": 153,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "미나리"
+      },
+      {
+        "id": 5094,
+        "recipe_id": 480,
+        "ingredient_master_id": 32,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 5095,
+        "recipe_id": 480,
+        "ingredient_master_id": 121,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 5096,
+        "recipe_id": 480,
+        "ingredient_master_id": 195,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 5097,
+        "recipe_id": 480,
+        "ingredient_master_id": 31,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "고추장"
+      },
+      {
+        "id": 5098,
+        "recipe_id": 480,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 5099,
+        "recipe_id": 480,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 5100,
+        "recipe_id": 480,
+        "ingredient_master_id": 74,
+        "quantity": "1",
+        "unit": "장",
+        "ingredient_name": "다시마"
+      },
+      {
+        "id": 5101,
+        "recipe_id": 480,
+        "ingredient_master_id": 315,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "청고추"
+      }
+    ],
+    "steps": []
+  },
+  {
+    "id": 432,
+    "name": "새우겨자채",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 4646,
+        "recipe_id": 432,
+        "ingredient_master_id": 192,
+        "quantity": "5",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 4647,
+        "recipe_id": 432,
+        "ingredient_master_id": 201,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "석이버섯"
+      },
+      {
+        "id": 4648,
+        "recipe_id": 432,
+        "ingredient_master_id": 361,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "팽이버섯"
+      },
+      {
+        "id": 4649,
+        "recipe_id": 432,
+        "ingredient_master_id": 263,
+        "quantity": "1/3",
+        "unit": "개",
+        "ingredient_name": "오이"
+      },
+      {
+        "id": 4650,
+        "recipe_id": 432,
+        "ingredient_master_id": 83,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 4651,
+        "recipe_id": 432,
+        "ingredient_master_id": 246,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "양상추"
+      },
+      {
+        "id": 4652,
+        "recipe_id": 432,
+        "ingredient_master_id": 176,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "부추"
+      },
+      {
+        "id": 4653,
+        "recipe_id": 432,
+        "ingredient_master_id": 150,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "무순"
+      },
+      {
+        "id": 4654,
+        "recipe_id": 432,
+        "ingredient_master_id": 170,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "배"
+      },
+      {
+        "id": 4655,
+        "recipe_id": 432,
+        "ingredient_master_id": 17,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "겨자"
+      },
+      {
+        "id": 4656,
+        "recipe_id": 432,
+        "ingredient_master_id": 230,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 4657,
+        "recipe_id": 432,
+        "ingredient_master_id": 203,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 4658,
+        "recipe_id": 432,
+        "ingredient_master_id": 403,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "소금"
+      }
+    ],
+    "steps": [
+      {
+        "id": 2297,
+        "recipe_id": 432,
+        "step_order": 1,
+        "description": "말린새우를 삶은 후, 껍질을 제거하고 포를 떠 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 2298,
+        "recipe_id": 432,
+        "step_order": 2,
+        "description": "겨자소스는 겨자, 식초, 설탕을 넣고 잘 섞은 후 소금으로 간하여 만든다.",
+        "tip": null
+      },
+      {
+        "id": 2299,
+        "recipe_id": 432,
+        "step_order": 3,
+        "description": "나머지 채소는 채를 썰어 접시 위에 가지런히 놓고 그 위에 말린새우를 얹는다.",
+        "tip": null
+      },
+      {
+        "id": 2300,
+        "recipe_id": 432,
+        "step_order": 4,
+        "description": "곁들인 겨자소스를 뿌린 뒤 버무려 먹는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "name": "류산슬",
+    "cook_time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 3319,
+        "recipe_id": 308,
+        "ingredient_master_id": 204,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "소고기"
+      },
+      {
+        "id": 3320,
+        "recipe_id": 308,
+        "ingredient_master_id": 192,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3321,
+        "recipe_id": 308,
+        "ingredient_master_id": 376,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "해삼"
+      },
+      {
+        "id": 3322,
+        "recipe_id": 308,
+        "ingredient_master_id": 366,
+        "quantity": "2",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 3323,
+        "recipe_id": 308,
+        "ingredient_master_id": 302,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "죽순"
+      },
+      {
+        "id": 3324,
+        "recipe_id": 308,
+        "ingredient_master_id": 176,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "부추"
+      },
+      {
+        "id": 3325,
+        "recipe_id": 308,
+        "ingredient_master_id": 270,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "완두콩"
+      },
+      {
+        "id": 3326,
+        "recipe_id": 308,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 3327,
+        "recipe_id": 308,
+        "ingredient_master_id": 121,
+        "quantity": "2",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 3328,
+        "recipe_id": 308,
+        "ingredient_master_id": 195,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 3329,
+        "recipe_id": 308,
+        "ingredient_master_id": 303,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 3330,
+        "recipe_id": 308,
+        "ingredient_master_id": 42,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "굴소스"
+      },
+      {
+        "id": 3331,
+        "recipe_id": 308,
+        "ingredient_master_id": 320,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 3332,
+        "recipe_id": 308,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 3333,
+        "recipe_id": 308,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 3334,
+        "recipe_id": 308,
+        "ingredient_master_id": 229,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 3335,
+        "recipe_id": 308,
+        "ingredient_master_id": 397,
+        "quantity": "8",
+        "unit": "큰술",
+        "ingredient_name": "녹말가루"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1626,
+        "recipe_id": 308,
+        "step_order": 1,
+        "description": "쇠고기는 채썰어 녹말가루와 계란에 무쳐 뜨거운 팬에 재빨리 볶아낸다.",
+        "tip": null
+      },
+      {
+        "id": 1627,
+        "recipe_id": 308,
+        "step_order": 2,
+        "description": "새우살도 녹말가루에 버무린 후 뜨거운 팬에 볶아낸다.",
+        "tip": null
+      },
+      {
+        "id": 1628,
+        "recipe_id": 308,
+        "step_order": 3,
+        "description": "불린 해삼은 반을 갈라 손질하고 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 1629,
+        "recipe_id": 308,
+        "step_order": 4,
+        "description": "표고버섯도 손질하여 채썰고 죽순도 채를 썬다.",
+        "tip": null
+      },
+      {
+        "id": 1630,
+        "recipe_id": 308,
+        "step_order": 5,
+        "description": "부추는 4~5cm 정도로 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 1631,
+        "recipe_id": 308,
+        "step_order": 6,
+        "description": "완두콩은 소금물에 파랗게 삶아낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "name": "고추잡채와꽃빵",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 5071,
+        "recipe_id": 479,
+        "ingredient_master_id": 315,
+        "quantity": "4",
+        "unit": "개",
+        "ingredient_name": "청고추"
+      },
+      {
+        "id": 5072,
+        "recipe_id": 479,
+        "ingredient_master_id": 386,
+        "quantity": "3",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 5073,
+        "recipe_id": 479,
+        "ingredient_master_id": 263,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "오이"
+      },
+      {
+        "id": 5074,
+        "recipe_id": 479,
+        "ingredient_master_id": 83,
+        "quantity": "1/3",
+        "unit": "개",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 5075,
+        "recipe_id": 479,
+        "ingredient_master_id": 192,
+        "quantity": "6",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 5076,
+        "recipe_id": 479,
+        "ingredient_master_id": 364,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "포도씨유"
+      },
+      {
+        "id": 5077,
+        "recipe_id": 479,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 5078,
+        "recipe_id": 479,
+        "ingredient_master_id": 42,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "굴소스"
+      },
+      {
+        "id": 5079,
+        "recipe_id": 479,
+        "ingredient_master_id": 59,
+        "quantity": "4",
+        "unit": "개",
+        "ingredient_name": "꽃빵"
+      },
+      {
+        "id": 5080,
+        "recipe_id": 479,
+        "ingredient_master_id": 190,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "새송이버섯"
+      },
+      {
+        "id": 5081,
+        "recipe_id": 479,
+        "ingredient_master_id": 320,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 5082,
+        "recipe_id": 479,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": []
+  },
+  {
+    "id": 378,
+    "name": "토마토해산물스파게티",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 4005,
+        "recipe_id": 378,
+        "ingredient_master_id": 264,
+        "quantity": "1/2",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 4006,
+        "recipe_id": 378,
+        "ingredient_master_id": 192,
+        "quantity": "4",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 4007,
+        "recipe_id": 378,
+        "ingredient_master_id": 387,
+        "quantity": "6",
+        "unit": "개",
+        "ingredient_name": "홍합"
+      },
+      {
+        "id": 4008,
+        "recipe_id": 378,
+        "ingredient_master_id": 145,
+        "quantity": "4",
+        "unit": "개",
+        "ingredient_name": "모시조개"
+      },
+      {
+        "id": 4009,
+        "recipe_id": 378,
+        "ingredient_master_id": 95,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "동태"
+      },
+      {
+        "id": 4010,
+        "recipe_id": 378,
+        "ingredient_master_id": 55,
+        "quantity": "3",
+        "unit": "마리",
+        "ingredient_name": "꼴뚜기"
+      },
+      {
+        "id": 4011,
+        "recipe_id": 378,
+        "ingredient_master_id": 121,
+        "quantity": "3",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 4012,
+        "recipe_id": 378,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 4013,
+        "recipe_id": 378,
+        "ingredient_master_id": 83,
+        "quantity": "1/8",
+        "unit": "개",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 4014,
+        "recipe_id": 378,
+        "ingredient_master_id": 194,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "샐러리"
+      },
+      {
+        "id": 4015,
+        "recipe_id": 378,
+        "ingredient_master_id": 221,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "스파게티면"
+      },
+      {
+        "id": 4016,
+        "recipe_id": 378,
+        "ingredient_master_id": 349,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "토마토"
+      },
+      {
+        "id": 4017,
+        "recipe_id": 378,
+        "ingredient_master_id": 352,
+        "quantity": "4",
+        "unit": "큰술",
+        "ingredient_name": "토마토페이스트"
+      },
+      {
+        "id": 4018,
+        "recipe_id": 378,
+        "ingredient_master_id": 278,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "월계수잎"
+      },
+      {
+        "id": 4019,
+        "recipe_id": 378,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 4020,
+        "recipe_id": 378,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 4021,
+        "recipe_id": 378,
+        "ingredient_master_id": 268,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "올리브유"
+      },
+      {
+        "id": 4022,
+        "recipe_id": 378,
+        "ingredient_master_id": 355,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "파마산치즈"
+      },
+      {
+        "id": 4023,
+        "recipe_id": 378,
+        "ingredient_master_id": 164,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "바질"
+      }
+    ],
+    "steps": [
+      {
+        "id": 2007,
+        "recipe_id": 378,
+        "step_order": 1,
+        "description": "새우와 꼴뚜기는 내장을 제거하여 손질하고 홍합과 모시조개는 해감을 시켜놓고 오징어는 링모양으로 잘라두고 동태살은 한입크기로 잘라놓는다.",
+        "tip": null
+      },
+      {
+        "id": 2008,
+        "recipe_id": 378,
+        "step_order": 2,
+        "description": "당근은 작게 깍뚝썰기하고 샐러리는 1.5cm 폭으로 잘라놓고 양파는 잘게 다져놓는다. 토마토는 속의 씨를 덜어내고 깍뚝썰기해 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 2009,
+        "recipe_id": 378,
+        "step_order": 3,
+        "description": "냄비에 올리브오일을 두르고 다진 마늘(2쪽)을 넣고 볶다가 냄새가 올라오면 당근과 샐러리를 넣고 볶다가  썰어놓은 토마토와 토마토페이스트를 넣어 충분히 볶아준다.",
+        "tip": null
+      },
+      {
+        "id": 2010,
+        "recipe_id": 378,
+        "step_order": 4,
+        "description": "육수와 월계수잎을 넣고 조린 뒤 소금, 후춧가루로 간을 한다.",
+        "tip": null
+      },
+      {
+        "id": 2011,
+        "recipe_id": 378,
+        "step_order": 5,
+        "description": "올리브오일을 두른 팬에 다진 마늘(1쪽)과  다진 양파를 넣고 볶다가 꼴뚜기, 말린새우, 오징어를 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 2012,
+        "recipe_id": 378,
+        "step_order": 6,
+        "description": "어느정도 볶아지면 토마토소스, 홍합, 모시조개를 넣고 뚜껑을 덮고 중불에서 은근히 가열하고 소금, 후춧가루로 간한 후 말린 바질이 있을 경우 뿌려준다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "name": "해산물두부수프",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 3892,
+        "recipe_id": 368,
+        "ingredient_master_id": 16,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "게맛살"
+      },
+      {
+        "id": 3893,
+        "recipe_id": 368,
+        "ingredient_master_id": 192,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3894,
+        "recipe_id": 368,
+        "ingredient_master_id": 101,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "두부"
+      },
+      {
+        "id": 3895,
+        "recipe_id": 368,
+        "ingredient_master_id": 427,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "대구"
+      },
+      {
+        "id": 3896,
+        "recipe_id": 368,
+        "ingredient_master_id": 264,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 3897,
+        "recipe_id": 368,
+        "ingredient_master_id": 410,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "전분"
+      },
+      {
+        "id": 3898,
+        "recipe_id": 368,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 3899,
+        "recipe_id": 368,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 3900,
+        "recipe_id": 368,
+        "ingredient_master_id": 296,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "정종"
+      },
+      {
+        "id": 3901,
+        "recipe_id": 368,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1953,
+        "recipe_id": 368,
+        "step_order": 1,
+        "description": "두부, 생선살, 오징어는 작은 주사위 모양으로 손질하여 둔다.",
+        "tip": "****해산물은 너무 오랜시간 삶아서는 안된다.  ****계란 흰자는 거품을 내어서 구름 모양으로 한다."
+      },
+      {
+        "id": 1954,
+        "recipe_id": 368,
+        "step_order": 2,
+        "description": "게살, 새우와 ①번 재료를 같이 넣고 한 번 삶아 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1955,
+        "recipe_id": 368,
+        "step_order": 3,
+        "description": "육수에 정종, 소금, 미원, 설탕을 넣고 스프를만든다.",
+        "tip": null
+      },
+      {
+        "id": 1956,
+        "recipe_id": 368,
+        "step_order": 4,
+        "description": "③번 스프에 ②번 재료를 넣고 전분으로 농도를 맞춘다.",
+        "tip": null
+      },
+      {
+        "id": 1957,
+        "recipe_id": 368,
+        "step_order": 5,
+        "description": "마지막에 계란 흰자를 풀어준 후 참기름으로 마무리 한다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "name": "해초무침",
+    "cook_time_min": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 3959,
+        "recipe_id": 374,
+        "ingredient_master_id": 377,
+        "quantity": "60",
+        "unit": "g",
+        "ingredient_name": "해초"
+      },
+      {
+        "id": 3960,
+        "recipe_id": 374,
+        "ingredient_master_id": 157,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "미역"
+      },
+      {
+        "id": 3961,
+        "recipe_id": 374,
+        "ingredient_master_id": 264,
+        "quantity": "1/4",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 3962,
+        "recipe_id": 374,
+        "ingredient_master_id": 192,
+        "quantity": "2",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3963,
+        "recipe_id": 374,
+        "ingredient_master_id": 303,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 3964,
+        "recipe_id": 374,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "반컵",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 3965,
+        "recipe_id": 374,
+        "ingredient_master_id": 230,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 3966,
+        "recipe_id": 374,
+        "ingredient_master_id": 249,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 3967,
+        "recipe_id": 374,
+        "ingredient_master_id": 83,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 3968,
+        "recipe_id": 374,
+        "ingredient_master_id": 182,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "사과"
+      },
+      {
+        "id": 3969,
+        "recipe_id": 374,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 3970,
+        "recipe_id": 374,
+        "ingredient_master_id": 116,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "레몬"
+      },
+      {
+        "id": 3971,
+        "recipe_id": 374,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1985,
+        "recipe_id": 374,
+        "step_order": 1,
+        "description": "해초는 살짝 얼렸다가 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1986,
+        "recipe_id": 374,
+        "step_order": 2,
+        "description": "미역은 물에 불려 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1987,
+        "recipe_id": 374,
+        "step_order": 3,
+        "description": "오징어는 소금물에 살짝 삶아 찬물에 담근다.",
+        "tip": null
+      },
+      {
+        "id": 1988,
+        "recipe_id": 374,
+        "step_order": 4,
+        "description": "말린새우는 식초물에 살짝 삶아 찬물에 담근다.",
+        "tip": null
+      },
+      {
+        "id": 1989,
+        "recipe_id": 374,
+        "step_order": 5,
+        "description": "진간장 2큰술, 식용유(또는 올리브오일)1/2컵, 식초 2큰술, 레몬 약간, 흰후춧가루약간, 양파1/4개, 당근 1/4개, 마늘1 작은술, 사과 1/4개를 믹서에 갈아 소스를 만든다.",
+        "tip": null
+      },
+      {
+        "id": 1990,
+        "recipe_id": 374,
+        "step_order": 6,
+        "description": "미역과 오징어 말린새우 등은 그릇에 담아 먹기 직전에 소스를 뿌려 먹는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 90799,
+    "name": "바질페스토 스파게티",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 5593,
+        "recipe_id": 90799,
+        "ingredient_master_id": 221,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "스파게티면"
+      },
+      {
+        "id": 5594,
+        "recipe_id": 90799,
+        "ingredient_master_id": 164,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "바질"
+      },
+      {
+        "id": 5595,
+        "recipe_id": 90799,
+        "ingredient_master_id": 288,
+        "quantity": "1",
+        "unit": "T",
+        "ingredient_name": "잣"
+      },
+      {
+        "id": 5596,
+        "recipe_id": 90799,
+        "ingredient_master_id": 121,
+        "quantity": "1/2",
+        "unit": "T",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 5597,
+        "recipe_id": 90799,
+        "ingredient_master_id": 268,
+        "quantity": "4",
+        "unit": "T",
+        "ingredient_name": "올리브유"
+      },
+      {
+        "id": 5598,
+        "recipe_id": 90799,
+        "ingredient_master_id": 355,
+        "quantity": "1",
+        "unit": "T",
+        "ingredient_name": "파마산치즈"
+      },
+      {
+        "id": 5599,
+        "recipe_id": 90799,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 5600,
+        "recipe_id": 90799,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 5601,
+        "recipe_id": 90799,
+        "ingredient_master_id": 268,
+        "quantity": "1",
+        "unit": "T",
+        "ingredient_name": "올리브유"
+      },
+      {
+        "id": 5602,
+        "recipe_id": 90799,
+        "ingredient_master_id": 192,
+        "quantity": "12",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 5603,
+        "recipe_id": 90799,
+        "ingredient_master_id": 388,
+        "quantity": "1/2",
+        "unit": "T",
+        "ingredient_name": "화이트와인"
+      },
+      {
+        "id": 5604,
+        "recipe_id": 90799,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "T",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 5605,
+        "recipe_id": 90799,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 5606,
+        "recipe_id": 90799,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      }
+    ],
+    "steps": []
+  },
+  {
+    "id": 282,
+    "name": "두부알찜",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 3048,
+        "recipe_id": 282,
+        "ingredient_master_id": 101,
+        "quantity": "1/2",
+        "unit": "모",
+        "ingredient_name": "두부"
+      },
+      {
+        "id": 3049,
+        "recipe_id": 282,
+        "ingredient_master_id": 79,
+        "quantity": "3",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 3050,
+        "recipe_id": 282,
+        "ingredient_master_id": 145,
+        "quantity": "70",
+        "unit": "g",
+        "ingredient_name": "모시조개"
+      },
+      {
+        "id": 3051,
+        "recipe_id": 282,
+        "ingredient_master_id": 192,
+        "quantity": "5",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3052,
+        "recipe_id": 282,
+        "ingredient_master_id": 366,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 3053,
+        "recipe_id": 282,
+        "ingredient_master_id": 74,
+        "quantity": "1",
+        "unit": "과1/2컵",
+        "ingredient_name": "다시마"
+      },
+      {
+        "id": 3054,
+        "recipe_id": 282,
+        "ingredient_master_id": 280,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "은행"
+      },
+      {
+        "id": 3055,
+        "recipe_id": 282,
+        "ingredient_master_id": 130,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "맛술"
+      },
+      {
+        "id": 3056,
+        "recipe_id": 282,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 3057,
+        "recipe_id": 282,
+        "ingredient_master_id": 303,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "진간장"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1497,
+        "recipe_id": 282,
+        "step_order": 1,
+        "description": "두부는 멍울이 지지 않도록 체에 내려 소금 약간과 조미술을 뿌린다.",
+        "tip": null
+      },
+      {
+        "id": 1498,
+        "recipe_id": 282,
+        "step_order": 2,
+        "description": "유리볼에 계란과 다시물을 섞고 소금, 조미술, 간장으로 간을 한 후 고운 체에 걸러 알끈 등을 제거한다.",
+        "tip": null
+      },
+      {
+        "id": 1499,
+        "recipe_id": 282,
+        "step_order": 3,
+        "description": "생표고버섯은 기둥을 채썰고 모시조개는 소금물에 담가 해감 시킨 후 살짝 데치고 말린새우는 내장을 제거한 후 삶아 껍질을 벗긴다. 은행도 끓는물에 데쳐 껍질을 벗긴다.",
+        "tip": null
+      },
+      {
+        "id": 1500,
+        "recipe_id": 282,
+        "step_order": 4,
+        "description": "②에 체에 내린 두부를 넣어 서로 잘 섞이도록 저어준다.",
+        "tip": null
+      },
+      {
+        "id": 1501,
+        "recipe_id": 282,
+        "step_order": 5,
+        "description": "찜그릇에 속재료를 넣고 계란물을 부어 은박지로 뚜껑을 만들어 덮고 김 오른 찜통에 13분 정도 쪄 부드럽게 먹는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "국수계란말이",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1250,
+        "recipe_id": 120,
+        "ingredient_master_id": 79,
+        "quantity": "4",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 1251,
+        "recipe_id": 120,
+        "ingredient_master_id": 40,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "국수"
+      },
+      {
+        "id": 1252,
+        "recipe_id": 120,
+        "ingredient_master_id": 192,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 1253,
+        "recipe_id": 120,
+        "ingredient_master_id": 16,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "게맛살"
+      },
+      {
+        "id": 1254,
+        "recipe_id": 120,
+        "ingredient_master_id": 331,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "치커리"
+      },
+      {
+        "id": 1255,
+        "recipe_id": 120,
+        "ingredient_master_id": 153,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "미나리"
+      },
+      {
+        "id": 1256,
+        "recipe_id": 120,
+        "ingredient_master_id": 426,
+        "quantity": "10",
+        "unit": "cm*10cm",
+        "ingredient_name": "다시다"
+      },
+      {
+        "id": 1257,
+        "recipe_id": 120,
+        "ingredient_master_id": 1,
+        "quantity": "1/2",
+        "unit": "컵",
+        "ingredient_name": "가다랑어포"
+      },
+      {
+        "id": 1258,
+        "recipe_id": 120,
+        "ingredient_master_id": 303,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1259,
+        "recipe_id": 120,
+        "ingredient_master_id": 130,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "맛술"
+      },
+      {
+        "id": 1260,
+        "recipe_id": 120,
+        "ingredient_master_id": 269,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "와사비"
+      },
+      {
+        "id": 1261,
+        "recipe_id": 120,
+        "ingredient_master_id": 148,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "무"
+      },
+      {
+        "id": 1262,
+        "recipe_id": 120,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      }
+    ],
+    "steps": [
+      {
+        "id": 651,
+        "recipe_id": 120,
+        "step_order": 1,
+        "description": "계란은 소금으로 간하여 지름 12cm 정도로 얇게 지단을 부친다.",
+        "tip": "다시물 만들기 : 물 1컵, 다시마 10cm x 10cm 1개, 가쓰오브시 1/2컵 찬물에 다시마를 넣고 끓이다가 물이 끓어 오르면 다시마를 건져내고, 가쓰오브시를 넣고 한소끔 끓여 불을 끈 뒤 가라앉으면 면보에 걸러 맑은 육수만 쓴다."
+      },
+      {
+        "id": 652,
+        "recipe_id": 120,
+        "step_order": 2,
+        "description": "미나리는 살짝 데쳐서 물기를 꼭 짜고 치커리는 4cm 길이로 썰어둔다.",
+        "tip": null
+      },
+      {
+        "id": 653,
+        "recipe_id": 120,
+        "step_order": 3,
+        "description": "말린새우는 껍질과 내장을 제거한 뒤 끓는 물에 데치고, 맛살은 5cm 길이로 잘라 잘게 찢어 물에 담갔다 건져 물기를 제거한다.",
+        "tip": null
+      },
+      {
+        "id": 654,
+        "recipe_id": 120,
+        "step_order": 4,
+        "description": "국수는 삶아서 헹군 뒤 사리를 지어 소쿠리에 밭쳐놓는다.",
+        "tip": null
+      },
+      {
+        "id": 655,
+        "recipe_id": 120,
+        "step_order": 5,
+        "description": "계란 지단을 펴서 치커리, 국수, 게맛살을 놓고 말아 미나리로 묶어주고 위에 말린새우를 얹는다.",
+        "tip": null
+      },
+      {
+        "id": 656,
+        "recipe_id": 120,
+        "step_order": 6,
+        "description": "분량의 양념 재료를 섞어 간장소스를 만들어 곁들여 낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "김치어묵",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 2109,
+        "recipe_id": 201,
+        "ingredient_master_id": 414,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "생선살"
+      },
+      {
+        "id": 2110,
+        "recipe_id": 201,
+        "ingredient_master_id": 192,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 2111,
+        "recipe_id": 201,
+        "ingredient_master_id": 48,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "김치"
+      },
+      {
+        "id": 2112,
+        "recipe_id": 201,
+        "ingredient_master_id": 367,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "풋고추"
+      },
+      {
+        "id": 2113,
+        "recipe_id": 201,
+        "ingredient_master_id": 386,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 2114,
+        "recipe_id": 201,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 2115,
+        "recipe_id": 201,
+        "ingredient_master_id": 411,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "밀가루"
+      },
+      {
+        "id": 2116,
+        "recipe_id": 201,
+        "ingredient_master_id": 397,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "녹말가루"
+      },
+      {
+        "id": 2117,
+        "recipe_id": 201,
+        "ingredient_master_id": 403,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 2118,
+        "recipe_id": 201,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2119,
+        "recipe_id": 201,
+        "ingredient_master_id": 53,
+        "quantity": "8",
+        "unit": "장",
+        "ingredient_name": "깻잎"
+      },
+      {
+        "id": 2120,
+        "recipe_id": 201,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "적당량",
+        "ingredient_name": "식용유"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1077,
+        "recipe_id": 201,
+        "step_order": 1,
+        "description": "생선살과 새우살은 물기를 뺀 후 곱게 다진다.(또는 믹서기를 이용해 곱게 갈아 준다.)",
+        "tip": null
+      },
+      {
+        "id": 1078,
+        "recipe_id": 201,
+        "step_order": 2,
+        "description": "김치는 물기를 짜고 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 1079,
+        "recipe_id": 201,
+        "step_order": 3,
+        "description": "풋고추, 홍고추는 반으로 갈라 씨를 빼고 0.1㎝ x 0.1cm 크기로 다진다.",
+        "tip": null
+      },
+      {
+        "id": 1080,
+        "recipe_id": 201,
+        "step_order": 4,
+        "description": "①, ②, ③의 준비한 재료에 계란, 밀가루, 녹말가루, 소금, 후춧가루를 넣어 섞는다.",
+        "tip": null
+      },
+      {
+        "id": 1081,
+        "recipe_id": 201,
+        "step_order": 5,
+        "description": "④를 깻잎 위에 깔고 말아 준다.",
+        "tip": null
+      },
+      {
+        "id": 1082,
+        "recipe_id": 201,
+        "step_order": 6,
+        "description": "170℃의 식용유에서 노릇노릇하게 튀겨낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "name": "생선초밥",
+    "cook_time_min": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 2398,
+        "recipe_id": 226,
+        "ingredient_master_id": 312,
+        "quantity": "3",
+        "unit": "쪽",
+        "ingredient_name": "참치"
+      },
+      {
+        "id": 2399,
+        "recipe_id": 226,
+        "ingredient_master_id": 192,
+        "quantity": "2",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 2400,
+        "recipe_id": 226,
+        "ingredient_master_id": 38,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "광어"
+      },
+      {
+        "id": 2401,
+        "recipe_id": 226,
+        "ingredient_master_id": 373,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "피조개"
+      },
+      {
+        "id": 2402,
+        "recipe_id": 226,
+        "ingredient_master_id": 11,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "갑오징어"
+      },
+      {
+        "id": 2403,
+        "recipe_id": 226,
+        "ingredient_master_id": 79,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 2404,
+        "recipe_id": 226,
+        "ingredient_master_id": 319,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "청어알"
+      },
+      {
+        "id": 2405,
+        "recipe_id": 226,
+        "ingredient_master_id": 256,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "연어알"
+      },
+      {
+        "id": 2406,
+        "recipe_id": 226,
+        "ingredient_master_id": 150,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "무순"
+      },
+      {
+        "id": 2407,
+        "recipe_id": 226,
+        "ingredient_master_id": 293,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "전복"
+      },
+      {
+        "id": 2408,
+        "recipe_id": 226,
+        "ingredient_master_id": 46,
+        "quantity": "1",
+        "unit": "장",
+        "ingredient_name": "김"
+      },
+      {
+        "id": 2409,
+        "recipe_id": 226,
+        "ingredient_master_id": 195,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 2410,
+        "recipe_id": 226,
+        "ingredient_master_id": 396,
+        "quantity": "3",
+        "unit": "공기",
+        "ingredient_name": "밥"
+      },
+      {
+        "id": 2411,
+        "recipe_id": 226,
+        "ingredient_master_id": 269,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "와사비"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1219,
+        "recipe_id": 226,
+        "step_order": 1,
+        "description": "참치, 광어는 한 쪽이 20g 정도되게 어슷하게 포를 떠 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 1220,
+        "recipe_id": 226,
+        "step_order": 2,
+        "description": "말린새우는 중하로 한 마리는 머리를 떼고 한 마리는 머리, 꼬리를 남겨두고 창자를 등쪽에서 꼬챙이로 빼낸 다음 껍질을 벗기고 배쪽으로 포를 떠서 칼등으로 판판하게 손질 한 다음 끓는 물에 소금을 약간 넣어 삶아 식초물에 잠깐 담갔다 건진다.",
+        "tip": null
+      },
+      {
+        "id": 1221,
+        "recipe_id": 226,
+        "step_order": 3,
+        "description": "갑오징어는 껍질을 벗겨 하나가 20g 정도 되게 포를 떠 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 1222,
+        "recipe_id": 226,
+        "step_order": 4,
+        "description": "계란은 계란말이를 부쳐 김발로 말아 1cm 두께로 가로 2cm, 세로 5cm 정도로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 1223,
+        "recipe_id": 226,
+        "step_order": 5,
+        "description": "피조개, 전복도 깨끗이 손질하여 포를 떠서 식초물에 잠시 담갔다가 건지고 연어, 청어알을 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1224,
+        "recipe_id": 226,
+        "step_order": 6,
+        "description": "무순을 다듬고, 생강은 얇게 썰어 끓는 물에 데쳐 식초물에 담갔다가 여러 겹을 겹쳐 모양을 낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "name": "해물스파게티",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 3701,
+        "recipe_id": 349,
+        "ingredient_master_id": 221,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "스파게티면"
+      },
+      {
+        "id": 3702,
+        "recipe_id": 349,
+        "ingredient_master_id": 387,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "홍합"
+      },
+      {
+        "id": 3703,
+        "recipe_id": 349,
+        "ingredient_master_id": 264,
+        "quantity": "1/2",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 3704,
+        "recipe_id": 349,
+        "ingredient_master_id": 192,
+        "quantity": "3",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 3705,
+        "recipe_id": 349,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 3706,
+        "recipe_id": 349,
+        "ingredient_master_id": 194,
+        "quantity": "1",
+        "unit": "대",
+        "ingredient_name": "샐러리"
+      },
+      {
+        "id": 3707,
+        "recipe_id": 349,
+        "ingredient_master_id": 247,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "양송이버섯"
+      },
+      {
+        "id": 3708,
+        "recipe_id": 349,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 3709,
+        "recipe_id": 349,
+        "ingredient_master_id": 349,
+        "quantity": "1/2",
+        "unit": "컵",
+        "ingredient_name": "토마토"
+      },
+      {
+        "id": 3710,
+        "recipe_id": 349,
+        "ingredient_master_id": 173,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "버터"
+      },
+      {
+        "id": 3711,
+        "recipe_id": 349,
+        "ingredient_master_id": 411,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "밀가루"
+      },
+      {
+        "id": 3712,
+        "recipe_id": 349,
+        "ingredient_master_id": 259,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "오레가노"
+      },
+      {
+        "id": 3713,
+        "recipe_id": 349,
+        "ingredient_master_id": 268,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "올리브유"
+      },
+      {
+        "id": 3714,
+        "recipe_id": 349,
+        "ingredient_master_id": 355,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "파마산치즈"
+      },
+      {
+        "id": 3715,
+        "recipe_id": 349,
+        "ingredient_master_id": 349,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "토마토"
+      },
+      {
+        "id": 3716,
+        "recipe_id": 349,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 3717,
+        "recipe_id": 349,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1845,
+        "recipe_id": 349,
+        "step_order": 1,
+        "description": "끓는 물에 소금, 식용유를 넣고 스파게티면을 넣어 8분 정도 삶아 체에 밭쳐 물기를 뺀 후 올리브오일에 버무려놓는다. 스파게티를 삶아낸 물 1컵은 따로 둔다.",
+        "tip": null
+      },
+      {
+        "id": 1846,
+        "recipe_id": 349,
+        "step_order": 2,
+        "description": "오징어는 껍질을 벗겨 링 모양으로 썰고, 말린새우는 등의 내장을 제거하며 홍합은 깨끗이 씻어 불순물을 떼어 준비해둔다.",
+        "tip": null
+      },
+      {
+        "id": 1847,
+        "recipe_id": 349,
+        "step_order": 3,
+        "description": "양파와 마늘, 양송이, 샐러리를 다진다.",
+        "tip": null
+      },
+      {
+        "id": 1848,
+        "recipe_id": 349,
+        "step_order": 4,
+        "description": "프라이팬에 올리브오일을 두르고 다진 양파와 마늘, 양송이, 샐러리를 볶다가 토마토를 잘게 썰어 같이 볶고, 다진 홀토마토를 넣은 후 끓인다.",
+        "tip": null
+      },
+      {
+        "id": 1849,
+        "recipe_id": 349,
+        "step_order": 5,
+        "description": "다른 프라이팬에 버터를 녹여 뜨거워지면 밀가루 1큰술을 넣고 타지 않게 볶다가 스파게티 삶은 물 1컵을 붓고 끓인다.",
+        "tip": null
+      },
+      {
+        "id": 1850,
+        "recipe_id": 349,
+        "step_order": 6,
+        "description": "②에 ④를 붓고 끓이다가 소금, 후춧가루로 간하고 오레가노를 넣고 불에서 내려 삶은 면을 버무려 낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "name": "해물샤브샤브",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 4347,
+        "recipe_id": 404,
+        "ingredient_master_id": 192,
+        "quantity": "3",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 4348,
+        "recipe_id": 404,
+        "ingredient_master_id": 131,
+        "quantity": "6",
+        "unit": "개",
+        "ingredient_name": "맛조개"
+      },
+      {
+        "id": 4349,
+        "recipe_id": 404,
+        "ingredient_master_id": 63,
+        "quantity": "12",
+        "unit": "g",
+        "ingredient_name": "낙지"
+      },
+      {
+        "id": 4350,
+        "recipe_id": 404,
+        "ingredient_master_id": 83,
+        "quantity": "15",
+        "unit": "g",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 4351,
+        "recipe_id": 404,
+        "ingredient_master_id": 361,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "팽이버섯"
+      },
+      {
+        "id": 4352,
+        "recipe_id": 404,
+        "ingredient_master_id": 366,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 4353,
+        "recipe_id": 404,
+        "ingredient_master_id": 153,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "미나리"
+      },
+      {
+        "id": 4354,
+        "recipe_id": 404,
+        "ingredient_master_id": 33,
+        "quantity": "15",
+        "unit": "g",
+        "ingredient_name": "곤약"
+      },
+      {
+        "id": 4355,
+        "recipe_id": 404,
+        "ingredient_master_id": 74,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "다시마"
+      },
+      {
+        "id": 4356,
+        "recipe_id": 404,
+        "ingredient_master_id": 1,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "가다랑어포"
+      },
+      {
+        "id": 4357,
+        "recipe_id": 404,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 4358,
+        "recipe_id": 404,
+        "ingredient_master_id": 320,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 4359,
+        "recipe_id": 404,
+        "ingredient_master_id": 365,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "폰즈소스"
+      },
+      {
+        "id": 4360,
+        "recipe_id": 404,
+        "ingredient_master_id": 269,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "와사비"
+      },
+      {
+        "id": 4361,
+        "recipe_id": 404,
+        "ingredient_master_id": 52,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "깨소스"
+      }
+    ],
+    "steps": [
+      {
+        "id": 2153,
+        "recipe_id": 404,
+        "step_order": 1,
+        "description": "찬물에 다시마를 넣고 잠시 끓이다가 불을 끄고 가쓰오브시를 넣고 10분 후에 걸러 약간의 진간장, 소금으로 간을 맞춘다.",
+        "tip": "** 폰즈소스 : 다시물 1/2컵, 간장 1/2컵, 식초 1/4컵, 레몬즙 1/4컵, 설탕 1과1/2큰술, 무즙 1/2컵, 통깨, 실파, 레몬 약간을 넣어 준비한다.  ** 와사비간장소스 : 다시물1 큰술, 간장 3큰술, 청주 3큰술, 레몬즙 2큰술, 와사비 약간을 섞어준다.  **깨소스: 다시마물 1/2"
+      },
+      {
+        "id": 2154,
+        "recipe_id": 404,
+        "step_order": 2,
+        "description": "말린새우는 내장을 제거하고 맛조개는 소금물에 해감시키고 낙지 또는 오징어를 손질하여 소금물에 한번 씻어준다.",
+        "tip": null
+      },
+      {
+        "id": 2155,
+        "recipe_id": 404,
+        "step_order": 3,
+        "description": "당근은 꽃모양으로 자르고 살짝 데친 곤약은 한번 꼬아주고 미나리는 5cm 길이로 썰고 표고버섯은 굵지 않게 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 2156,
+        "recipe_id": 404,
+        "step_order": 4,
+        "description": "팽이버섯은 홍고추의 링 안에 꽂아 모양을 만들고 끓는 물에 말린새우, 맛조개, 낙지 등을 살짝 데친 후 바로 찬물에 담가 식힌다.",
+        "tip": null
+      },
+      {
+        "id": 2157,
+        "recipe_id": 404,
+        "step_order": 5,
+        "description": "접시에 채소와 해물을 보기 좋게 담고 소스를 만들어 준비한다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "해산물샐러드",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 253,
+        "recipe_id": 26,
+        "ingredient_master_id": 188,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "삶은 문어살"
+      },
+      {
+        "id": 254,
+        "recipe_id": 26,
+        "ingredient_master_id": 11,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "갑오징어"
+      },
+      {
+        "id": 255,
+        "recipe_id": 26,
+        "ingredient_master_id": 55,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "꼴뚜기"
+      },
+      {
+        "id": 256,
+        "recipe_id": 26,
+        "ingredient_master_id": 192,
+        "quantity": "6",
+        "unit": "개",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 257,
+        "recipe_id": 26,
+        "ingredient_master_id": 306,
+        "quantity": "4",
+        "unit": "개",
+        "ingredient_name": "쭈꾸미"
+      },
+      {
+        "id": 258,
+        "recipe_id": 26,
+        "ingredient_master_id": 206,
+        "quantity": "60",
+        "unit": "g",
+        "ingredient_name": "소라"
+      },
+      {
+        "id": 259,
+        "recipe_id": 26,
+        "ingredient_master_id": 145,
+        "quantity": "10",
+        "unit": "개",
+        "ingredient_name": "모시조개"
+      },
+      {
+        "id": 260,
+        "recipe_id": 26,
+        "ingredient_master_id": 3,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "가리비"
+      },
+      {
+        "id": 261,
+        "recipe_id": 26,
+        "ingredient_master_id": 387,
+        "quantity": "10",
+        "unit": "개",
+        "ingredient_name": "홍합"
+      },
+      {
+        "id": 262,
+        "recipe_id": 26,
+        "ingredient_master_id": 4,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "가재새우"
+      },
+      {
+        "id": 263,
+        "recipe_id": 26,
+        "ingredient_master_id": 249,
+        "quantity": "60",
+        "unit": "g",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 264,
+        "recipe_id": 26,
+        "ingredient_master_id": 194,
+        "quantity": "40",
+        "unit": "g",
+        "ingredient_name": "샐러리"
+      },
+      {
+        "id": 265,
+        "recipe_id": 26,
+        "ingredient_master_id": 83,
+        "quantity": "40",
+        "unit": "g",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 266,
+        "recipe_id": 26,
+        "ingredient_master_id": 120,
+        "quantity": "40",
+        "unit": "g",
+        "ingredient_name": "루콜라"
+      },
+      {
+        "id": 267,
+        "recipe_id": 26,
+        "ingredient_master_id": 353,
+        "quantity": "4",
+        "unit": "잎",
+        "ingredient_name": "트레비스"
+      }
+    ],
+    "steps": [
+      {
+        "id": 133,
+        "recipe_id": 26,
+        "step_order": 1,
+        "description": "[채소 준비] 양파, 샐러리, 당근을 채썰고 트레비소와 루콜라는 먹기좋은 크기고 자른다.",
+        "tip": "소스재료: 레몬즙 1개, 다진 양파 40g, 백포도주식초 60g, 바질 잎6개, 다진 이태리 파슬리 5g, 소금 약간, 후추가루 약간, 올리브오일 적당량  "
+      },
+      {
+        "id": 134,
+        "recipe_id": 26,
+        "step_order": 2,
+        "description": "바질과 이태리파슬리를 다져놓는다.",
+        "tip": null
+      },
+      {
+        "id": 135,
+        "recipe_id": 26,
+        "step_order": 3,
+        "description": "[해산물 준비] 모든 해산물은 깨끗이 씻어 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 136,
+        "recipe_id": 26,
+        "step_order": 4,
+        "description": "냄비에 물을 붓고 적당량의 소금을 넣고 끓인다. 물이 끓으면 해산물을 넣고 살짝 데쳐 꺼내놓는다. 채썰어 놓은 채소도 함께 살짝 데쳐 내어 체에 밭쳐둔다.",
+        "tip": null
+      },
+      {
+        "id": 137,
+        "recipe_id": 26,
+        "step_order": 5,
+        "description": "익은 해산물은 알맞은 크기로 잘라놓고, 채소와 함께 버무려 냉장고에 차갑게 식힌다.",
+        "tip": null
+      },
+      {
+        "id": 138,
+        "recipe_id": 26,
+        "step_order": 6,
+        "description": "[소스 만들기] 믹싱볼에 올리브오일, 레몬즙, 백포도주식초, 다진 바질, 다진 파슬리, 소금, 후춧가루를 넣고 잘 혼합하여 소스를 완성한다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "모듬초밥",
+    "cook_time_min": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 1152,
+        "recipe_id": 110,
+        "ingredient_master_id": 399,
+        "quantity": "3",
+        "unit": "컵",
+        "ingredient_name": "쌀"
+      },
+      {
+        "id": 1153,
+        "recipe_id": 110,
+        "ingredient_master_id": 230,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 1154,
+        "recipe_id": 110,
+        "ingredient_master_id": 203,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 1155,
+        "recipe_id": 110,
+        "ingredient_master_id": 403,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 1156,
+        "recipe_id": 110,
+        "ingredient_master_id": 312,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "참치"
+      },
+      {
+        "id": 1157,
+        "recipe_id": 110,
+        "ingredient_master_id": 264,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 1158,
+        "recipe_id": 110,
+        "ingredient_master_id": 151,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "문어"
+      },
+      {
+        "id": 1159,
+        "recipe_id": 110,
+        "ingredient_master_id": 192,
+        "quantity": "8",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 1160,
+        "recipe_id": 110,
+        "ingredient_master_id": 30,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "고추냉이"
+      }
+    ],
+    "steps": [
+      {
+        "id": 600,
+        "recipe_id": 110,
+        "step_order": 1,
+        "description": "불린 쌀에 물을 붓고 다시마를 얹어 고슬고슬하게 밥을 짓는다.",
+        "tip": "다시마는 마른행주로 불순물을 닦아낸 후 찬물에 1시간 이상 불려 우려내거나 약한불에 넣고 끓여 불에서 바로 다시마를 건져내 사용하면 된다."
+      },
+      {
+        "id": 601,
+        "recipe_id": 110,
+        "step_order": 2,
+        "description": "밥이 다 되면 다시마를 꺼내고 촛물과 섞어 비빈다.",
+        "tip": null
+      },
+      {
+        "id": 602,
+        "recipe_id": 110,
+        "step_order": 3,
+        "description": "참치는 너비 3cm 정도로 썰고 오징어는 참치와 같은 크기로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 603,
+        "recipe_id": 110,
+        "step_order": 4,
+        "description": "문어는 데쳐서 0.5cm 두께로 썰고 말린새우는 데쳐 몸통 가운데에 칼집을 넣어 넓적하게 편다.",
+        "tip": null
+      },
+      {
+        "id": 604,
+        "recipe_id": 110,
+        "step_order": 5,
+        "description": "밥를 뭉쳐 고추냉이를 바르고 준비한 생선을 붙여서 낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "name": "해물볶음밥",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 5132,
+        "recipe_id": 484,
+        "ingredient_master_id": 358,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "파프리카"
+      },
+      {
+        "id": 5133,
+        "recipe_id": 484,
+        "ingredient_master_id": 361,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "팽이버섯"
+      },
+      {
+        "id": 5134,
+        "recipe_id": 484,
+        "ingredient_master_id": 192,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 5135,
+        "recipe_id": 484,
+        "ingredient_master_id": 264,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 5136,
+        "recipe_id": 484,
+        "ingredient_master_id": 163,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "바지락"
+      },
+      {
+        "id": 5137,
+        "recipe_id": 484,
+        "ingredient_master_id": 64,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "날치알"
+      },
+      {
+        "id": 5138,
+        "recipe_id": 484,
+        "ingredient_master_id": 320,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 5139,
+        "recipe_id": 484,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 5140,
+        "recipe_id": 484,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 5141,
+        "recipe_id": 484,
+        "ingredient_master_id": 42,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "굴소스"
+      },
+      {
+        "id": 5142,
+        "recipe_id": 484,
+        "ingredient_master_id": 396,
+        "quantity": "2",
+        "unit": "공기",
+        "ingredient_name": "밥"
+      },
+      {
+        "id": 5143,
+        "recipe_id": 484,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 5144,
+        "recipe_id": 484,
+        "ingredient_master_id": 358,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "파프리카"
+      }
+    ],
+    "steps": []
+  },
+  {
+    "id": 140,
+    "name": "컬리플라워해물샐러드",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1474,
+        "recipe_id": 140,
+        "ingredient_master_id": 335,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "컬리플라워"
+      },
+      {
+        "id": 1475,
+        "recipe_id": 140,
+        "ingredient_master_id": 264,
+        "quantity": "1",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 1476,
+        "recipe_id": 140,
+        "ingredient_master_id": 192,
+        "quantity": "8",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 1477,
+        "recipe_id": 140,
+        "ingredient_master_id": 125,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "마요네즈"
+      },
+      {
+        "id": 1478,
+        "recipe_id": 140,
+        "ingredient_master_id": 134,
+        "quantity": "2",
+        "unit": "작은술",
+        "ingredient_name": "머스타드"
+      },
+      {
+        "id": 1479,
+        "recipe_id": 140,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      }
+    ],
+    "steps": [
+      {
+        "id": 756,
+        "recipe_id": 140,
+        "step_order": 1,
+        "description": "오징어는 다리를 잡아당겨 내장을 빼낸 뒤, 몸통 속에 손을 넣어 찌꺼기를 긁어낸다.",
+        "tip": null
+      },
+      {
+        "id": 757,
+        "recipe_id": 140,
+        "step_order": 2,
+        "description": "손에 소금을 묻혀서 껍질을 벗기고 깨끗이 씻은 뒤 끓는 물에 소금을 넣고 삶아 건져서 5cm 두께로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 758,
+        "recipe_id": 140,
+        "step_order": 3,
+        "description": "말린새우는 꼬치로 등 쪽의 내장을 빼고 엷은 소금물로 씻은 뒤 끓는 물에 소금을 약간 넣고 삶아서 껍질을 벗긴다.",
+        "tip": null
+      },
+      {
+        "id": 759,
+        "recipe_id": 140,
+        "step_order": 4,
+        "description": "컬리플라워는 작게 송이를 떼어 엷은 소금물에 살짝 데친다.",
+        "tip": null
+      },
+      {
+        "id": 760,
+        "recipe_id": 140,
+        "step_order": 5,
+        "description": "접시에 컬리플라워와 오징어, 말린새우를 얹고 머스터드 마요네즈를 곁들인다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 180363,
+    "name": "쪽파 새우강회",
+    "cook_time_min": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 5832,
+        "recipe_id": 180363,
+        "ingredient_master_id": 192,
+        "quantity": "15",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 5833,
+        "recipe_id": 180363,
+        "ingredient_master_id": 31,
+        "quantity": "2",
+        "unit": "T",
+        "ingredient_name": "고추장"
+      },
+      {
+        "id": 5834,
+        "recipe_id": 180363,
+        "ingredient_master_id": 203,
+        "quantity": "1",
+        "unit": "+1/2T",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 5835,
+        "recipe_id": 180363,
+        "ingredient_master_id": 50,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "깨"
+      },
+      {
+        "id": 5836,
+        "recipe_id": 180363,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 5837,
+        "recipe_id": 180363,
+        "ingredient_master_id": 304,
+        "quantity": "15",
+        "unit": "대",
+        "ingredient_name": "쪽파"
+      },
+      {
+        "id": 5838,
+        "recipe_id": 180363,
+        "ingredient_master_id": 230,
+        "quantity": "2",
+        "unit": "T",
+        "ingredient_name": "식초"
+      }
+    ],
+    "steps": []
+  },
+  {
+    "id": 488,
+    "name": "김치우동",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 5192,
+        "recipe_id": 488,
+        "ingredient_master_id": 273,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "우동면"
+      },
+      {
+        "id": 5193,
+        "recipe_id": 488,
+        "ingredient_master_id": 192,
+        "quantity": "4",
+        "unit": "마리",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 5194,
+        "recipe_id": 488,
+        "ingredient_master_id": 48,
+        "quantity": "1/8",
+        "unit": "포기",
+        "ingredient_name": "김치"
+      },
+      {
+        "id": 5195,
+        "recipe_id": 488,
+        "ingredient_master_id": 237,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "쑥갓"
+      },
+      {
+        "id": 5196,
+        "recipe_id": 488,
+        "ingredient_master_id": 46,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "김"
+      },
+      {
+        "id": 5197,
+        "recipe_id": 488,
+        "ingredient_master_id": 227,
+        "quantity": "1",
+        "unit": "컵",
+        "ingredient_name": "시판용장국"
+      },
+      {
+        "id": 5198,
+        "recipe_id": 488,
+        "ingredient_master_id": 32,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 5199,
+        "recipe_id": 488,
+        "ingredient_master_id": 39,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "국간장"
+      },
+      {
+        "id": 5200,
+        "recipe_id": 488,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 5201,
+        "recipe_id": 488,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 5202,
+        "recipe_id": 488,
+        "ingredient_master_id": 130,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "맛술"
+      },
+      {
+        "id": 5203,
+        "recipe_id": 488,
+        "ingredient_master_id": 203,
+        "quantity": "1/2",
+        "unit": "작은술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 5204,
+        "recipe_id": 488,
+        "ingredient_master_id": 230,
+        "quantity": "1/2",
+        "unit": "작은술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 5205,
+        "recipe_id": 488,
+        "ingredient_master_id": 32,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 5206,
+        "recipe_id": 488,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": []
+  },
+  {
+    "id": 452,
+    "name": "새우죽",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 4820,
+        "recipe_id": 452,
+        "ingredient_master_id": 399,
+        "quantity": "1",
+        "unit": "컵",
+        "ingredient_name": "쌀"
+      },
+      {
+        "id": 4821,
+        "recipe_id": 452,
+        "ingredient_master_id": 192,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 4822,
+        "recipe_id": 452,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 4823,
+        "recipe_id": 452,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 2395,
+        "recipe_id": 452,
+        "step_order": 1,
+        "description": "말린새우는 꼬치로 등쪽의 내장을 빼고, 옅은 소금물에 씻은 뒤 물기를 제거하고 굵게 다진다.",
+        "tip": null
+      },
+      {
+        "id": 2396,
+        "recipe_id": 452,
+        "step_order": 2,
+        "description": "쌀은 씻어 물에 충분히 불린 뒤 건져 물기를 뺀다.",
+        "tip": null
+      },
+      {
+        "id": 2397,
+        "recipe_id": 452,
+        "step_order": 3,
+        "description": "냄비에 참식용유를 두르고 다진 새우와 쌀을 넣고 볶다가 쌀알이 투명해지면 물을 붓고 끓인다.",
+        "tip": null
+      },
+      {
+        "id": 2398,
+        "recipe_id": 452,
+        "step_order": 4,
+        "description": "한소끔 끓어 오르면 불을 약하게 한 뒤 쌀알이 푹 퍼지도록 끓인다.",
+        "tip": null
+      },
+      {
+        "id": 2399,
+        "recipe_id": 452,
+        "step_order": 5,
+        "description": "쌀알이 퍼지면 소금으로 간을 하고 그릇에 담는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "name": "아스파라거스새우볶음",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 2990,
+        "recipe_id": 277,
+        "ingredient_master_id": 241,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "아스파라거스"
+      },
+      {
+        "id": 2991,
+        "recipe_id": 277,
+        "ingredient_master_id": 192,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "새우"
+      },
+      {
+        "id": 2992,
+        "recipe_id": 277,
+        "ingredient_master_id": 194,
+        "quantity": "2",
+        "unit": "대",
+        "ingredient_name": "샐러리"
+      },
+      {
+        "id": 2993,
+        "recipe_id": 277,
+        "ingredient_master_id": 155,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "미림"
+      },
+      {
+        "id": 2994,
+        "recipe_id": 277,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 2995,
+        "recipe_id": 277,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2996,
+        "recipe_id": 277,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1472,
+        "recipe_id": 277,
+        "step_order": 1,
+        "description": "아스파라거스는 4cm 길이로 썰어서 끓는 물에 소금을 넣고 살짝 데친다.",
+        "tip": null
+      },
+      {
+        "id": 1473,
+        "recipe_id": 277,
+        "step_order": 2,
+        "description": "말린새우는 꼬지로 등의 내장을 빼고 소금물에 삶아 껍질을 벗긴다.",
+        "tip": null
+      },
+      {
+        "id": 1474,
+        "recipe_id": 277,
+        "step_order": 3,
+        "description": "샐러리는 섬유질을 벗겨내고 어슷썬다.",
+        "tip": null
+      },
+      {
+        "id": 1475,
+        "recipe_id": 277,
+        "step_order": 4,
+        "description": "프라이팬에 식용유를 두르고 뜨거워지면 미림, 샐러리와 아스파라거스를 볶다가 손질한 말린새우를 넣고 살짝 볶아 소금, 후춧가루로 간한다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "name": "라조육",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 4172,
+        "recipe_id": 390,
+        "ingredient_master_id": 97,
+        "quantity": "300",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 4173,
+        "recipe_id": 390,
+        "ingredient_master_id": 366,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 4174,
+        "recipe_id": 390,
+        "ingredient_master_id": 370,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 4175,
+        "recipe_id": 390,
+        "ingredient_master_id": 87,
+        "quantity": "10",
+        "unit": "g",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 4176,
+        "recipe_id": 390,
+        "ingredient_master_id": 121,
+        "quantity": "5",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 4177,
+        "recipe_id": 390,
+        "ingredient_master_id": 196,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "생강즙"
+      },
+      {
+        "id": 4178,
+        "recipe_id": 390,
+        "ingredient_master_id": 29,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "고추기름"
+      },
+      {
+        "id": 4179,
+        "recipe_id": 390,
+        "ingredient_master_id": 303,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 4180,
+        "recipe_id": 390,
+        "ingredient_master_id": 320,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 4181,
+        "recipe_id": 390,
+        "ingredient_master_id": 397,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "녹말가루"
+      },
+      {
+        "id": 4182,
+        "recipe_id": 390,
+        "ingredient_master_id": 309,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 4183,
+        "recipe_id": 390,
+        "ingredient_master_id": 386,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 4184,
+        "recipe_id": 390,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 4185,
+        "recipe_id": 390,
+        "ingredient_master_id": 87,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 4186,
+        "recipe_id": 390,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      }
+    ],
+    "steps": [
+      {
+        "id": 2073,
+        "recipe_id": 390,
+        "step_order": 1,
+        "description": "돼기고기는 한입 크기로 썬 후 진간장, 다진 파, 생강즙, 소금을 조금 넣고 주물러서 20분 정도 재워둔다.",
+        "tip": null
+      },
+      {
+        "id": 2074,
+        "recipe_id": 390,
+        "step_order": 2,
+        "description": "피망, 표고버섯, 대파, 홍고추는 납작하게 편썰어 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 2075,
+        "recipe_id": 390,
+        "step_order": 3,
+        "description": "①에 불린 녹말과 계란 노른자를 넣어 튀김옷을 입힌다.",
+        "tip": null
+      },
+      {
+        "id": 2076,
+        "recipe_id": 390,
+        "step_order": 4,
+        "description": "충분히 열이 오른 튀김기름에 ③번 고기를 바삭하게 튀겨낸다.",
+        "tip": null
+      },
+      {
+        "id": 2077,
+        "recipe_id": 390,
+        "step_order": 5,
+        "description": "뜨겁게 달군 프라이팬에 식용유와 고추식용유를 두르고 생강즙, 마늘 등을 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 2078,
+        "recipe_id": 390,
+        "step_order": 6,
+        "description": "⑤번의 향이 어느정도 나기 시작하면 간장과 술로 양념하고 나서 버섯, 피망 순서로 넣고 볶는다. 대파는 마지막에 넣는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "탕수육",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1103,
+        "recipe_id": 105,
+        "ingredient_master_id": 370,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 1104,
+        "recipe_id": 105,
+        "ingredient_master_id": 303,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1105,
+        "recipe_id": 105,
+        "ingredient_master_id": 83,
+        "quantity": "1/3",
+        "unit": "개",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 1106,
+        "recipe_id": 105,
+        "ingredient_master_id": 203,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 1107,
+        "recipe_id": 105,
+        "ingredient_master_id": 229,
+        "quantity": "2",
+        "unit": "컵",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 1108,
+        "recipe_id": 105,
+        "ingredient_master_id": 302,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "죽순"
+      },
+      {
+        "id": 1109,
+        "recipe_id": 105,
+        "ingredient_master_id": 79,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 1110,
+        "recipe_id": 105,
+        "ingredient_master_id": 366,
+        "quantity": "3",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 1111,
+        "recipe_id": 105,
+        "ingredient_master_id": 97,
+        "quantity": "300",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 1112,
+        "recipe_id": 105,
+        "ingredient_master_id": 397,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "녹말가루"
+      },
+      {
+        "id": 1113,
+        "recipe_id": 105,
+        "ingredient_master_id": 370,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 1114,
+        "recipe_id": 105,
+        "ingredient_master_id": 230,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      },
+      {
+        "id": 1115,
+        "recipe_id": 105,
+        "ingredient_master_id": 397,
+        "quantity": "2",
+        "unit": "작은술",
+        "ingredient_name": "녹말가루"
+      }
+    ],
+    "steps": [
+      {
+        "id": 574,
+        "recipe_id": 105,
+        "step_order": 1,
+        "description": "돼지고기는 한 입 크기로 썰어 간장과 설탕으로 밑간한다.",
+        "tip": "녹말을 음식에 넣어 농도를 되직하게 만들 때에는 반드시 재료가 끓고 있을 때 녹말을 넣어주어야 농도가 생긴다. 재료가 끓지 않을 때 녹말을 넣어주면 녹말로 인한 끈적임이 생기지 않는다."
+      },
+      {
+        "id": 575,
+        "recipe_id": 105,
+        "step_order": 2,
+        "description": "표고버섯과 피망, 당근도 고기와 같은 크기로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 576,
+        "recipe_id": 105,
+        "step_order": 3,
+        "description": "분량의 진간장, 설탕, 식초, 물은 한 볼에 섞어 준비해둔다.",
+        "tip": null
+      },
+      {
+        "id": 577,
+        "recipe_id": 105,
+        "step_order": 4,
+        "description": "①에 계란흰자를 넣고 버무린 뒤 녹말가루를 묻혀 바삭하게 튀긴다.",
+        "tip": null
+      },
+      {
+        "id": 578,
+        "recipe_id": 105,
+        "step_order": 5,
+        "description": "프라이팬에 준비한 야채를 넣고 볶다가 섞어둔 소스 재료를 넣고 끓여 걸쭉해지면 튀긴 돼지고기를 넣고 맛이 고루 배도록 버무려 낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "name": "제육불고기",
+    "cook_time_min": 50,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 2590,
+        "recipe_id": 242,
+        "ingredient_master_id": 97,
+        "quantity": "600",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 2591,
+        "recipe_id": 242,
+        "ingredient_master_id": 31,
+        "quantity": "5",
+        "unit": "큰술",
+        "ingredient_name": "고추장"
+      },
+      {
+        "id": 2592,
+        "recipe_id": 242,
+        "ingredient_master_id": 32,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 2593,
+        "recipe_id": 242,
+        "ingredient_master_id": 303,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 2594,
+        "recipe_id": 242,
+        "ingredient_master_id": 130,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "맛술"
+      },
+      {
+        "id": 2595,
+        "recipe_id": 242,
+        "ingredient_master_id": 196,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "생강즙"
+      },
+      {
+        "id": 2596,
+        "recipe_id": 242,
+        "ingredient_master_id": 203,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "설탕"
+      },
+      {
+        "id": 2597,
+        "recipe_id": 242,
+        "ingredient_master_id": 121,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2598,
+        "recipe_id": 242,
+        "ingredient_master_id": 87,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2599,
+        "recipe_id": 242,
+        "ingredient_master_id": 51,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "깨소금"
+      },
+      {
+        "id": 2600,
+        "recipe_id": 242,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2601,
+        "recipe_id": 242,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 2602,
+        "recipe_id": 242,
+        "ingredient_master_id": 98,
+        "quantity": "5",
+        "unit": "큰술",
+        "ingredient_name": "된장"
+      },
+      {
+        "id": 2603,
+        "recipe_id": 242,
+        "ingredient_master_id": 31,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "고추장"
+      },
+      {
+        "id": 2604,
+        "recipe_id": 242,
+        "ingredient_master_id": 121,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2605,
+        "recipe_id": 242,
+        "ingredient_master_id": 87,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2606,
+        "recipe_id": 242,
+        "ingredient_master_id": 230,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "식초"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1296,
+        "recipe_id": 242,
+        "step_order": 1,
+        "description": "돼지고기는 삼겹살 부위로 선택하여 3∼4mm 두께로 썰어 맛술, 생강즙에 재워둔다.",
+        "tip": null
+      },
+      {
+        "id": 1297,
+        "recipe_id": 242,
+        "step_order": 2,
+        "description": "약한 불에 고추장, 고춧가루, 진간장, 설탕, 마늘, 깨소금, 후춧가루, 참식용유를 혼합하여 양념장을 만들어 준비된 고기에 양념장을 버무려 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 1298,
+        "recipe_id": 242,
+        "step_order": 3,
+        "description": "양념된 고기는 달군 돌판에 잘 뒤집어 가며 굽고 돌판이 없으면 석쇠에 호일을 깔고 굽는다.",
+        "tip": null
+      },
+      {
+        "id": 1299,
+        "recipe_id": 242,
+        "step_order": 4,
+        "description": "그릇에 된장, 고추장, 다진 파, 다진 마늘, 깨소금, 식초, 설탕, 참기름 등을 혼합하여 쌈장을 만들어 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 1300,
+        "recipe_id": 242,
+        "step_order": 5,
+        "description": "대파는 줄기 부분만 쪽을 떼어 곱게 채썰어 냉수에 잠깐 담근 후 물기를 빼고 고춧가루로 물을 들여 참기름과 통깨를 넣고 살살 무쳐서 곁들인다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "name": "짬뽕해물탕밥",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 2354,
+        "recipe_id": 223,
+        "ingredient_master_id": 396,
+        "quantity": "2",
+        "unit": "그릇",
+        "ingredient_name": "밥"
+      },
+      {
+        "id": 2355,
+        "recipe_id": 223,
+        "ingredient_master_id": 97,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 2356,
+        "recipe_id": 223,
+        "ingredient_master_id": 264,
+        "quantity": "1/2",
+        "unit": "마리",
+        "ingredient_name": "오징어"
+      },
+      {
+        "id": 2357,
+        "recipe_id": 223,
+        "ingredient_master_id": 299,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "조갯살"
+      },
+      {
+        "id": 2358,
+        "recipe_id": 223,
+        "ingredient_master_id": 387,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "홍합"
+      },
+      {
+        "id": 2359,
+        "recipe_id": 223,
+        "ingredient_master_id": 249,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 2360,
+        "recipe_id": 223,
+        "ingredient_master_id": 83,
+        "quantity": "20",
+        "unit": "g",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 2361,
+        "recipe_id": 223,
+        "ingredient_master_id": 383,
+        "quantity": "700",
+        "unit": "g",
+        "ingredient_name": "호박"
+      },
+      {
+        "id": 2362,
+        "recipe_id": 223,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2363,
+        "recipe_id": 223,
+        "ingredient_master_id": 147,
+        "quantity": "6",
+        "unit": "장",
+        "ingredient_name": "목이버섯"
+      },
+      {
+        "id": 2364,
+        "recipe_id": 223,
+        "ingredient_master_id": 32,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 2365,
+        "recipe_id": 223,
+        "ingredient_master_id": 303,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 2366,
+        "recipe_id": 223,
+        "ingredient_master_id": 121,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2367,
+        "recipe_id": 223,
+        "ingredient_master_id": 195,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 2368,
+        "recipe_id": 223,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 2369,
+        "recipe_id": 223,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2370,
+        "recipe_id": 223,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1202,
+        "recipe_id": 223,
+        "step_order": 1,
+        "description": "양파와 당근, 호박과 대파는 모두 가늘게 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 1203,
+        "recipe_id": 223,
+        "step_order": 2,
+        "description": "돼지고기는 채썰어 다진 마늘, 다진 생강, 진간장, 후춧가루로 조물락 버무려놓는다.",
+        "tip": null
+      },
+      {
+        "id": 1204,
+        "recipe_id": 223,
+        "step_order": 3,
+        "description": "오징어는 딱딱한 면을 제거한 뒤 깨끗이 씻고,안쪽 면에 솔방울 모양이 되도록 어슷하게 칼집을 넣어가며 저며 썬다.",
+        "tip": null
+      },
+      {
+        "id": 1205,
+        "recipe_id": 223,
+        "step_order": 4,
+        "description": "조갯살은 소금물에 흔들어 씻어 지저분한 것들을 제거하고, 홍합은 내장 옆의 털들을 제거한 뒤 끊는 물에 넣어 살짝 데쳐 사용해야 국물이 맑다. 홍합 삶은 물은 거즈에 걸러 육수로 사용한다.",
+        "tip": null
+      },
+      {
+        "id": 1206,
+        "recipe_id": 223,
+        "step_order": 5,
+        "description": "목이버섯은 물에 담가 불린 뒤 먹기 좋게 자른다.",
+        "tip": null
+      },
+      {
+        "id": 1207,
+        "recipe_id": 223,
+        "step_order": 6,
+        "description": "오목한 팬에 돼지고기를 볶다가 채썬 야채와 고춧가루를 넣어 볶는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "가는파잡채",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1279,
+        "recipe_id": 123,
+        "ingredient_master_id": 87,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 1280,
+        "recipe_id": 123,
+        "ingredient_master_id": 249,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 1281,
+        "recipe_id": 123,
+        "ingredient_master_id": 97,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 1282,
+        "recipe_id": 123,
+        "ingredient_master_id": 320,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 1283,
+        "recipe_id": 123,
+        "ingredient_master_id": 303,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1284,
+        "recipe_id": 123,
+        "ingredient_master_id": 195,
+        "quantity": "1",
+        "unit": "쪽",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 1285,
+        "recipe_id": 123,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 1286,
+        "recipe_id": 123,
+        "ingredient_master_id": 121,
+        "quantity": "2",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 1287,
+        "recipe_id": 123,
+        "ingredient_master_id": 195,
+        "quantity": "1",
+        "unit": "쪽",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 1288,
+        "recipe_id": 123,
+        "ingredient_master_id": 229,
+        "quantity": "3",
+        "unit": "큰술",
+        "ingredient_name": "식용유"
+      },
+      {
+        "id": 1289,
+        "recipe_id": 123,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 1290,
+        "recipe_id": 123,
+        "ingredient_master_id": 403,
+        "quantity": "1/2",
+        "unit": "작은술",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 1291,
+        "recipe_id": 123,
+        "ingredient_master_id": 309,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 666,
+        "recipe_id": 123,
+        "step_order": 1,
+        "description": "가는 파는 다듬어 씻은 뒤 4cm 길이로 썰고 양파는 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 667,
+        "recipe_id": 123,
+        "step_order": 2,
+        "description": "돼지고기는 5cm 길이로 채썰어 청주와 간장에 버무린다.",
+        "tip": null
+      },
+      {
+        "id": 668,
+        "recipe_id": 123,
+        "step_order": 3,
+        "description": "굵은파는 굵게 다지고 마늘, 생강은 곱게 다진다.",
+        "tip": null
+      },
+      {
+        "id": 669,
+        "recipe_id": 123,
+        "step_order": 4,
+        "description": "식용유를 두른 프라이팬에 다진 굵은파, 다진 마늘, 생강을 볶은 뒤 진진간장를 넣는다.",
+        "tip": null
+      },
+      {
+        "id": 670,
+        "recipe_id": 123,
+        "step_order": 5,
+        "description": "돼지고기를 볶다가 양파를 넣는다.",
+        "tip": null
+      },
+      {
+        "id": 671,
+        "recipe_id": 123,
+        "step_order": 6,
+        "description": "가는파를 넣어 살짝 볶은 뒤 소금, 후춧가루, 참식용유를 넣는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "중국식볶음밥",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 1226,
+        "recipe_id": 118,
+        "ingredient_master_id": 396,
+        "quantity": "800",
+        "unit": "g",
+        "ingredient_name": "밥"
+      },
+      {
+        "id": 1227,
+        "recipe_id": 118,
+        "ingredient_master_id": 79,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 1228,
+        "recipe_id": 118,
+        "ingredient_master_id": 97,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 1229,
+        "recipe_id": 118,
+        "ingredient_master_id": 83,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 1230,
+        "recipe_id": 118,
+        "ingredient_master_id": 249,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 1231,
+        "recipe_id": 118,
+        "ingredient_master_id": 366,
+        "quantity": "4",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 1232,
+        "recipe_id": 118,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 1233,
+        "recipe_id": 118,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 1234,
+        "recipe_id": 118,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 1235,
+        "recipe_id": 118,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "식용유"
+      }
+    ],
+    "steps": [
+      {
+        "id": 640,
+        "recipe_id": 118,
+        "step_order": 1,
+        "description": "계란은 풀어서 소금으로 간을 맞춘다.",
+        "tip": "프라이팬에 채소나 고기로 볶음요리를 할 때 소금을 넣어 주면 기름이 튀는 것을 막아준다. 이때는 미리 양념할 때 소금을 약간 적다 싶게 넣어야 음식의 간을 맞출 수 있다."
+      },
+      {
+        "id": 641,
+        "recipe_id": 118,
+        "step_order": 2,
+        "description": "돼지고기와 당근, 양파는 0.7cm 크기로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 642,
+        "recipe_id": 118,
+        "step_order": 3,
+        "description": "말린 표고 버섯은 미지근한 물에 불려 기둥을 떼어내고 0.7cm 크기로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 643,
+        "recipe_id": 118,
+        "step_order": 4,
+        "description": "대파는 굵게 다진다.",
+        "tip": null
+      },
+      {
+        "id": 644,
+        "recipe_id": 118,
+        "step_order": 5,
+        "description": "식용유를 넉넉히 두른 프라이팬에 계란을 넣어 젓가락으로 휘저어 익힌 뒤 꺼낸다.",
+        "tip": null
+      },
+      {
+        "id": 645,
+        "recipe_id": 118,
+        "step_order": 6,
+        "description": "식용유를 두른 프라이팬에 돼지고기를 넣어 볶다가 당근, 양파, 표고버섯을 넣어 볶는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "순두부찌개",
+    "cook_time_min": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 563,
+        "recipe_id": 54,
+        "ingredient_master_id": 215,
+        "quantity": "800",
+        "unit": "g",
+        "ingredient_name": "순두부"
+      },
+      {
+        "id": 564,
+        "recipe_id": 54,
+        "ingredient_master_id": 97,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 565,
+        "recipe_id": 54,
+        "ingredient_master_id": 163,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "바지락"
+      },
+      {
+        "id": 566,
+        "recipe_id": 54,
+        "ingredient_master_id": 48,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "김치"
+      },
+      {
+        "id": 567,
+        "recipe_id": 54,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 568,
+        "recipe_id": 54,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 569,
+        "recipe_id": 54,
+        "ingredient_master_id": 32,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 570,
+        "recipe_id": 54,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 571,
+        "recipe_id": 54,
+        "ingredient_master_id": 79,
+        "quantity": "4",
+        "unit": "개",
+        "ingredient_name": "달걀"
+      },
+      {
+        "id": 572,
+        "recipe_id": 54,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 573,
+        "recipe_id": 54,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 574,
+        "recipe_id": 54,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "식용유"
+      }
+    ],
+    "steps": [
+      {
+        "id": 283,
+        "recipe_id": 54,
+        "step_order": 1,
+        "description": "바지락은 소금물에 담가 해감한다. 해감한 조개는 냄비에 물을 붓고 끓여 입이 벌어지면 조개는 건져내고 국물은 체에 걸러 놓는다.",
+        "tip": "두부를 만드는 과정에서 콩의 단백질이 몽글몽글하게 응고되었을 때 압착하지 않고 그대로 먹는 것을 순두부라 한다"
+      },
+      {
+        "id": 284,
+        "recipe_id": 54,
+        "step_order": 2,
+        "description": "돼지고기는 식용유를 떼서 저며썰고 배추김치는 속을 털어내고 잘게 썬다.",
+        "tip": null
+      },
+      {
+        "id": 285,
+        "recipe_id": 54,
+        "step_order": 3,
+        "description": "양파는 반으로 갈라 채썰고 굵은 파는 어슷썬다.",
+        "tip": null
+      },
+      {
+        "id": 286,
+        "recipe_id": 54,
+        "step_order": 4,
+        "description": "냄비에 식용유를 두르고 김치, 돼지고기, 양파, 다진 마늘, 고춧가루를 넣어 볶다가 조갯국물을 넣고 끓인다.",
+        "tip": null
+      },
+      {
+        "id": 287,
+        "recipe_id": 54,
+        "step_order": 5,
+        "description": "돼지고기와 김치가 익으면 뚝배기에 옮겨 담고 숟가락으로 순두부를 뚝뚝 떠 넣는다.",
+        "tip": null
+      },
+      {
+        "id": 288,
+        "recipe_id": 54,
+        "step_order": 6,
+        "description": "바지락과 굵은 파를 넣고 한소끔 끓으면 소금, 후춧가루를 넣어 간을 맞춘다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "name": "돼지고기표고볶음",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 3011,
+        "recipe_id": 279,
+        "ingredient_master_id": 97,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 3012,
+        "recipe_id": 279,
+        "ingredient_master_id": 366,
+        "quantity": "2",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 3013,
+        "recipe_id": 279,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 3014,
+        "recipe_id": 279,
+        "ingredient_master_id": 370,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 3015,
+        "recipe_id": 279,
+        "ingredient_master_id": 315,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "청고추"
+      },
+      {
+        "id": 3016,
+        "recipe_id": 279,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 3017,
+        "recipe_id": 279,
+        "ingredient_master_id": 121,
+        "quantity": "3",
+        "unit": "쪽",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 3018,
+        "recipe_id": 279,
+        "ingredient_master_id": 195,
+        "quantity": "1",
+        "unit": "쪽",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 3019,
+        "recipe_id": 279,
+        "ingredient_master_id": 397,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "녹말가루"
+      },
+      {
+        "id": 3020,
+        "recipe_id": 279,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 3021,
+        "recipe_id": 279,
+        "ingredient_master_id": 42,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "굴소스"
+      },
+      {
+        "id": 3022,
+        "recipe_id": 279,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 3023,
+        "recipe_id": 279,
+        "ingredient_master_id": 130,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "맛술"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1482,
+        "recipe_id": 279,
+        "step_order": 1,
+        "description": "돼지고기는 등심으로 얇게 저며 썰어 진간장, 조미술, 후춧가루로 양념한 다음 녹말가루로 살살 버무려 잠시 둔다.",
+        "tip": null
+      },
+      {
+        "id": 1483,
+        "recipe_id": 279,
+        "step_order": 2,
+        "description": "마늘, 생강은 납작납작하게 편으로 썰고, 대파와 청고추는 어슷하게 썬다.",
+        "tip": null
+      },
+      {
+        "id": 1484,
+        "recipe_id": 279,
+        "step_order": 3,
+        "description": "표고버섯은 미지근한 물에 불려 씻어 뒷부분의 기둥을 잘라 내고 저며 썬다. 양파는 약간 굵직하게 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 1485,
+        "recipe_id": 279,
+        "step_order": 4,
+        "description": "속이 깊은 팬에 식용유를 두르고 청고추, 대파, 마늘, 생강을 넣어 살살 볶다가 돼지고기를 넣어 함께 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 1486,
+        "recipe_id": 279,
+        "step_order": 5,
+        "description": "육수나 표고버섯 불린 물을 부어 끓이면서 소금과 굴소스, 후춧가루로 간을 맞춘다.",
+        "tip": null
+      },
+      {
+        "id": 1487,
+        "recipe_id": 279,
+        "step_order": 6,
+        "description": "자작하게 끓으면 물녹말가루를 넣어 걸쭉하게 농도를 낸 후 참식용유를 살짝 두른다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "name": "가지된장찜",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 2465,
+        "recipe_id": 232,
+        "ingredient_master_id": 5,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "가지"
+      },
+      {
+        "id": 2466,
+        "recipe_id": 232,
+        "ingredient_master_id": 97,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 2467,
+        "recipe_id": 232,
+        "ingredient_master_id": 411,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "밀가루"
+      },
+      {
+        "id": 2468,
+        "recipe_id": 232,
+        "ingredient_master_id": 87,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2469,
+        "recipe_id": 232,
+        "ingredient_master_id": 121,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2470,
+        "recipe_id": 232,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 2471,
+        "recipe_id": 232,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2472,
+        "recipe_id": 232,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 2473,
+        "recipe_id": 232,
+        "ingredient_master_id": 139,
+        "quantity": "8",
+        "unit": "g",
+        "ingredient_name": "멸치"
+      },
+      {
+        "id": 2474,
+        "recipe_id": 232,
+        "ingredient_master_id": 249,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 2475,
+        "recipe_id": 232,
+        "ingredient_master_id": 315,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "청고추"
+      },
+      {
+        "id": 2476,
+        "recipe_id": 232,
+        "ingredient_master_id": 386,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 2477,
+        "recipe_id": 232,
+        "ingredient_master_id": 98,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "된장"
+      },
+      {
+        "id": 2478,
+        "recipe_id": 232,
+        "ingredient_master_id": 32,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "고춧가루"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1249,
+        "recipe_id": 232,
+        "step_order": 1,
+        "description": "가지는 길이 5cm 정도로 토막내어 반으로 잘라 소금물에 절여 물기를 제거한다.",
+        "tip": null
+      },
+      {
+        "id": 1250,
+        "recipe_id": 232,
+        "step_order": 2,
+        "description": "물기를 제거한 가지에 밀가루를 솔솔 뿌려둔다.",
+        "tip": null
+      },
+      {
+        "id": 1251,
+        "recipe_id": 232,
+        "step_order": 3,
+        "description": "냄비에 식용유를 두르고 다진 돼지고기를 볶아준다.",
+        "tip": null
+      },
+      {
+        "id": 1252,
+        "recipe_id": 232,
+        "step_order": 4,
+        "description": "잘게 썬 멸치, 양파, 청고추, 홍고추, 파, 마늘을 ③과 같이 볶다가 된장, 물을 넣어준다.",
+        "tip": null
+      },
+      {
+        "id": 1253,
+        "recipe_id": 232,
+        "step_order": 5,
+        "description": "④가 끓기 시작하면 ①의 가지를 넣고 뚜껑을 덮어 간이 충분히 배도록 오래 찐 후 마지막에 참식용유를 넣어 향을 낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "빈대떡",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1607,
+        "recipe_id": 152,
+        "ingredient_master_id": 70,
+        "quantity": "2",
+        "unit": "컵",
+        "ingredient_name": "녹두"
+      },
+      {
+        "id": 1608,
+        "recipe_id": 152,
+        "ingredient_master_id": 403,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 1609,
+        "recipe_id": 152,
+        "ingredient_master_id": 97,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 1610,
+        "recipe_id": 152,
+        "ingredient_master_id": 213,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "숙주"
+      },
+      {
+        "id": 1611,
+        "recipe_id": 152,
+        "ingredient_master_id": 73,
+        "quantity": "200",
+        "unit": "g",
+        "ingredient_name": "느타리버섯"
+      },
+      {
+        "id": 1612,
+        "recipe_id": 152,
+        "ingredient_master_id": 201,
+        "quantity": "4",
+        "unit": "장",
+        "ingredient_name": "석이버섯"
+      },
+      {
+        "id": 1613,
+        "recipe_id": 152,
+        "ingredient_master_id": 87,
+        "quantity": "1/4",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 1614,
+        "recipe_id": 152,
+        "ingredient_master_id": 231,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "실고추"
+      },
+      {
+        "id": 1615,
+        "recipe_id": 152,
+        "ingredient_master_id": 303,
+        "quantity": "2",
+        "unit": "작은술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1616,
+        "recipe_id": 152,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 1617,
+        "recipe_id": 152,
+        "ingredient_master_id": 121,
+        "quantity": "1/2",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 1618,
+        "recipe_id": 152,
+        "ingredient_master_id": 309,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 1619,
+        "recipe_id": 152,
+        "ingredient_master_id": 51,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "깨소금"
+      },
+      {
+        "id": 1620,
+        "recipe_id": 152,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 1621,
+        "recipe_id": 152,
+        "ingredient_master_id": 364,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "포도씨유"
+      }
+    ],
+    "steps": [
+      {
+        "id": 818,
+        "recipe_id": 152,
+        "step_order": 1,
+        "description": "녹두는 따뜻한 물에 충분히 불린 후 손으로 비벼 껍질을 벗기고 물기를 뺀 뒤 믹서에 물을 넣고 곱게 간다.",
+        "tip": null
+      },
+      {
+        "id": 819,
+        "recipe_id": 152,
+        "step_order": 2,
+        "description": "돼지고기는 다진다. 분량의 양념 재료를 섞어 양념을 만든 후 돼지고기를 넣어 양념한다.",
+        "tip": null
+      },
+      {
+        "id": 820,
+        "recipe_id": 152,
+        "step_order": 3,
+        "description": "느타리버섯은 끓는 물에 데쳐 물기를 짜서 손으로 찢어 두고, 석이버섯은 따뜻한 물에 불려 비벼 씻은 다음 곱게 채썬다. 대파는 어슷하게 썰어 낸다.",
+        "tip": null
+      },
+      {
+        "id": 821,
+        "recipe_id": 152,
+        "step_order": 4,
+        "description": "갈아놓은 녹두를 소금, 후춧가루로 간을 해서 프라이팬에 식용유를 넉넉히 두르고 한 숟가락씩 얹어 지진다.",
+        "tip": null
+      },
+      {
+        "id": 822,
+        "recipe_id": 152,
+        "step_order": 5,
+        "description": "느타리버섯을 전 가운데에 얹고 녹두반죽을 조금만 떠서 버섯 둘레에 얹고 돼지고기, 숙주, 석이버섯, 다진 파, 실고추를 전 위에 올린다.",
+        "tip": null
+      },
+      {
+        "id": 823,
+        "recipe_id": 152,
+        "step_order": 6,
+        "description": "전의 앞뒤를 노릇하게 지져낸다. 그릇에 담고 초진진간장를 곁들인다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "잡채밥",
+    "cook_time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 25,
+        "recipe_id": 3,
+        "ingredient_master_id": 85,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "당면"
+      },
+      {
+        "id": 26,
+        "recipe_id": 3,
+        "ingredient_master_id": 97,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 27,
+        "recipe_id": 3,
+        "ingredient_master_id": 366,
+        "quantity": "2",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 28,
+        "recipe_id": 3,
+        "ingredient_master_id": 383,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "호박"
+      },
+      {
+        "id": 29,
+        "recipe_id": 3,
+        "ingredient_master_id": 83,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "당근"
+      },
+      {
+        "id": 30,
+        "recipe_id": 3,
+        "ingredient_master_id": 176,
+        "quantity": "30",
+        "unit": "g",
+        "ingredient_name": "부추"
+      },
+      {
+        "id": 31,
+        "recipe_id": 3,
+        "ingredient_master_id": 315,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "청고추"
+      },
+      {
+        "id": 32,
+        "recipe_id": 3,
+        "ingredient_master_id": 386,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "홍고추"
+      },
+      {
+        "id": 33,
+        "recipe_id": 3,
+        "ingredient_master_id": 87,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 34,
+        "recipe_id": 3,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 35,
+        "recipe_id": 3,
+        "ingredient_master_id": 303,
+        "quantity": "4",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 36,
+        "recipe_id": 3,
+        "ingredient_master_id": 309,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 37,
+        "recipe_id": 3,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 38,
+        "recipe_id": 3,
+        "ingredient_master_id": 396,
+        "quantity": "3",
+        "unit": "공기",
+        "ingredient_name": "밥"
+      },
+      {
+        "id": 39,
+        "recipe_id": 3,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      }
+    ],
+    "steps": [
+      {
+        "id": 12,
+        "recipe_id": 3,
+        "step_order": 1,
+        "description": "당면은 따뜻한 물에 불려 적당한 길이로 자른다.",
+        "tip": null
+      },
+      {
+        "id": 13,
+        "recipe_id": 3,
+        "step_order": 2,
+        "description": "고기와 버섯, 채소는 모두 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 14,
+        "recipe_id": 3,
+        "step_order": 3,
+        "description": "달군 팬에 식용유를 두르고 고기와, 버섯, 당근, 고추, 호박을 볶다가 숨이 죽으면 부추를 넣는다.",
+        "tip": null
+      },
+      {
+        "id": 15,
+        "recipe_id": 3,
+        "step_order": 4,
+        "description": "다진 파, 마늘, 생강을 넣고 소금과 통후추, 진진진간장를 넣어 간을 한 다음 당면을 넣어 볶아준다.",
+        "tip": null
+      },
+      {
+        "id": 16,
+        "recipe_id": 3,
+        "step_order": 5,
+        "description": "뜨거운 밥을 그릇에 담고 잡채를 얹어 낸다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "김치채소볶음",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1701,
+        "recipe_id": 159,
+        "ingredient_master_id": 48,
+        "quantity": "1/8",
+        "unit": "포기",
+        "ingredient_name": "김치"
+      },
+      {
+        "id": 1702,
+        "recipe_id": 159,
+        "ingredient_master_id": 97,
+        "quantity": "80",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 1703,
+        "recipe_id": 159,
+        "ingredient_master_id": 302,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "죽순"
+      },
+      {
+        "id": 1704,
+        "recipe_id": 159,
+        "ingredient_master_id": 247,
+        "quantity": "2",
+        "unit": "개",
+        "ingredient_name": "양송이버섯"
+      },
+      {
+        "id": 1705,
+        "recipe_id": 159,
+        "ingredient_master_id": 370,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "피망"
+      },
+      {
+        "id": 1706,
+        "recipe_id": 159,
+        "ingredient_master_id": 123,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "마른고추"
+      },
+      {
+        "id": 1707,
+        "recipe_id": 159,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 1708,
+        "recipe_id": 159,
+        "ingredient_master_id": 121,
+        "quantity": "2",
+        "unit": "톨",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 1709,
+        "recipe_id": 159,
+        "ingredient_master_id": 195,
+        "quantity": "1/3",
+        "unit": "개",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 1710,
+        "recipe_id": 159,
+        "ingredient_master_id": 320,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "청주"
+      },
+      {
+        "id": 1711,
+        "recipe_id": 159,
+        "ingredient_master_id": 403,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "소금"
+      },
+      {
+        "id": 1712,
+        "recipe_id": 159,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 1713,
+        "recipe_id": 159,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 1714,
+        "recipe_id": 159,
+        "ingredient_master_id": 303,
+        "quantity": "1",
+        "unit": "작은술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1715,
+        "recipe_id": 159,
+        "ingredient_master_id": 229,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "식용유"
+      }
+    ],
+    "steps": [
+      {
+        "id": 856,
+        "recipe_id": 159,
+        "step_order": 1,
+        "description": "배추김치는 속을 털어내고 국물을 짠 후 2cm 두께로 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 857,
+        "recipe_id": 159,
+        "step_order": 2,
+        "description": "돼지고기를 채썰어 진간장 1작은술, 청주 1큰술, 후춧가루 약간을  넣고 재워둔다.",
+        "tip": null
+      },
+      {
+        "id": 858,
+        "recipe_id": 159,
+        "step_order": 3,
+        "description": "죽순, 양송이버섯은 모양대로 얇게 썰고 피망도 채썬다. 마른 고추를 어슷썰어 씨를 털어내고 대파, 마늘, 생강은 곱게 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 859,
+        "recipe_id": 159,
+        "step_order": 4,
+        "description": "프라이팬에 식용유를 두르고 충분히 달궈지면 마른 고추를  볶다가  대파, 마늘, 생강을 넣어 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 860,
+        "recipe_id": 159,
+        "step_order": 5,
+        "description": "④에 돼지고기를 넣어 센불에서 볶은 후 김치, 죽순, 양송이버섯을 넣어 같이 볶는다.",
+        "tip": null
+      },
+      {
+        "id": 861,
+        "recipe_id": 159,
+        "step_order": 6,
+        "description": "⑤에  피망을 넣어 볶고 소금, 후춧가루로 간하고 참기름으로 마무리한다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "name": "콩나물무밥",
+    "cook_time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 1909,
+        "recipe_id": 179,
+        "ingredient_master_id": 399,
+        "quantity": "2",
+        "unit": "컵",
+        "ingredient_name": "쌀"
+      },
+      {
+        "id": 1910,
+        "recipe_id": 179,
+        "ingredient_master_id": 341,
+        "quantity": "500",
+        "unit": "g",
+        "ingredient_name": "콩나물"
+      },
+      {
+        "id": 1911,
+        "recipe_id": 179,
+        "ingredient_master_id": 97,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 1912,
+        "recipe_id": 179,
+        "ingredient_master_id": 309,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "참기름"
+      },
+      {
+        "id": 1913,
+        "recipe_id": 179,
+        "ingredient_master_id": 148,
+        "quantity": "1/5",
+        "unit": "개",
+        "ingredient_name": "무"
+      },
+      {
+        "id": 1914,
+        "recipe_id": 179,
+        "ingredient_master_id": 328,
+        "quantity": "150",
+        "unit": "g",
+        "ingredient_name": "취나물"
+      },
+      {
+        "id": 1915,
+        "recipe_id": 179,
+        "ingredient_master_id": 303,
+        "quantity": "6",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 1916,
+        "recipe_id": 179,
+        "ingredient_master_id": 87,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 1917,
+        "recipe_id": 179,
+        "ingredient_master_id": 121,
+        "quantity": "1",
+        "unit": "½큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 1918,
+        "recipe_id": 179,
+        "ingredient_master_id": 51,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "깨소금"
+      },
+      {
+        "id": 1919,
+        "recipe_id": 179,
+        "ingredient_master_id": 367,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "풋고추"
+      }
+    ],
+    "steps": [
+      {
+        "id": 967,
+        "recipe_id": 179,
+        "step_order": 1,
+        "description": "쌀은 씻어 건져 놓는다.",
+        "tip": "* 돼지고기 양념장  간장 1큰술, 설탕 1작은술, 마늘 1작은술, 참기름약간, 후추약간  "
+      },
+      {
+        "id": 968,
+        "recipe_id": 179,
+        "step_order": 2,
+        "description": "콩나물은 통통한 것으로 다듬어 씻어 놓는다.",
+        "tip": null
+      },
+      {
+        "id": 969,
+        "recipe_id": 179,
+        "step_order": 3,
+        "description": "돼지고기는 살코기로 준비해 4~5㎝ 길이로 굵게 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 970,
+        "recipe_id": 179,
+        "step_order": 4,
+        "description": "무는 깨끗이 씻어서 폭 0.5㎝ 길이 4~5㎝ 길이로 굵게 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 971,
+        "recipe_id": 179,
+        "step_order": 5,
+        "description": "취나물은 끓는 물에 소금을 조금 넣고 데쳐서 찬물에 1시간 정도 담가 쓴맛을 우려낸다. 여러번 헹군 뒤 물기를 꼭 짜서 4㎝ 길이로 썬다.",
+        "tip": null
+      },
+      {
+        "id": 972,
+        "recipe_id": 179,
+        "step_order": 6,
+        "description": "돼지고기에 양념을 해서 프라이팬에 볶아 놓는다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "name": "버섯두부찌개",
+    "cook_time_min": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": 2525,
+        "recipe_id": 237,
+        "ingredient_master_id": 101,
+        "quantity": "1",
+        "unit": "모",
+        "ingredient_name": "두부"
+      },
+      {
+        "id": 2526,
+        "recipe_id": 237,
+        "ingredient_master_id": 97,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 2527,
+        "recipe_id": 237,
+        "ingredient_master_id": 73,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "느타리버섯"
+      },
+      {
+        "id": 2528,
+        "recipe_id": 237,
+        "ingredient_master_id": 366,
+        "quantity": "2",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 2529,
+        "recipe_id": 237,
+        "ingredient_master_id": 361,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "팽이버섯"
+      },
+      {
+        "id": 2530,
+        "recipe_id": 237,
+        "ingredient_master_id": 48,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "김치"
+      },
+      {
+        "id": 2531,
+        "recipe_id": 237,
+        "ingredient_master_id": 249,
+        "quantity": "1/2",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 2532,
+        "recipe_id": 237,
+        "ingredient_master_id": 315,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "청고추"
+      },
+      {
+        "id": 2533,
+        "recipe_id": 237,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2534,
+        "recipe_id": 237,
+        "ingredient_master_id": 32,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 2535,
+        "recipe_id": 237,
+        "ingredient_master_id": 39,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "국간장"
+      },
+      {
+        "id": 2536,
+        "recipe_id": 237,
+        "ingredient_master_id": 249,
+        "quantity": "1/4",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 2537,
+        "recipe_id": 237,
+        "ingredient_master_id": 87,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2538,
+        "recipe_id": 237,
+        "ingredient_master_id": 121,
+        "quantity": "1/2",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2539,
+        "recipe_id": 237,
+        "ingredient_master_id": 51,
+        "quantity": "1",
+        "unit": "큰술",
+        "ingredient_name": "깨소금"
+      },
+      {
+        "id": 2540,
+        "recipe_id": 237,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      },
+      {
+        "id": 2541,
+        "recipe_id": 237,
+        "ingredient_master_id": 309,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "참기름"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1274,
+        "recipe_id": 237,
+        "step_order": 1,
+        "description": "두부는 모양이 으깨지지 않도록 씻어 도톰하고 납작하게 썰어 준비하고 잘 익은 김치는 속을 털어내고 송송 썰어 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1275,
+        "recipe_id": 237,
+        "step_order": 2,
+        "description": "느타리버섯은 적당한 굵기로 잘라놓고 생표고 팽이버섯도 먹기 좋게 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1276,
+        "recipe_id": 237,
+        "step_order": 3,
+        "description": "돼지고기는 잘게 썰고 양파는 채썰어 준비한다.",
+        "tip": null
+      },
+      {
+        "id": 1277,
+        "recipe_id": 237,
+        "step_order": 4,
+        "description": "청고추, 대파는 어슷하게 썰어놓고 마늘, 생강은 다진다.",
+        "tip": null
+      },
+      {
+        "id": 1278,
+        "recipe_id": 237,
+        "step_order": 5,
+        "description": "냄비에 참식용유를 두르고 돼지고기, 김치, 양파를 달달 볶다가 물을 넣어 한소끔 끓인다.",
+        "tip": null
+      },
+      {
+        "id": 1279,
+        "recipe_id": 237,
+        "step_order": 6,
+        "description": "고춧가루 1큰술, 국간장 1큰술, 다진 양파, 다진 마늘, 깨소금, 어슷썬 청고추를 섞어 양념장을 만든다.",
+        "tip": null
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": "버섯만두전골",
+    "cook_time_min": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "id": 2412,
+        "recipe_id": 227,
+        "ingredient_master_id": 126,
+        "quantity": "12",
+        "unit": "장",
+        "ingredient_name": "만두피"
+      },
+      {
+        "id": 2413,
+        "recipe_id": 227,
+        "ingredient_master_id": 97,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "돼지고기"
+      },
+      {
+        "id": 2414,
+        "recipe_id": 227,
+        "ingredient_master_id": 101,
+        "quantity": "1",
+        "unit": "모",
+        "ingredient_name": "두부"
+      },
+      {
+        "id": 2415,
+        "recipe_id": 227,
+        "ingredient_master_id": 213,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "숙주"
+      },
+      {
+        "id": 2416,
+        "recipe_id": 227,
+        "ingredient_master_id": 48,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "김치"
+      },
+      {
+        "id": 2417,
+        "recipe_id": 227,
+        "ingredient_master_id": 249,
+        "quantity": "1",
+        "unit": "개",
+        "ingredient_name": "양파"
+      },
+      {
+        "id": 2418,
+        "recipe_id": 227,
+        "ingredient_master_id": 153,
+        "quantity": "50",
+        "unit": "g",
+        "ingredient_name": "미나리"
+      },
+      {
+        "id": 2419,
+        "recipe_id": 227,
+        "ingredient_master_id": 73,
+        "quantity": "100",
+        "unit": "g",
+        "ingredient_name": "느타리버섯"
+      },
+      {
+        "id": 2420,
+        "recipe_id": 227,
+        "ingredient_master_id": 366,
+        "quantity": "4",
+        "unit": "장",
+        "ingredient_name": "표고버섯"
+      },
+      {
+        "id": 2421,
+        "recipe_id": 227,
+        "ingredient_master_id": 87,
+        "quantity": "1/2",
+        "unit": "뿌리",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2422,
+        "recipe_id": 227,
+        "ingredient_master_id": 32,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "고춧가루"
+      },
+      {
+        "id": 2423,
+        "recipe_id": 227,
+        "ingredient_master_id": 303,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "진간장"
+      },
+      {
+        "id": 2424,
+        "recipe_id": 227,
+        "ingredient_master_id": 87,
+        "quantity": "2",
+        "unit": "큰술",
+        "ingredient_name": "대파"
+      },
+      {
+        "id": 2425,
+        "recipe_id": 227,
+        "ingredient_master_id": 121,
+        "quantity": "1/2",
+        "unit": "큰술",
+        "ingredient_name": "마늘"
+      },
+      {
+        "id": 2426,
+        "recipe_id": 227,
+        "ingredient_master_id": 195,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "생강"
+      },
+      {
+        "id": 2427,
+        "recipe_id": 227,
+        "ingredient_master_id": 391,
+        "quantity": null,
+        "unit": "약간",
+        "ingredient_name": "후추"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1225,
+        "recipe_id": 227,
+        "step_order": 1,
+        "description": "두부는 깨끗한 헝겊에 싸 둘러 짜면서 물기를 완전히 빼고 으깨어 놓는다. 숙주는 삶아 다지고, 김치는 속을 털어내고 물기를 짠 다음 잘게 썬다. 돼지고기에 두부, 숙주, 김치를 넣고 갖은 양념으로 간하여 만두소를 만든다.",
+        "tip": "**만두는 일단 한 번 쪄낸댜. 만두전골에 넣는 만두는 한 번 쪄내어 전골국물이 끓기 시작할때 넣어야 퍼지지 않고 쫀득쫀득한 맛이 난다."
+      },
+      {
+        "id": 1226,
+        "recipe_id": 227,
+        "step_order": 2,
+        "description": "만두피에 만두소를 알맞게 얹어 한식 만두 모양으로 빚어 찜통에 한 번 쪄낸다.",
+        "tip": null
+      },
+      {
+        "id": 1227,
+        "recipe_id": 227,
+        "step_order": 3,
+        "description": "채소와 버섯은 손질하여 같은 길이로 짧게 썰거나 채썬다.",
+        "tip": null
+      },
+      {
+        "id": 1228,
+        "recipe_id": 227,
+        "step_order": 4,
+        "description": "고춧가루에 국간장, 다진 파, 다진 마늘, 생강, 후춧가루를 넣어 양념장을 만든다.",
+        "tip": null
+      },
+      {
+        "id": 1229,
+        "recipe_id": 227,
+        "step_order": 5,
+        "description": "전골냄비에 버섯과 채소를 보기 좋게 돌려 담고 육수를 붓고 양념장을 골고루 끼얹은 다음 한소끔 끓으면 만두를 넣어 끓이면서 간을 맞춘다.",
+        "tip": null
+      }
+    ]
+  }
+]

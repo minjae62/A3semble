@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
   deleteInventory,
@@ -9,41 +9,34 @@ import {
   isLoggedIn,
   logout,
   updateInventory,
-  type InventoryItemRaw,
   type TrafficLight,
 } from "../../lib/api";
-
-// ============================================================
-// 화면용 타입 (백엔드 응답을 평평하게 가공)
-// ============================================================
-type FridgeItem = {
-  id: number;
-  name: string;
-  category: string;
-  quantity: string;
-  unit: string;
-  expire_date: string;
-  traffic_light: TrafficLight;
-  score: number;
-};
-
-// ============================================================
-// 카테고리 → 이모지
-// ============================================================
-const CATEGORY_EMOJI: Record<string, string> = {
-  "육류": "🥩",
-  "생선/해산물": "🐟",
-  "유제품/치즈": "🥛",
-  "계란/콩/두부": "🥚",
-  "채소": "🥬",
-  "과일/견과": "🍎",
-  "곡류/면/떡": "🍞",
-  "김치/절임/묵": "🥢",
-  "해조류/건어물": "🍘",
-  "가공식품/기타": "🥫",
-  "조미료": "🧂",
-};
-const getEmoji = (category: string) => CATEGORY_EMOJI[category] || "📦";
+import {
+  FridgeItem,
+  formatDday,
+  getDday,
+  getEmoji,
+  rawToItem,
+} from "../../lib/inventory-utils";
+import { getStorageTip } from "../../lib/storage-tips";
+import {
+  getAllMemos,
+  getMemo,
+  removeMemo,
+  setMemo,
+} from "../../lib/item-memos";
+import {
+  Button,
+  Card,
+  EmptyState,
+  ErrorBanner,
+  LoadingScreen,
+  Modal,
+  SkeletonListItem,
+  useToast,
+} from "../../components/ui";
+import { AppShell } from "../../components/layout";
+import { recordEvent } from "../../lib/impact-tracking";
 
 // ============================================================
 // 신호등 스타일
@@ -51,86 +44,62 @@ const getEmoji = (category: string) => CATEGORY_EMOJI[category] || "📦";
 const TRAFFIC: Record<
   TrafficLight,
   {
-    border: string;
+    accent: "red" | "yellow" | "green";
     iconBg: string;
     chip: string;
     chipText: string;
     dday: string;
     label: string;
     statBg: string;
+    statBgActive: string;
     statText: string;
     statDot: string;
   }
 > = {
   red: {
-    border: "border-l-rose-400",
+    accent: "red",
     iconBg: "bg-rose-50",
     chip: "bg-rose-100",
     chipText: "text-rose-600",
     dday: "text-rose-500",
     label: "즉시소진",
     statBg: "bg-rose-50 border-rose-100",
+    statBgActive: "bg-rose-100 border-rose-300 ring-2 ring-rose-200",
     statText: "text-rose-600",
     statDot: "bg-rose-400",
   },
   yellow: {
-    border: "border-l-amber-400",
+    accent: "yellow",
     iconBg: "bg-amber-50",
     chip: "bg-amber-100",
     chipText: "text-amber-700",
     dday: "text-amber-500",
     label: "기한임박",
     statBg: "bg-amber-50 border-amber-100",
+    statBgActive: "bg-amber-100 border-amber-300 ring-2 ring-amber-200",
     statText: "text-amber-600",
     statDot: "bg-amber-400",
   },
   green: {
-    border: "border-l-emerald-400",
+    accent: "green",
     iconBg: "bg-emerald-50",
     chip: "bg-emerald-100",
     chipText: "text-emerald-700",
     dday: "text-emerald-600",
     label: "안전상태",
     statBg: "bg-emerald-50 border-emerald-100",
+    statBgActive: "bg-emerald-100 border-emerald-300 ring-2 ring-emerald-200",
     statText: "text-emerald-600",
     statDot: "bg-emerald-400",
   },
 };
 
 // ============================================================
-// 헬퍼
-// ============================================================
-function getDday(dateStr: string): number {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  return Math.ceil((new Date(dateStr).getTime() - today.getTime()) / 86400000);
-}
-
-function formatDday(d: number): string {
-  if (d > 0) return `D-${d}`;
-  if (d === 0) return "D-Day";
-  return `D+${-d}`;
-}
-
-function rawToItem(raw: InventoryItemRaw): FridgeItem {
-  return {
-    id: raw.id,
-    name: raw.ingredient.name,
-    category: raw.ingredient.category,
-    quantity: raw.quantity,
-    unit: raw.unit,
-    expire_date: raw.expire_date,
-    traffic_light: raw.traffic_light,
-    score: raw.score,
-  };
-}
-
-// ============================================================
 // 메인 컴포넌트
 // ============================================================
 export default function FridgePage() {
   const router = useRouter();
-  // 로그인 검사 중인지 확인하는 상태를 추가(기본값 true)
+  const toast = useToast();
   const [isAuthChecking, setIsAuthChecking] = useState(true);
 
   const [items, setItems] = useState<FridgeItem[]>([]);
@@ -140,7 +109,11 @@ export default function FridgePage() {
   const [editingItem, setEditingItem] = useState<FridgeItem | null>(null);
   const [editDate, setEditDate] = useState("");
   const [editQty, setEditQty] = useState(0);
-  const [toast, setToast] = useState<string | null>(null);
+  const [editMemo, setEditMemo] = useState("");
+  // inventory id → 메모 (카드에 메모 아이콘 표시용)
+  const [memos, setMemos] = useState<Record<string, string>>({});
+  // 신호등 필터: null = 전체, "red"|"yellow"|"green" = 해당 항목만
+  const [filter, setFilter] = useState<TrafficLight | null>(null);
 
   const loadInventory = useCallback(async () => {
     setLoading(true);
@@ -149,6 +122,7 @@ export default function FridgePage() {
       const res = await getInventory(sort);
       const list = (res.data?.items ?? []).map(rawToItem);
       setItems(list);
+      setMemos(getAllMemos());
     } catch (e) {
       console.error("재고 조회 실패:", e);
       setItems([]);
@@ -158,7 +132,6 @@ export default function FridgePage() {
     }
   }, [sort]);
 
-  // 마운트 시 로그인 체크 (SSR-safe: 클라이언트 마운트 후 localStorage 확인)
   useEffect(() => {
     if (!isLoggedIn()) {
       router.replace("/login");
@@ -168,7 +141,6 @@ export default function FridgePage() {
     setIsAuthChecking(false);
   }, [router]);
 
-  // 정렬 변경 시 다시 로드
   useEffect(() => {
     if (!isLoggedIn()) return;
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -179,6 +151,7 @@ export default function FridgePage() {
     setEditingItem(item);
     setEditDate(item.expire_date);
     setEditQty(parseFloat(item.quantity) || 0);
+    setEditMemo(getMemo(item.id));
   }
 
   async function handleSave() {
@@ -188,6 +161,9 @@ export default function FridgePage() {
         quantity: editQty,
         expire_date: editDate,
       });
+      // 메모는 로컬에 저장 (백엔드 미지원)
+      setMemo(editingItem.id, editMemo);
+      setMemos(getAllMemos());
       setItems((prev) =>
         prev.map((i) =>
           i.id === editingItem.id
@@ -196,28 +172,57 @@ export default function FridgePage() {
         )
       );
       setEditingItem(null);
-      showToast("수정 완료");
+      toast.show("수정 완료", "success");
     } catch (e) {
-      showToast(e instanceof Error ? e.message : "수정 실패");
+      toast.show(e instanceof Error ? e.message : "수정 실패", "error");
     }
   }
 
-  async function handleDelete() {
+  // 소진 (다 먹었어요) — 임팩트 이벤트 "consumed" 기록 + 재고 삭제
+  async function handleConsume() {
     if (!editingItem) return;
-    if (!confirm(`"${editingItem.name}" 을(를) 삭제할까요?`)) return;
     try {
       await deleteInventory(editingItem.id);
+      recordEvent({
+        inventoryId: editingItem.id,
+        ingredientName: editingItem.name,
+        category: editingItem.category,
+        action: "consumed",
+        quantity: parseFloat(editingItem.quantity) || 0,
+        unit: editingItem.unit,
+      });
+      removeMemo(editingItem.id);
+      setMemos(getAllMemos());
       setItems((prev) => prev.filter((i) => i.id !== editingItem.id));
       setEditingItem(null);
-      showToast("삭제 완료");
+      toast.show("잘 드셨어요! 임팩트에 반영됐어요", "success");
     } catch (e) {
-      showToast(e instanceof Error ? e.message : "삭제 실패");
+      toast.show(e instanceof Error ? e.message : "처리 실패", "error");
     }
   }
 
-  function showToast(msg: string) {
-    setToast(msg);
-    setTimeout(() => setToast(null), 2200);
+  // 폐기 (버렸어요) — 임팩트 이벤트 "discarded" 기록 + 재고 삭제
+  async function handleDiscard() {
+    if (!editingItem) return;
+    if (!confirm(`"${editingItem.name}"을(를) 버린 것으로 기록할까요?`)) return;
+    try {
+      await deleteInventory(editingItem.id);
+      recordEvent({
+        inventoryId: editingItem.id,
+        ingredientName: editingItem.name,
+        category: editingItem.category,
+        action: "discarded",
+        quantity: parseFloat(editingItem.quantity) || 0,
+        unit: editingItem.unit,
+      });
+      removeMemo(editingItem.id);
+      setMemos(getAllMemos());
+      setItems((prev) => prev.filter((i) => i.id !== editingItem.id));
+      setEditingItem(null);
+      toast.show("다음엔 더 잘 활용해봐요", "default");
+    } catch (e) {
+      toast.show(e instanceof Error ? e.message : "처리 실패", "error");
+    }
   }
 
   function handleLogout() {
@@ -226,30 +231,37 @@ export default function FridgePage() {
   }
 
   // 통계
-  const stats = items.reduce(
-    (acc, i) => {
-      acc[i.traffic_light]++;
-      return acc;
-    },
-    { red: 0, yellow: 0, green: 0 } as Record<TrafficLight, number>
+  const stats = useMemo(
+    () =>
+      items.reduce(
+        (acc, i) => {
+          acc[i.traffic_light]++;
+          return acc;
+        },
+        { red: 0, yellow: 0, green: 0 } as Record<TrafficLight, number>
+      ),
+    [items]
   );
-  const warningCount = stats.red + stats.yellow;
 
-  // return 전에 로그인 검사 중이면 로딩 화면 보여주기
+  // 필터 적용된 리스트
+  const visibleItems = useMemo(
+    () => (filter ? items.filter((i) => i.traffic_light === filter) : items),
+    [items, filter]
+  );
+
+  function toggleFilter(key: TrafficLight) {
+    setFilter((prev) => (prev === key ? null : key));
+  }
+
   if (isAuthChecking) {
-    return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center pb-32">
-        <span className="text-slate-400 font-bold">인증 정보 확인 중...</span>
-      </div>
-    );
+    return <LoadingScreen message="인증 정보 확인 중..." />;
   }
 
   return (
-    <main className="min-h-screen bg-slate-50">
-      <div className="relative mx-auto min-h-screen max-w-md overflow-hidden bg-white pb-24 shadow-2xl">
-        {/* ── 헤더 (그라디언트) ── */}
+    <AppShell maxWidth="md" background="default">
+      <div className="relative min-h-screen overflow-hidden bg-white pb-24 shadow-2xl md:rounded-3xl md:my-4">
+        {/* ── 헤더 ── */}
         <header className="relative overflow-hidden bg-gradient-to-br from-emerald-400 to-teal-500 px-6 pt-12 pb-24">
-          {/* 장식 원 */}
           <div className="absolute -top-10 -right-10 h-44 w-44 rounded-full bg-white/10" />
           <div className="absolute top-10 -right-2 w-24 h-24 rounded-full bg-white/10" />
 
@@ -278,7 +290,7 @@ export default function FridgePage() {
 
             <div className="mt-8">
               <p className="mb-1 text-sm font-semibold text-white/80">
-                {warningCount > 0
+                {stats.red + stats.yellow > 0
                   ? `⚠️ 주의가 필요한 재료가 있어요`
                   : items.length === 0
                   ? `🥬 냉장고가 비어있어요`
@@ -295,37 +307,74 @@ export default function FridgePage() {
           </div>
         </header>
 
-        {/* ── 통계 칩 카드 ── */}
-        <div className="relative z-10 mb-5 -mt-12 px-4">
+        {/* ── 통계 칩 카드 (클릭으로 필터 토글) ── */}
+        <div className="relative z-10 mb-3 -mt-12 px-4">
           <div className="flex gap-2.5 rounded-2xl bg-white p-4 shadow-lg shadow-slate-200/80">
             {(["red", "yellow", "green"] as const).map((key) => {
               const s = TRAFFIC[key];
+              const active = filter === key;
               return (
-                <div
+                <button
                   key={key}
-                  className={`flex flex-1 flex-col items-center rounded-xl border py-2.5 ${s.statBg}`}
+                  onClick={() => toggleFilter(key)}
+                  aria-pressed={active}
+                  className={`flex flex-1 flex-col items-center rounded-xl border py-2.5 transition active:scale-95 ${
+                    active ? s.statBgActive : s.statBg
+                  } hover:brightness-95`}
                 >
-                  <div
-                    className={`mb-1.5 h-2 w-2 rounded-full ${s.statDot}`}
-                  />
+                  <div className={`mb-1.5 h-2 w-2 rounded-full ${s.statDot}`} />
                   <div className={`text-xl font-extrabold ${s.statText}`}>
                     {stats[key]}
                   </div>
-                  <div
-                    className={`text-[10px] font-bold opacity-70 ${s.statText}`}
-                  >
+                  <div className={`text-[10px] font-bold opacity-70 ${s.statText}`}>
                     {s.label}
                   </div>
-                </div>
+                </button>
               );
             })}
           </div>
+          {filter && (
+            <div className="mt-2 flex items-center justify-between rounded-xl bg-slate-100 px-3 py-1.5 text-xs">
+              <span className="font-bold text-slate-600">
+                {TRAFFIC[filter].label} 항목만 표시 중 ({visibleItems.length}개)
+              </span>
+              <button
+                onClick={() => setFilter(null)}
+                className="font-bold text-slate-500 hover:text-slate-700"
+              >
+                전체 보기 ✕
+              </button>
+            </div>
+          )}
         </div>
+
+        {/* ── 긴급 경고 배너 (red ≥ 1) ── */}
+        {stats.red > 0 && !filter && (
+          <div className="mx-4 mb-3 flex items-center gap-3 rounded-2xl border border-rose-200 bg-gradient-to-br from-rose-50 to-rose-100 px-4 py-3 shadow-sm">
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-rose-500 text-xl shadow-md shadow-rose-200">
+              🚨
+            </div>
+            <div className="min-w-0 flex-1">
+              <p className="text-sm font-extrabold text-rose-700">
+                긴급 처리 필요한 재료 {stats.red}개
+              </p>
+              <p className="mt-0.5 text-[11px] font-medium text-rose-600">
+                지금 바로 소진하거나 처리해주세요
+              </p>
+            </div>
+            <button
+              onClick={() => setFilter("red")}
+              className="flex-shrink-0 rounded-full bg-rose-500 px-3 py-1.5 text-xs font-extrabold text-white shadow-md shadow-rose-200 transition hover:bg-rose-600"
+            >
+              보기
+            </button>
+          </div>
+        )}
 
         {/* ── 에러 알림 ── */}
         {loadError && !loading && (
-          <div className="mx-4 mb-3 rounded-xl border border-rose-100 bg-rose-50 px-4 py-2.5 text-xs text-rose-600">
-            ⚠️ {loadError}
+          <div className="mx-4 mb-3">
+            <ErrorBanner message={loadError} />
           </div>
         )}
 
@@ -344,84 +393,108 @@ export default function FridgePage() {
               className="flex items-center gap-1 rounded-full bg-slate-100 px-3 py-1.5 text-xs font-bold text-slate-500 transition hover:bg-slate-200"
             >
               {sort === "recommended" ? "추천순" : "소비기한순"}
-              <svg
-                width="10"
-                height="10"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="3"
-              >
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
                 <path d="M6 9l6 6 6-6" />
               </svg>
             </button>
           </div>
 
           {loading && (
-            <div className="py-16 text-center text-sm text-slate-400">
-              불러오는 중...
+            <div className="flex flex-col gap-2.5">
+              <SkeletonListItem />
+              <SkeletonListItem />
+              <SkeletonListItem />
             </div>
           )}
 
           {!loading && items.length === 0 && (
-            <div className="py-16 text-center">
-              <div className="mb-3 text-5xl">🥬</div>
-              <p className="font-bold text-slate-700">냉장고가 비어있어요</p>
-              <p className="mt-1 text-sm text-slate-400">
-                식재료를 추가해보세요
-              </p>
-              <Link
-                href="/add"
-                className="mt-5 inline-block rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-bold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600"
-              >
-                식재료 추가하러 가기
-              </Link>
-            </div>
+            <EmptyState
+              emoji="🥬"
+              title="냉장고가 비어있어요"
+              description="식재료를 추가해보세요"
+              action={
+                <Link
+                  href="/add"
+                  className="rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-bold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600"
+                >
+                  식재료 추가하러 가기
+                </Link>
+              }
+            />
           )}
 
-          {!loading && items.length > 0 && (
+          {!loading && items.length > 0 && visibleItems.length === 0 && (
+            <EmptyState
+              emoji="🔍"
+              title={`${TRAFFIC[filter!].label} 항목이 없어요`}
+              description="필터를 해제하면 전체 재고가 보입니다"
+              action={
+                <button
+                  onClick={() => setFilter(null)}
+                  className="rounded-full bg-slate-100 px-6 py-2.5 text-sm font-bold text-slate-600 transition hover:bg-slate-200"
+                >
+                  전체 보기
+                </button>
+              }
+            />
+          )}
+
+          {!loading && visibleItems.length > 0 && (
             <div className="flex flex-col gap-2.5">
-              {items.map((item, idx) => {
+              {visibleItems.map((item, idx) => {
                 const s = TRAFFIC[item.traffic_light];
                 const dday = getDday(item.expire_date);
                 return (
                   <button
                     key={item.id}
                     onClick={() => openEdit(item)}
-                    className={`group flex animate-fade-in-up items-center justify-between rounded-2xl border border-slate-100 border-l-4 bg-white p-4 text-left shadow-sm transition-all hover:shadow-md active:scale-[0.98] ${s.border}`}
+                    className="group flex animate-fade-in-up items-center justify-between text-left"
                     style={{ animationDelay: `${idx * 50}ms` }}
                   >
-                    <div className="flex items-center gap-3">
-                      <div
-                        className={`flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl text-2xl ${s.iconBg}`}
-                      >
-                        {getEmoji(item.category)}
-                      </div>
-                      <div className="min-w-0">
-                        <div className="truncate text-sm font-extrabold text-slate-800">
-                          {item.name}
+                    <Card
+                      accent={s.accent}
+                      interactive
+                      padding="md"
+                      className="flex w-full items-center justify-between"
+                    >
+                      <div className="flex items-center gap-3">
+                        <div className={`flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl text-2xl ${s.iconBg}`}>
+                          {getEmoji(item.category)}
                         </div>
-                        <div className="mt-1 flex items-center gap-1.5">
-                          <span className="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-400">
-                            {item.quantity}
-                            {item.unit}
-                          </span>
-                          <span
-                            className={`rounded-full px-2 py-0.5 text-[10px] font-extrabold ${s.chip} ${s.chipText}`}
-                          >
-                            {s.label}
-                          </span>
+                        <div className="min-w-0">
+                          <div className="truncate text-sm font-extrabold text-slate-800">
+                            {item.name}
+                          </div>
+                          <div className="mt-1 flex items-center gap-1.5">
+                            <span className="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-400">
+                              {item.quantity}
+                              {item.unit}
+                            </span>
+                            <span className={`rounded-full px-2 py-0.5 text-[10px] font-extrabold ${s.chip} ${s.chipText}`}>
+                              {s.label}
+                            </span>
+                            {memos[String(item.id)] && (
+                              <span className="rounded-full bg-slate-100 px-1.5 py-0.5 text-[10px] font-bold text-slate-400">
+                                📝
+                              </span>
+                            )}
+                          </div>
+                          {memos[String(item.id)] && (
+                            <div className="mt-1 truncate text-[11px] text-slate-400">
+                              {memos[String(item.id)]}
+                            </div>
+                          )}
                         </div>
                       </div>
-                    </div>
-                    <div className="flex-shrink-0 text-right">
-                      <div className={`text-lg font-extrabold ${s.dday}`}>
-                        {formatDday(dday)}
+                      <div className="flex-shrink-0 text-right">
+                        <div className={`text-lg font-extrabold ${s.dday}`}>
+                          {formatDday(dday)}
+                        </div>
+                        <div className="mt-0.5 text-[10px] text-slate-300">
+                          {item.expire_date.slice(5)}
+                        </div>
                       </div>
-                      <div className="mt-0.5 text-[10px] text-slate-300">
-                        {item.expire_date.slice(5)}
-                      </div>
-                    </div>
+                    </Card>
                   </button>
                 );
               })}
@@ -440,47 +513,14 @@ export default function FridgePage() {
           식재료 등록
         </Link>
 
-        {/* ── 하단 네비 ── */}
-        <nav className="fixed bottom-0 left-1/2 z-40 flex w-full max-w-md -translate-x-1/2 items-center justify-between border-t border-slate-100 bg-white/95 px-8 py-3 shadow-[0_-4px_16px_-4px_rgba(0,0,0,0.06)] backdrop-blur-lg">
-          <Link href="/fridge" className="flex flex-col items-center gap-1 text-emerald-500">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <rect x="4" y="2" width="16" height="20" rx="2" />
-              <path d="M4 10h16M8 14h.01M8 18h.01" />
-            </svg>
-            <span className="text-[10px] font-extrabold">냉장고</span>
-          </Link>
-          <Link href="/recipe" className="flex flex-col items-center gap-1 text-slate-300 hover:text-slate-500">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <path d="M12 2L15 8.5L22 9.3L17 14L18.5 21L12 17.8L5.5 21L7 14L2 9.3L9 8.5Z" />
-            </svg>
-            <span className="text-[10px] font-extrabold">레시피</span>
-          </Link>
-          <Link href="/mypage" className="flex flex-col items-center gap-1 text-slate-300 hover:text-slate-500">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <circle cx="12" cy="8" r="4" />
-              <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
-            </svg>
-            <span className="text-[10px] font-extrabold">내 정보</span>
-          </Link>
-        </nav>
       </div>
 
       {/* ── 수정 모달 ── */}
-      {editingItem && (
-        <div
-          className="fixed inset-0 z-50 flex animate-fade-in items-end justify-center bg-slate-900/40 backdrop-blur-sm"
-          onClick={() => setEditingItem(null)}
-        >
-          <div
-            className="w-full max-w-md animate-slide-up rounded-t-3xl border-t border-slate-100 bg-white p-6 pb-10 shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="mx-auto mb-5 h-1 w-10 rounded-full bg-slate-200" />
-
+      <Modal open={!!editingItem} onClose={() => setEditingItem(null)}>
+        {editingItem && (
+          <>
             <div className="mb-5 flex items-center gap-3">
-              <div
-                className={`flex h-12 w-12 items-center justify-center rounded-xl text-2xl ${TRAFFIC[editingItem.traffic_light].iconBg}`}
-              >
+              <div className={`flex h-12 w-12 items-center justify-center rounded-xl text-2xl ${TRAFFIC[editingItem.traffic_light].iconBg}`}>
                 {getEmoji(editingItem.category)}
               </div>
               <div className="min-w-0 flex-1">
@@ -499,7 +539,19 @@ export default function FridgePage() {
               </button>
             </div>
 
-            {/* 수량 +/- */}
+            {/* ── 보관 팁 ── */}
+            <div className="mb-5 flex gap-2.5 rounded-xl border border-emerald-100 bg-emerald-50/70 px-3.5 py-3">
+              <span className="text-base leading-none">💡</span>
+              <div className="min-w-0">
+                <p className="text-[10px] font-bold uppercase tracking-widest text-emerald-500">
+                  보관 팁
+                </p>
+                <p className="mt-0.5 text-[13px] font-medium leading-snug text-emerald-800">
+                  {getStorageTip(editingItem.category, editingItem.name)}
+                </p>
+              </div>
+            </div>
+
             <div className="mb-4">
               <label className="mb-2 block text-xs font-bold uppercase tracking-widest text-slate-400">
                 수량
@@ -509,7 +561,7 @@ export default function FridgePage() {
                   onClick={() => setEditQty((q) => Math.max(0, q - 1))}
                   className="h-9 w-9 rounded-lg bg-white font-bold text-slate-700 shadow-sm transition hover:bg-slate-100"
                 >
-                  −
+                  -
                 </button>
                 <input
                   type="number"
@@ -530,8 +582,7 @@ export default function FridgePage() {
               </div>
             </div>
 
-            {/* 소비기한 */}
-            <div className="mb-6">
+            <div className="mb-5">
               <label className="mb-2 block text-xs font-bold uppercase tracking-widest text-slate-400">
                 소비기한
               </label>
@@ -543,30 +594,52 @@ export default function FridgePage() {
               />
             </div>
 
-            <div className="flex gap-3">
-              <button
-                onClick={handleDelete}
-                className="flex-1 rounded-xl bg-rose-50 py-3.5 font-bold text-rose-500 transition hover:bg-rose-100 active:scale-95"
-              >
-                삭제
-              </button>
-              <button
-                onClick={handleSave}
-                className="flex-[2] rounded-xl bg-emerald-500 py-3.5 font-extrabold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600 active:scale-95"
-              >
-                저장
-              </button>
+            {/* ── 커스텀 메모 ── */}
+            <div className="mb-6">
+              <label className="mb-2 flex items-center justify-between text-xs font-bold uppercase tracking-widest text-slate-400">
+                <span>메모</span>
+                <span className="font-medium normal-case tracking-normal text-slate-300">
+                  {editMemo.length}/100
+                </span>
+              </label>
+              <textarea
+                value={editMemo}
+                onChange={(e) => setEditMemo(e.target.value.slice(0, 100))}
+                placeholder="예) 김치찌개용 · 반만 남음 · 냉동실 둘째 칸"
+                rows={2}
+                className="w-full resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium text-slate-800 outline-none transition placeholder:text-slate-300 focus:border-emerald-400"
+              />
             </div>
-          </div>
-        </div>
-      )}
 
-      {/* ── 토스트 ── */}
-      {toast && (
-        <div className="fixed bottom-32 left-1/2 z-[60] -translate-x-1/2 animate-toast-in rounded-full bg-slate-900 px-5 py-3 text-sm font-bold text-white shadow-xl">
-          {toast}
-        </div>
-      )}
-    </main>
+            <div className="space-y-2">
+              <Button variant="primary" size="lg" fullWidth className="!rounded-xl" onClick={handleSave}>
+                저장하기
+              </Button>
+              <div className="flex gap-2">
+                <Button
+                  variant="secondary"
+                  size="md"
+                  className="!rounded-xl flex-1 !bg-emerald-50 !text-emerald-700 !border-emerald-100 hover:!bg-emerald-100"
+                  onClick={handleConsume}
+                >
+                  ✓ 다 먹었어요
+                </Button>
+                <Button
+                  variant="danger"
+                  size="md"
+                  className="!rounded-xl flex-1"
+                  onClick={handleDiscard}
+                >
+                  🗑️ 버렸어요
+                </Button>
+              </div>
+              <p className="pt-1 text-center text-[11px] text-slate-400">
+                선택에 따라 임팩트 통계가 다르게 집계돼요
+              </p>
+            </div>
+          </>
+        )}
+      </Modal>
+    </AppShell>
   );
 }

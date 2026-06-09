@@ -1,0 +1,6001 @@
+[
+  {
+    "id": 195,
+    "bit_id": 232,
+    "name": "생강",
+    "category": "조미료",
+    "default_shelf_days": 21,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 1,
+    "bit_id": 426,
+    "name": "가다랑어포",
+    "category": "해조류/건어물",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 2,
+    "bit_id": 425,
+    "name": "가래떡",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 8,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 3,
+    "bit_id": 424,
+    "name": "가리비",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 4,
+    "bit_id": 423,
+    "name": "가재새우",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 5,
+    "bit_id": 422,
+    "name": "가지",
+    "category": "채소",
+    "default_shelf_days": 10,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 6,
+    "bit_id": 421,
+    "name": "간수",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 7,
+    "bit_id": 420,
+    "name": "갈비",
+    "category": "육류",
+    "default_shelf_days": 4,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 8,
+    "bit_id": 419,
+    "name": "갈치",
+    "category": "생선/해산물",
+    "default_shelf_days": 15,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 9,
+    "bit_id": 418,
+    "name": "감동젓",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 46,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 10,
+    "bit_id": 417,
+    "name": "감자",
+    "category": "채소",
+    "default_shelf_days": 90,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 11,
+    "bit_id": 416,
+    "name": "갑오징어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 12,
+    "bit_id": 415,
+    "name": "갓",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 13,
+    "bit_id": 414,
+    "name": "건블루베리",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 14,
+    "bit_id": 413,
+    "name": "건포도",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 15,
+    "bit_id": 412,
+    "name": "게",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 16,
+    "bit_id": 411,
+    "name": "게맛살",
+    "category": "가공식품/기타",
+    "default_shelf_days": 30,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 17,
+    "bit_id": 410,
+    "name": "겨자",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 18,
+    "bit_id": 409,
+    "name": "겨자잎",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 19,
+    "bit_id": 408,
+    "name": "견과류",
+    "category": "과일/견과",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 20,
+    "bit_id": 407,
+    "name": "계피",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 21,
+    "bit_id": 406,
+    "name": "고구마",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 22,
+    "bit_id": 405,
+    "name": "고구마잎",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 23,
+    "bit_id": 404,
+    "name": "고구마줄기",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 24,
+    "bit_id": 403,
+    "name": "고들빼기",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 25,
+    "bit_id": 402,
+    "name": "고등어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 26,
+    "bit_id": 401,
+    "name": "고사리",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 27,
+    "bit_id": 400,
+    "name": "고수잎",
+    "category": "조미료",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 28,
+    "bit_id": 399,
+    "name": "고추",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 29,
+    "bit_id": 398,
+    "name": "고추기름",
+    "category": "조미료",
+    "default_shelf_days": 275,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 30,
+    "bit_id": 397,
+    "name": "고추냉이",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 31,
+    "bit_id": 396,
+    "name": "고추장",
+    "category": "조미료",
+    "default_shelf_days": 486,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 32,
+    "bit_id": 395,
+    "name": "고춧가루",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 33,
+    "bit_id": 394,
+    "name": "곤약",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 30,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 34,
+    "bit_id": 393,
+    "name": "골뱅이",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 35,
+    "bit_id": 392,
+    "name": "곱창",
+    "category": "육류",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 36,
+    "bit_id": 391,
+    "name": "곶감",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 37,
+    "bit_id": 390,
+    "name": "과일통조림",
+    "category": "가공식품/기타",
+    "default_shelf_days": 1825,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 38,
+    "bit_id": 389,
+    "name": "광어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 39,
+    "bit_id": 388,
+    "name": "국간장",
+    "category": "조미료",
+    "default_shelf_days": 664,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 40,
+    "bit_id": 387,
+    "name": "국수",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 41,
+    "bit_id": 386,
+    "name": "굴",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 42,
+    "bit_id": 385,
+    "name": "굴소스",
+    "category": "조미료",
+    "default_shelf_days": 239,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 43,
+    "bit_id": 384,
+    "name": "그라나 빠다노",
+    "category": "유제품/치즈",
+    "default_shelf_days": 90,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 44,
+    "bit_id": 383,
+    "name": "그린올리브",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 183,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 45,
+    "bit_id": 382,
+    "name": "근대",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 46,
+    "bit_id": 381,
+    "name": "김",
+    "category": "해조류/건어물",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 47,
+    "bit_id": 380,
+    "name": "김밥용김",
+    "category": "해조류/건어물",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 48,
+    "bit_id": 379,
+    "name": "김치",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 365,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 49,
+    "bit_id": 378,
+    "name": "까나리액젓",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 50,
+    "bit_id": 377,
+    "name": "깨",
+    "category": "과일/견과",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 51,
+    "bit_id": 376,
+    "name": "깨소금",
+    "category": "과일/견과",
+    "default_shelf_days": 183,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 52,
+    "bit_id": 375,
+    "name": "깨소스",
+    "category": "조미료",
+    "default_shelf_days": 239,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 53,
+    "bit_id": 374,
+    "name": "깻잎",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 54,
+    "bit_id": 373,
+    "name": "껍질콩",
+    "category": "채소",
+    "default_shelf_days": 10,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 55,
+    "bit_id": 372,
+    "name": "꼴뚜기",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 56,
+    "bit_id": 371,
+    "name": "꽁치",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 57,
+    "bit_id": 370,
+    "name": "꽁치통조림",
+    "category": "가공식품/기타",
+    "default_shelf_days": 1825,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 58,
+    "bit_id": 369,
+    "name": "꽃게",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 59,
+    "bit_id": 368,
+    "name": "꽃빵",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 8,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 60,
+    "bit_id": 367,
+    "name": "꽃상추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 61,
+    "bit_id": 366,
+    "name": "꽈리고추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 62,
+    "bit_id": 365,
+    "name": "꿀",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 63,
+    "bit_id": 364,
+    "name": "낙지",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 64,
+    "bit_id": 363,
+    "name": "날치알",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 65,
+    "bit_id": 362,
+    "name": "냉동만두",
+    "category": "가공식품/기타",
+    "default_shelf_days": 365,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 66,
+    "bit_id": 361,
+    "name": "냉면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 60,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 67,
+    "bit_id": 360,
+    "name": "냉이",
+    "category": "채소",
+    "default_shelf_days": 15,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 68,
+    "bit_id": 359,
+    "name": "넛맥",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 69,
+    "bit_id": 358,
+    "name": "노각",
+    "category": "채소",
+    "default_shelf_days": 10,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 70,
+    "bit_id": 357,
+    "name": "녹두",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 71,
+    "bit_id": 356,
+    "name": "녹차국수",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 72,
+    "bit_id": 355,
+    "name": "누룽지",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 73,
+    "bit_id": 354,
+    "name": "느타리버섯",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 74,
+    "bit_id": 353,
+    "name": "다시마",
+    "category": "해조류/건어물",
+    "default_shelf_days": 7,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 75,
+    "bit_id": 352,
+    "name": "다짐육(돼지고기)",
+    "category": "육류",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 76,
+    "bit_id": 351,
+    "name": "다짐육(소고기)",
+    "category": "육류",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 77,
+    "bit_id": 350,
+    "name": "단무지",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 61,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 78,
+    "bit_id": 349,
+    "name": "단호박",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 79,
+    "bit_id": 348,
+    "name": "달걀",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 25,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 80,
+    "bit_id": 347,
+    "name": "달래",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 81,
+    "bit_id": 346,
+    "name": "닭고기",
+    "category": "육류",
+    "default_shelf_days": 10,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 82,
+    "bit_id": 345,
+    "name": "닭발",
+    "category": "육류",
+    "default_shelf_days": 10,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 83,
+    "bit_id": 344,
+    "name": "당근",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 84,
+    "bit_id": 343,
+    "name": "당근잎",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 85,
+    "bit_id": 342,
+    "name": "당면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 86,
+    "bit_id": 341,
+    "name": "대추",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 87,
+    "bit_id": 340,
+    "name": "대파",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 88,
+    "bit_id": 339,
+    "name": "대하",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 89,
+    "bit_id": 338,
+    "name": "더덕",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 90,
+    "bit_id": 337,
+    "name": "도가니",
+    "category": "육류",
+    "default_shelf_days": 3,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 91,
+    "bit_id": 336,
+    "name": "도라지",
+    "category": "채소",
+    "default_shelf_days": 10,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 92,
+    "bit_id": 335,
+    "name": "도미",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 93,
+    "bit_id": 334,
+    "name": "도토리묵",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 94,
+    "bit_id": 333,
+    "name": "돈까스소스",
+    "category": "조미료",
+    "default_shelf_days": 239,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 95,
+    "bit_id": 332,
+    "name": "동태",
+    "category": "생선/해산물",
+    "default_shelf_days": 3,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 96,
+    "bit_id": 331,
+    "name": "돛나물",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 97,
+    "bit_id": 330,
+    "name": "돼지고기",
+    "category": "육류",
+    "default_shelf_days": 5,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 98,
+    "bit_id": 329,
+    "name": "된장",
+    "category": "조미료",
+    "default_shelf_days": 542,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 99,
+    "bit_id": 328,
+    "name": "두릅",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 100,
+    "bit_id": 327,
+    "name": "두반장",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 101,
+    "bit_id": 326,
+    "name": "두부",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 25,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 102,
+    "bit_id": 325,
+    "name": "들기름",
+    "category": "조미료",
+    "default_shelf_days": 30,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 103,
+    "bit_id": 324,
+    "name": "들깨",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 104,
+    "bit_id": 323,
+    "name": "들깨가루",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 105,
+    "bit_id": 322,
+    "name": "딸기",
+    "category": "과일/견과",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 106,
+    "bit_id": 321,
+    "name": "땅콩",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 107,
+    "bit_id": 320,
+    "name": "땅콩버터",
+    "category": "과일/견과",
+    "default_shelf_days": 90,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 108,
+    "bit_id": 319,
+    "name": "떡",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 8,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 109,
+    "bit_id": 318,
+    "name": "떡국떡",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 8,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 110,
+    "bit_id": 317,
+    "name": "라면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 90,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 111,
+    "bit_id": 316,
+    "name": "라이스페이퍼",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 112,
+    "bit_id": 315,
+    "name": "라임",
+    "category": "과일/견과",
+    "default_shelf_days": 45,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 113,
+    "bit_id": 314,
+    "name": "래디쉬",
+    "category": "채소",
+    "default_shelf_days": 10,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 114,
+    "bit_id": 313,
+    "name": "랩",
+    "category": "가공식품/기타",
+    "default_shelf_days": 14,
+    "risk_factor": "0.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 115,
+    "bit_id": 312,
+    "name": "레드와인",
+    "category": "조미료",
+    "default_shelf_days": 7,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 116,
+    "bit_id": 311,
+    "name": "레몬",
+    "category": "과일/견과",
+    "default_shelf_days": 30,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 117,
+    "bit_id": 310,
+    "name": "레몬드레싱",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 118,
+    "bit_id": 309,
+    "name": "레몬즙",
+    "category": "조미료",
+    "default_shelf_days": 90,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 119,
+    "bit_id": 308,
+    "name": "로즈마리",
+    "category": "조미료",
+    "default_shelf_days": 10,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 120,
+    "bit_id": 307,
+    "name": "루콜라",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 121,
+    "bit_id": 306,
+    "name": "마늘",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 122,
+    "bit_id": 305,
+    "name": "마늘종",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 123,
+    "bit_id": 304,
+    "name": "마른고추",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 124,
+    "bit_id": 303,
+    "name": "마른오징어",
+    "category": "해조류/건어물",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 125,
+    "bit_id": 302,
+    "name": "마요네즈",
+    "category": "조미료",
+    "default_shelf_days": 399,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 126,
+    "bit_id": 301,
+    "name": "만두피",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 127,
+    "bit_id": 300,
+    "name": "말린 표고버섯",
+    "category": "채소",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 128,
+    "bit_id": 299,
+    "name": "말린새우",
+    "category": "해조류/건어물",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 129,
+    "bit_id": 298,
+    "name": "맛살조개",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 130,
+    "bit_id": 297,
+    "name": "맛술",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 131,
+    "bit_id": 296,
+    "name": "맛조개",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 132,
+    "bit_id": 295,
+    "name": "매실액",
+    "category": "조미료",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 133,
+    "bit_id": 294,
+    "name": "매실장아찌",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 13,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 134,
+    "bit_id": 293,
+    "name": "머스타드",
+    "category": "조미료",
+    "default_shelf_days": 239,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 135,
+    "bit_id": 292,
+    "name": "메기",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 136,
+    "bit_id": 291,
+    "name": "메밀국수",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 137,
+    "bit_id": 290,
+    "name": "메주",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 730,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 138,
+    "bit_id": 289,
+    "name": "메주콩",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 139,
+    "bit_id": 288,
+    "name": "멸치",
+    "category": "해조류/건어물",
+    "default_shelf_days": 427,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 140,
+    "bit_id": 287,
+    "name": "멸치액젓",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 141,
+    "bit_id": 286,
+    "name": "명란",
+    "category": "생선/해산물",
+    "default_shelf_days": 730,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 142,
+    "bit_id": 285,
+    "name": "명란젓",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 46,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 143,
+    "bit_id": 284,
+    "name": "명태",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 144,
+    "bit_id": 283,
+    "name": "모닝빵",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 145,
+    "bit_id": 282,
+    "name": "모시조개",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 146,
+    "bit_id": 281,
+    "name": "모짜렐라치즈",
+    "category": "유제품/치즈",
+    "default_shelf_days": 90,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 147,
+    "bit_id": 280,
+    "name": "목이버섯",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 148,
+    "bit_id": 279,
+    "name": "무",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 149,
+    "bit_id": 278,
+    "name": "무말랭이",
+    "category": "채소",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 150,
+    "bit_id": 277,
+    "name": "무순",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 151,
+    "bit_id": 276,
+    "name": "문어",
+    "category": "생선/해산물",
+    "default_shelf_days": 20,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 152,
+    "bit_id": 275,
+    "name": "물엿",
+    "category": "조미료",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 153,
+    "bit_id": 274,
+    "name": "미나리",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 154,
+    "bit_id": 273,
+    "name": "미더덕",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 155,
+    "bit_id": 272,
+    "name": "미림",
+    "category": "조미료",
+    "default_shelf_days": 75,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 156,
+    "bit_id": 271,
+    "name": "미소",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 45,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 157,
+    "bit_id": 270,
+    "name": "미역",
+    "category": "해조류/건어물",
+    "default_shelf_days": 45,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 158,
+    "bit_id": 269,
+    "name": "민트",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 159,
+    "bit_id": 268,
+    "name": "밀국수",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 160,
+    "bit_id": 267,
+    "name": "바게트",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 15,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 161,
+    "bit_id": 266,
+    "name": "바나나",
+    "category": "과일/견과",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 162,
+    "bit_id": 265,
+    "name": "바베큐소스",
+    "category": "조미료",
+    "default_shelf_days": 239,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 163,
+    "bit_id": 264,
+    "name": "바지락",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 164,
+    "bit_id": 263,
+    "name": "바질",
+    "category": "조미료",
+    "default_shelf_days": 14,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 165,
+    "bit_id": 262,
+    "name": "바질페스토",
+    "category": "조미료",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 166,
+    "bit_id": 261,
+    "name": "박고지",
+    "category": "채소",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 167,
+    "bit_id": 260,
+    "name": "발효초",
+    "category": "조미료",
+    "default_shelf_days": 549,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 168,
+    "bit_id": 259,
+    "name": "밤",
+    "category": "과일/견과",
+    "default_shelf_days": 60,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 169,
+    "bit_id": 258,
+    "name": "방울토마토",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 170,
+    "bit_id": 257,
+    "name": "배",
+    "category": "과일/견과",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 171,
+    "bit_id": 256,
+    "name": "배추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 172,
+    "bit_id": 255,
+    "name": "버섯",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 173,
+    "bit_id": 254,
+    "name": "버터",
+    "category": "유제품/치즈",
+    "default_shelf_days": 180,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 174,
+    "bit_id": 253,
+    "name": "베이컨",
+    "category": "육류",
+    "default_shelf_days": 180,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 175,
+    "bit_id": 252,
+    "name": "봄동",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 176,
+    "bit_id": 251,
+    "name": "부추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 177,
+    "bit_id": 250,
+    "name": "북어",
+    "category": "해조류/건어물",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 178,
+    "bit_id": 249,
+    "name": "브로콜리",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 179,
+    "bit_id": 248,
+    "name": "비엔나소시지",
+    "category": "육류",
+    "default_shelf_days": 34,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 180,
+    "bit_id": 247,
+    "name": "비트",
+    "category": "채소",
+    "default_shelf_days": 30,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 181,
+    "bit_id": 246,
+    "name": "사골",
+    "category": "육류",
+    "default_shelf_days": 3,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 182,
+    "bit_id": 245,
+    "name": "사과",
+    "category": "과일/견과",
+    "default_shelf_days": 20,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 183,
+    "bit_id": 244,
+    "name": "사라다나",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 184,
+    "bit_id": 243,
+    "name": "사우어크라우트",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 120,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 185,
+    "bit_id": 242,
+    "name": "사워크림",
+    "category": "유제품/치즈",
+    "default_shelf_days": 30,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 186,
+    "bit_id": 241,
+    "name": "사이다",
+    "category": "가공식품/기타",
+    "default_shelf_days": 730,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 187,
+    "bit_id": 240,
+    "name": "산초가루",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 188,
+    "bit_id": 239,
+    "name": "삶은 문어살",
+    "category": "생선/해산물",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 189,
+    "bit_id": 238,
+    "name": "상추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 190,
+    "bit_id": 237,
+    "name": "새송이버섯",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 191,
+    "bit_id": 236,
+    "name": "새싹채소",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 192,
+    "bit_id": 235,
+    "name": "새우",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 193,
+    "bit_id": 234,
+    "name": "새우젓",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 46,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 194,
+    "bit_id": 233,
+    "name": "샐러리",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 196,
+    "bit_id": 231,
+    "name": "생강즙",
+    "category": "조미료",
+    "default_shelf_days": 90,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 197,
+    "bit_id": 230,
+    "name": "생굴",
+    "category": "생선/해산물",
+    "default_shelf_days": 4,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 198,
+    "bit_id": 229,
+    "name": "생크림",
+    "category": "유제품/치즈",
+    "default_shelf_days": 9,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 199,
+    "bit_id": 228,
+    "name": "생태",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 200,
+    "bit_id": 227,
+    "name": "서리태콩",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 201,
+    "bit_id": 226,
+    "name": "석이버섯",
+    "category": "채소",
+    "default_shelf_days": 365,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 202,
+    "bit_id": 225,
+    "name": "선지",
+    "category": "육류",
+    "default_shelf_days": 10,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 203,
+    "bit_id": 224,
+    "name": "설탕",
+    "category": "조미료",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 204,
+    "bit_id": 223,
+    "name": "소고기",
+    "category": "육류",
+    "default_shelf_days": 3,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 205,
+    "bit_id": 222,
+    "name": "소꼬리",
+    "category": "육류",
+    "default_shelf_days": 14,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 206,
+    "bit_id": 221,
+    "name": "소라",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 207,
+    "bit_id": 220,
+    "name": "소면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 208,
+    "bit_id": 219,
+    "name": "솔잎",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 209,
+    "bit_id": 218,
+    "name": "송어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 210,
+    "bit_id": 217,
+    "name": "송이버섯",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 211,
+    "bit_id": 216,
+    "name": "수삼",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 212,
+    "bit_id": 215,
+    "name": "수수",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 213,
+    "bit_id": 214,
+    "name": "숙주",
+    "category": "채소",
+    "default_shelf_days": 2,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 214,
+    "bit_id": 213,
+    "name": "순대",
+    "category": "육류",
+    "default_shelf_days": 10,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 215,
+    "bit_id": 212,
+    "name": "순두부",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 216,
+    "bit_id": 211,
+    "name": "술",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 217,
+    "bit_id": 210,
+    "name": "숯",
+    "category": "가공식품/기타",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 218,
+    "bit_id": 209,
+    "name": "슈가파우더",
+    "category": "조미료",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 219,
+    "bit_id": 208,
+    "name": "스위트마조람",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 220,
+    "bit_id": 207,
+    "name": "스위트콘",
+    "category": "가공식품/기타",
+    "default_shelf_days": 1095,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 332,
+    "bit_id": 95,
+    "name": "칠리",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 221,
+    "bit_id": 206,
+    "name": "스파게티면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 222,
+    "bit_id": 205,
+    "name": "슬라이스치즈",
+    "category": "유제품/치즈",
+    "default_shelf_days": 180,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 223,
+    "bit_id": 204,
+    "name": "슬라이스햄",
+    "category": "육류",
+    "default_shelf_days": 45,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 224,
+    "bit_id": 203,
+    "name": "시금치",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 225,
+    "bit_id": 202,
+    "name": "시래기",
+    "category": "채소",
+    "default_shelf_days": 180,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 226,
+    "bit_id": 201,
+    "name": "시럽",
+    "category": "조미료",
+    "default_shelf_days": 60,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 227,
+    "bit_id": 200,
+    "name": "시판용장국",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 228,
+    "bit_id": 199,
+    "name": "식빵",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 229,
+    "bit_id": 198,
+    "name": "식용유",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 230,
+    "bit_id": 197,
+    "name": "식초",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 231,
+    "bit_id": 196,
+    "name": "실고추",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 232,
+    "bit_id": 195,
+    "name": "싸리버섯",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 233,
+    "bit_id": 194,
+    "name": "쌀국수",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 234,
+    "bit_id": 193,
+    "name": "쌈다시마",
+    "category": "해조류/건어물",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 235,
+    "bit_id": 192,
+    "name": "쌈장",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 236,
+    "bit_id": 191,
+    "name": "쑥",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 237,
+    "bit_id": 190,
+    "name": "쑥갓",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 238,
+    "bit_id": 189,
+    "name": "아구",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 239,
+    "bit_id": 188,
+    "name": "아몬드",
+    "category": "과일/견과",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 240,
+    "bit_id": 187,
+    "name": "아보카도",
+    "category": "과일/견과",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 241,
+    "bit_id": 186,
+    "name": "아스파라거스",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 242,
+    "bit_id": 185,
+    "name": "아욱",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 243,
+    "bit_id": 184,
+    "name": "애호박",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 244,
+    "bit_id": 183,
+    "name": "양",
+    "category": "육류",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 245,
+    "bit_id": 182,
+    "name": "양배추",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 246,
+    "bit_id": 181,
+    "name": "양상추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 247,
+    "bit_id": 180,
+    "name": "양송이버섯",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 248,
+    "bit_id": 179,
+    "name": "양지머리",
+    "category": "육류",
+    "default_shelf_days": 15,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 249,
+    "bit_id": 178,
+    "name": "양파",
+    "category": "채소",
+    "default_shelf_days": 30,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 250,
+    "bit_id": 177,
+    "name": "어린잎채소",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 251,
+    "bit_id": 176,
+    "name": "어묵",
+    "category": "가공식품/기타",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 252,
+    "bit_id": 175,
+    "name": "얼갈이배추",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 253,
+    "bit_id": 174,
+    "name": "에멘탈 치즈",
+    "category": "유제품/치즈",
+    "default_shelf_days": 40,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 254,
+    "bit_id": 173,
+    "name": "연근",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 255,
+    "bit_id": 172,
+    "name": "연어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 256,
+    "bit_id": 171,
+    "name": "연어알",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 257,
+    "bit_id": 170,
+    "name": "열무",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 258,
+    "bit_id": 169,
+    "name": "엿기름",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 259,
+    "bit_id": 168,
+    "name": "오레가노",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 260,
+    "bit_id": 167,
+    "name": "오렌지",
+    "category": "과일/견과",
+    "default_shelf_days": 21,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 261,
+    "bit_id": 166,
+    "name": "오렌지마멀레이드",
+    "category": "과일/견과",
+    "default_shelf_days": 180,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 262,
+    "bit_id": 165,
+    "name": "오보로",
+    "category": "생선/해산물",
+    "default_shelf_days": 3,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 263,
+    "bit_id": 164,
+    "name": "오이",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 264,
+    "bit_id": 163,
+    "name": "오징어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 265,
+    "bit_id": 162,
+    "name": "오징어채",
+    "category": "해조류/건어물",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 266,
+    "bit_id": 161,
+    "name": "옥수수",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 267,
+    "bit_id": 160,
+    "name": "올리브",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 90,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 268,
+    "bit_id": 159,
+    "name": "올리브유",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 269,
+    "bit_id": 158,
+    "name": "와사비",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 270,
+    "bit_id": 157,
+    "name": "완두콩",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 271,
+    "bit_id": 156,
+    "name": "완두콩통조림",
+    "category": "가공식품/기타",
+    "default_shelf_days": 1095,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 272,
+    "bit_id": 155,
+    "name": "우거지",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 273,
+    "bit_id": 154,
+    "name": "우동면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 30,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 274,
+    "bit_id": 153,
+    "name": "우묵",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 14,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 275,
+    "bit_id": 152,
+    "name": "우스터소스",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 276,
+    "bit_id": 151,
+    "name": "우엉",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 277,
+    "bit_id": 150,
+    "name": "우유",
+    "category": "유제품/치즈",
+    "default_shelf_days": 14,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 278,
+    "bit_id": 149,
+    "name": "월계수잎",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 279,
+    "bit_id": 148,
+    "name": "유부",
+    "category": "가공식품/기타",
+    "default_shelf_days": 90,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 280,
+    "bit_id": 147,
+    "name": "은행",
+    "category": "과일/견과",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 281,
+    "bit_id": 146,
+    "name": "이스트",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 282,
+    "bit_id": 145,
+    "name": "이태리고추",
+    "category": "채소",
+    "default_shelf_days": 365,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 283,
+    "bit_id": 144,
+    "name": "인삼",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 284,
+    "bit_id": 143,
+    "name": "잉어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 285,
+    "bit_id": 142,
+    "name": "자몽",
+    "category": "과일/견과",
+    "default_shelf_days": 21,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 286,
+    "bit_id": 141,
+    "name": "잔멸치",
+    "category": "해조류/건어물",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 287,
+    "bit_id": 140,
+    "name": "잔새우",
+    "category": "해조류/건어물",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 288,
+    "bit_id": 139,
+    "name": "잣",
+    "category": "과일/견과",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 289,
+    "bit_id": 138,
+    "name": "장어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 290,
+    "bit_id": 137,
+    "name": "장어뼈",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 291,
+    "bit_id": 136,
+    "name": "재첩",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 292,
+    "bit_id": 135,
+    "name": "적양배추",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 293,
+    "bit_id": 134,
+    "name": "전복",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 294,
+    "bit_id": 133,
+    "name": "전어",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 295,
+    "bit_id": 132,
+    "name": "전어젓갈",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 30,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 296,
+    "bit_id": 131,
+    "name": "정종",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 297,
+    "bit_id": 130,
+    "name": "정향",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 298,
+    "bit_id": 129,
+    "name": "조",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 299,
+    "bit_id": 128,
+    "name": "조갯살",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 300,
+    "bit_id": 127,
+    "name": "조기",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 301,
+    "bit_id": 126,
+    "name": "조청",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 302,
+    "bit_id": 125,
+    "name": "죽순",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 303,
+    "bit_id": 124,
+    "name": "진간장",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 304,
+    "bit_id": 123,
+    "name": "쪽파",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 305,
+    "bit_id": 122,
+    "name": "쫄면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 306,
+    "bit_id": 121,
+    "name": "쭈꾸미",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 307,
+    "bit_id": 120,
+    "name": "차이브",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 308,
+    "bit_id": 119,
+    "name": "차조",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 309,
+    "bit_id": 118,
+    "name": "참기름",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 310,
+    "bit_id": 117,
+    "name": "참깨",
+    "category": "과일/견과",
+    "default_shelf_days": 1460,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 311,
+    "bit_id": 116,
+    "name": "참나물",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 312,
+    "bit_id": 115,
+    "name": "참치",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 313,
+    "bit_id": 114,
+    "name": "참치통조림",
+    "category": "가공식품/기타",
+    "default_shelf_days": 1095,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 314,
+    "bit_id": 113,
+    "name": "청경채",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 315,
+    "bit_id": 112,
+    "name": "청고추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 316,
+    "bit_id": 111,
+    "name": "청국장",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 317,
+    "bit_id": 110,
+    "name": "청동호박",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 318,
+    "bit_id": 109,
+    "name": "청양고추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 319,
+    "bit_id": 108,
+    "name": "청어알",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 320,
+    "bit_id": 107,
+    "name": "청주",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 321,
+    "bit_id": 106,
+    "name": "청포묵",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 6,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 322,
+    "bit_id": 105,
+    "name": "체리",
+    "category": "과일/견과",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 323,
+    "bit_id": 104,
+    "name": "초고추장",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 324,
+    "bit_id": 103,
+    "name": "초생강",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 30,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 325,
+    "bit_id": 102,
+    "name": "초콜릿",
+    "category": "가공식품/기타",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 326,
+    "bit_id": 101,
+    "name": "총각무",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 327,
+    "bit_id": 100,
+    "name": "춘권피",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 180,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 328,
+    "bit_id": 99,
+    "name": "취나물",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 329,
+    "bit_id": 98,
+    "name": "치자",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 330,
+    "bit_id": 97,
+    "name": "치즈",
+    "category": "유제품/치즈",
+    "default_shelf_days": 30,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 331,
+    "bit_id": 96,
+    "name": "치커리",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 333,
+    "bit_id": 94,
+    "name": "칵테일새우",
+    "category": "생선/해산물",
+    "default_shelf_days": 4,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 334,
+    "bit_id": 93,
+    "name": "칼국수면",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 335,
+    "bit_id": 92,
+    "name": "컬리플라워",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 336,
+    "bit_id": 91,
+    "name": "케이퍼",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 90,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 337,
+    "bit_id": 90,
+    "name": "케일",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 338,
+    "bit_id": 89,
+    "name": "코다리",
+    "category": "해조류/건어물",
+    "default_shelf_days": 7,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 339,
+    "bit_id": 88,
+    "name": "콘플레이크",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 340,
+    "bit_id": 87,
+    "name": "콩",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 341,
+    "bit_id": 86,
+    "name": "콩나물",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 342,
+    "bit_id": 85,
+    "name": "콩비지",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 343,
+    "bit_id": 84,
+    "name": "크림수프",
+    "category": "가공식품/기타",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 344,
+    "bit_id": 83,
+    "name": "크림치즈",
+    "category": "유제품/치즈",
+    "default_shelf_days": 180,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 345,
+    "bit_id": 82,
+    "name": "키위",
+    "category": "과일/견과",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 346,
+    "bit_id": 81,
+    "name": "타바스코",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 347,
+    "bit_id": 80,
+    "name": "타임",
+    "category": "조미료",
+    "default_shelf_days": 2,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 348,
+    "bit_id": 79,
+    "name": "토란",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 349,
+    "bit_id": 78,
+    "name": "토마토",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 350,
+    "bit_id": 77,
+    "name": "토마토소스",
+    "category": "조미료",
+    "default_shelf_days": 30,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 351,
+    "bit_id": 76,
+    "name": "토마토케찹",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 352,
+    "bit_id": 75,
+    "name": "토마토페이스트",
+    "category": "조미료",
+    "default_shelf_days": 30,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 353,
+    "bit_id": 74,
+    "name": "트레비스",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 354,
+    "bit_id": 73,
+    "name": "파래",
+    "category": "해조류/건어물",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 355,
+    "bit_id": 72,
+    "name": "파마산치즈",
+    "category": "유제품/치즈",
+    "default_shelf_days": 365,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 356,
+    "bit_id": 71,
+    "name": "파슬리",
+    "category": "조미료",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 357,
+    "bit_id": 70,
+    "name": "파인애플",
+    "category": "과일/견과",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 358,
+    "bit_id": 69,
+    "name": "파프리카",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 359,
+    "bit_id": 68,
+    "name": "팔각",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 360,
+    "bit_id": 67,
+    "name": "팥",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 361,
+    "bit_id": 66,
+    "name": "팽이버섯",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 362,
+    "bit_id": 65,
+    "name": "페투치네",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 363,
+    "bit_id": 64,
+    "name": "포도",
+    "category": "과일/견과",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 364,
+    "bit_id": 63,
+    "name": "포도씨유",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 365,
+    "bit_id": 62,
+    "name": "폰즈소스",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 366,
+    "bit_id": 61,
+    "name": "표고버섯",
+    "category": "채소",
+    "default_shelf_days": 5,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 367,
+    "bit_id": 60,
+    "name": "풋고추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 368,
+    "bit_id": 59,
+    "name": "프랑크소시지",
+    "category": "육류",
+    "default_shelf_days": 365,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 369,
+    "bit_id": 58,
+    "name": "플레인요구르트",
+    "category": "유제품/치즈",
+    "default_shelf_days": 18,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 370,
+    "bit_id": 57,
+    "name": "피망",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 371,
+    "bit_id": 56,
+    "name": "피시소스",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 372,
+    "bit_id": 55,
+    "name": "피자치즈",
+    "category": "유제품/치즈",
+    "default_shelf_days": 90,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "ml",
+      "L",
+      "g",
+      "개"
+    ]
+  },
+  {
+    "id": 373,
+    "bit_id": 54,
+    "name": "피조개",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 374,
+    "bit_id": 53,
+    "name": "피클",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 90,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 375,
+    "bit_id": 52,
+    "name": "핫소스",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 376,
+    "bit_id": 51,
+    "name": "해삼",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 377,
+    "bit_id": 50,
+    "name": "해초",
+    "category": "해조류/건어물",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "봉지",
+      "장"
+    ]
+  },
+  {
+    "id": 378,
+    "bit_id": 49,
+    "name": "해파리",
+    "category": "생선/해산물",
+    "default_shelf_days": 5,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 379,
+    "bit_id": 48,
+    "name": "햄",
+    "category": "육류",
+    "default_shelf_days": 30,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 380,
+    "bit_id": 47,
+    "name": "허니머스타드",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 381,
+    "bit_id": 46,
+    "name": "허브솔트",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 382,
+    "bit_id": 45,
+    "name": "호두",
+    "category": "과일/견과",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 383,
+    "bit_id": 44,
+    "name": "호박",
+    "category": "채소",
+    "default_shelf_days": 14,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 384,
+    "bit_id": 43,
+    "name": "호박씨",
+    "category": "과일/견과",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 385,
+    "bit_id": 42,
+    "name": "호박잎",
+    "category": "채소",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 386,
+    "bit_id": 41,
+    "name": "홍고추",
+    "category": "채소",
+    "default_shelf_days": 7,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 387,
+    "bit_id": 40,
+    "name": "홍합",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 388,
+    "bit_id": 39,
+    "name": "화이트와인",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 389,
+    "bit_id": 38,
+    "name": "황설탕",
+    "category": "조미료",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 390,
+    "bit_id": 37,
+    "name": "후루츠칵테일",
+    "category": "가공식품/기타",
+    "default_shelf_days": 1095,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 391,
+    "bit_id": 36,
+    "name": "후추",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 392,
+    "bit_id": 35,
+    "name": "흑설탕",
+    "category": "조미료",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 393,
+    "bit_id": 34,
+    "name": "흑임자",
+    "category": "과일/견과",
+    "default_shelf_days": 360,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 394,
+    "bit_id": 33,
+    "name": "카레가루",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 395,
+    "bit_id": 32,
+    "name": "동치미",
+    "category": "김치/절임/묵",
+    "default_shelf_days": 30,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "봉지"
+    ]
+  },
+  {
+    "id": 396,
+    "bit_id": 31,
+    "name": "밥",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 397,
+    "bit_id": 30,
+    "name": "녹말가루",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 398,
+    "bit_id": 29,
+    "name": "콩가루",
+    "category": "계란/콩/두부",
+    "default_shelf_days": 180,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "개",
+      "g",
+      "모",
+      "봉지"
+    ]
+  },
+  {
+    "id": 399,
+    "bit_id": 28,
+    "name": "쌀",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 400,
+    "bit_id": 27,
+    "name": "찹쌀",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 401,
+    "bit_id": 26,
+    "name": "흑미",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 402,
+    "bit_id": 25,
+    "name": "쌀가루",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 403,
+    "bit_id": 24,
+    "name": "소금",
+    "category": "조미료",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 404,
+    "bit_id": 23,
+    "name": "보리",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 1095,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 405,
+    "bit_id": 22,
+    "name": "녹차분말",
+    "category": "가공식품/기타",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 406,
+    "bit_id": 21,
+    "name": "계핏가루",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 407,
+    "bit_id": 20,
+    "name": "찹쌀가루",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 408,
+    "bit_id": 19,
+    "name": "겨자가루",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 409,
+    "bit_id": 18,
+    "name": "땅콩가루",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 410,
+    "bit_id": 17,
+    "name": "전분",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 411,
+    "bit_id": 16,
+    "name": "밀가루",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 412,
+    "bit_id": 15,
+    "name": "강력분",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 413,
+    "bit_id": 14,
+    "name": "튀김가루",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 414,
+    "bit_id": 13,
+    "name": "생선살",
+    "category": "생선/해산물",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  },
+  {
+    "id": 415,
+    "bit_id": 12,
+    "name": "육회",
+    "category": "육류",
+    "default_shelf_days": 2,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 416,
+    "bit_id": 11,
+    "name": "고기산적",
+    "category": "육류",
+    "default_shelf_days": 3,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 417,
+    "bit_id": 10,
+    "name": "미소된장",
+    "category": "조미료",
+    "default_shelf_days": 180,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 418,
+    "bit_id": 9,
+    "name": "적채",
+    "category": "채소",
+    "default_shelf_days": 21,
+    "risk_factor": "1.00",
+    "allowed_units": [
+      "g",
+      "개",
+      "묶음",
+      "봉지"
+    ]
+  },
+  {
+    "id": 419,
+    "bit_id": 8,
+    "name": "인절미",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 3,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 420,
+    "bit_id": 7,
+    "name": "홍차티백",
+    "category": "가공식품/기타",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지",
+      "캔"
+    ]
+  },
+  {
+    "id": 421,
+    "bit_id": 6,
+    "name": "통후추",
+    "category": "조미료",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 422,
+    "bit_id": 5,
+    "name": "청장",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "2.00",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 423,
+    "bit_id": 4,
+    "name": "잣가루",
+    "category": "과일/견과",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "개",
+      "봉지"
+    ]
+  },
+  {
+    "id": 424,
+    "bit_id": 3,
+    "name": "빵가루",
+    "category": "곡류/면/떡",
+    "default_shelf_days": 365,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "kg",
+      "인분",
+      "봉지"
+    ]
+  },
+  {
+    "id": 425,
+    "bit_id": 2,
+    "name": "장조림",
+    "category": "육류",
+    "default_shelf_days": 7,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "개",
+      "덩어리"
+    ]
+  },
+  {
+    "id": 426,
+    "bit_id": 1,
+    "name": "다시다",
+    "category": "조미료",
+    "default_shelf_days": 730,
+    "risk_factor": "0.10",
+    "allowed_units": [
+      "g",
+      "ml",
+      "큰술",
+      "작은술",
+      "봉지"
+    ]
+  },
+  {
+    "id": 427,
+    "bit_id": 0,
+    "name": "대구",
+    "category": "생선/해산물",
+    "default_shelf_days": 3,
+    "risk_factor": "3.00",
+    "allowed_units": [
+      "g",
+      "kg",
+      "마리",
+      "개"
+    ]
+  }
+]

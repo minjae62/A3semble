@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { login } from "../../lib/api";
+import { Button, ErrorBanner } from "../../components/ui";
+import { AppShell } from "../../components/layout";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -40,11 +42,11 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50 px-5 py-10 text-slate-800">
-      <div className="pointer-events-none absolute top-0 right-0 h-72 w-72 rounded-full bg-emerald-200/30 blur-3xl" />
-      <div className="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-teal-200/20 blur-3xl" />
-
-      <div className="relative mx-auto max-w-md">
+    <AppShell maxWidth="md" background="gradient" hideBottomNav>
+      <div className="relative px-5 py-10 text-slate-800">
+        <div className="pointer-events-none absolute top-0 right-0 h-72 w-72 rounded-full bg-emerald-200/30 blur-3xl" />
+        <div className="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-teal-200/20 blur-3xl" />
+        <div className="relative">
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500 shadow-md shadow-emerald-200">
             <span className="text-xl">🧊</span>
@@ -63,11 +65,7 @@ export default function LoginPage() {
             내 냉장고를 확인하려면 로그인해주세요
           </p>
 
-          {error && (
-            <div className="mt-5 rounded-xl border border-rose-100 bg-rose-50 px-4 py-3 text-sm font-medium text-rose-600">
-              {error}
-            </div>
-          )}
+          {error && <div className="mt-5"><ErrorBanner message={error} /></div>}
 
           <div className="mt-6 grid gap-4">
             <div>
@@ -100,13 +98,9 @@ export default function LoginPage() {
               />
             </div>
 
-            <button
-              type="submit"
-              disabled={loading}
-              className="mt-3 rounded-xl bg-emerald-500 py-3.5 text-sm font-extrabold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600 active:scale-95 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:shadow-none"
-            >
+            <Button type="submit" size="lg" loading={loading} fullWidth className="mt-3 !rounded-xl">
               {loading ? "로그인 중..." : "로그인"}
-            </button>
+            </Button>
           </div>
 
           <p className="mt-6 text-center text-sm text-slate-500">
@@ -119,7 +113,8 @@ export default function LoginPage() {
             </Link>
           </p>
         </form>
+        </div>
       </div>
-    </main>
+    </AppShell>
   );
 }

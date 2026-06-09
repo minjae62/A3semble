@@ -1,0 +1,35 @@
+{
+  "users": 1000,
+  "days": 30,
+  "cooksPerDay": 2,
+  "avg": {
+    "random": 18231.796,
+    "expiry": 13845.41,
+    "alpha": 13763.817
+  },
+  "wasteRate": {
+    "random": 0.5651823911599426,
+    "expiry": 0.42920521545928775,
+    "alpha": 0.4266758471599763
+  },
+  "reduction": {
+    "alpha_vs_random": 24.50652146393038,
+    "alpha_vs_expiry": 0.5893144370589242,
+    "expiry_vs_random": 24.058990129112896
+  },
+  "improvedPct": {
+    "alpha_over_expiry": 54.300000000000004,
+    "alpha_over_random": 97,
+    "expiry_over_random": 97.1,
+    "alpha_over_expiry_risk": 65
+  },
+  "riskWeighted": {
+    "random": 37891.35870000003,
+    "expiry": 29202.566700000032,
+    "alpha": 28123.099800000036,
+    "alpha_vs_expiry_pct": 3.6964795289723407,
+    "alpha_vs_random_pct": 25.779648012463557,
+    "expiry_vs_random_pct": 22.930800842462247
+  },
+  "stockedPerUser": 32258.252
+}

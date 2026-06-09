@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { signup } from "../../lib/api";
+import { Button, ErrorBanner } from "../../components/ui";
+import { AppShell } from "../../components/layout";
 
 export default function SignupPage() {
   const router = useRouter();
@@ -35,17 +37,12 @@ export default function SignupPage() {
     setLoading(true);
     try {
       const res = await signup({ email, password });
-
-      // ✅ 버그 수정: 응답 스키마는 { success, data: { access_token, ... } }
-      // 원본 코드는 data.access_token 으로 접근해서 항상 undefined였음
       const accessToken = res.data?.access_token;
 
       if (accessToken) {
         localStorage.setItem("access_token", accessToken);
         router.push("/fridge");
       } else {
-        // 토큰이 안 오는 경우 (Supabase 이메일 인증이 켜진 경우 등)
-        // 회원가입은 됐으니 로그인 페이지로 안내
         setError("가입 완료! 이메일 인증 후 로그인해주세요.");
         setTimeout(() => router.push("/login"), 1500);
       }
@@ -57,11 +54,11 @@ export default function SignupPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50 px-5 py-10 text-slate-800">
-      <div className="pointer-events-none absolute top-0 right-0 h-72 w-72 rounded-full bg-emerald-200/30 blur-3xl" />
-      <div className="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-teal-200/20 blur-3xl" />
-
-      <div className="relative mx-auto max-w-md">
+    <AppShell maxWidth="md" background="gradient" hideBottomNav>
+      <div className="relative px-5 py-10 text-slate-800">
+        <div className="pointer-events-none absolute top-0 right-0 h-72 w-72 rounded-full bg-emerald-200/30 blur-3xl" />
+        <div className="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-teal-200/20 blur-3xl" />
+        <div className="relative">
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500 shadow-md shadow-emerald-200">
             <span className="text-xl">🧊</span>
@@ -80,11 +77,7 @@ export default function SignupPage() {
             A3semble에서 나만의 냉장고를 만들어보세요
           </p>
 
-          {error && (
-            <div className="mt-5 rounded-xl border border-rose-100 bg-rose-50 px-4 py-3 text-sm font-medium text-rose-600">
-              {error}
-            </div>
-          )}
+          {error && <div className="mt-5"><ErrorBanner message={error} /></div>}
 
           <div className="mt-6 grid gap-4">
             <div>
@@ -132,13 +125,9 @@ export default function SignupPage() {
               />
             </div>
 
-            <button
-              type="submit"
-              disabled={loading}
-              className="mt-3 rounded-xl bg-emerald-500 py-3.5 text-sm font-extrabold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600 active:scale-95 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:shadow-none"
-            >
+            <Button type="submit" size="lg" loading={loading} fullWidth className="mt-3 !rounded-xl">
               {loading ? "가입 중..." : "회원가입"}
-            </button>
+            </Button>
           </div>
 
           <p className="mt-6 text-center text-sm text-slate-500">
@@ -151,7 +140,8 @@ export default function SignupPage() {
             </Link>
           </p>
         </form>
+        </div>
       </div>
-    </main>
+    </AppShell>
   );
 }

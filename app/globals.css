@@ -68,11 +68,11 @@ body {
   animation: slide-up 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
-/* 토스트 슬라이드 */
+/* 토스트 슬라이드 (상단에서 내려옴) */
 @keyframes toast-in {
   from {
     opacity: 0;
-    transform: translate(-50%, 16px);
+    transform: translate(-50%, -16px);
   }
   to {
     opacity: 1;
@@ -81,4 +81,52 @@ body {
 }
 .animate-toast-in {
   animation: toast-in 0.3s ease-out;
+}
+
+
+/* ============================================================
+   글로벌 접근성·디테일
+   ============================================================ */
+
+/* 키보드 포커스만 명확히 표시 (마우스 클릭은 영향 없음) */
+*:focus-visible {
+  outline: 2px solid rgb(16 185 129);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* 선택 영역 색상 */
+::selection {
+  background: rgb(16 185 129 / 0.2);
+  color: rgb(6 78 59);
+}
+
+/* 모바일 Safari 더블탭 줌 방지 */
+button, a {
+  touch-action: manipulation;
+}
+
+/* 스크롤바 (modern browsers) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(203 213 225) transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgb(203 213 225);
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgb(148 163 184);
+}
+
+/* prefers-reduced-motion 사용자는 애니메이션 줄이기 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

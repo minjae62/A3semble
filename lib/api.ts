@@ -22,6 +22,7 @@ export type Ingredient = {
   category: string;
   default_shelf_days: number;
   risk_factor: string;
+  allowed_units: string[];
 };
 
 export type TrafficLight = "red" | "yellow" | "green";
@@ -66,11 +67,33 @@ function authHeaders(): Record<string, string> {
 // ============================================================
 // 공통 fetch 래퍼 - 401 자동 처리, 에러 메시지 추출
 // ============================================================
+
+// 응답이 없을 때 무한 대기(무한로딩)를 막기 위한 기본 타임아웃(ms).
+const REQUEST_TIMEOUT_MS = 12000;
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(`${API_BASE_URL}${path}`, {
-    ...init,
-    headers: { ...authHeaders(), ...(init?.headers ?? {}) },
-  });
+  // AbortController로 타임아웃을 건다. 백엔드가 슬립/무응답이어도
+  // 지정 시간 후 fetch가 reject되어 로딩 스피너가 영원히 도는 것을 방지.
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+  let res: Response;
+  try {
+    res = await fetch(`${API_BASE_URL}${path}`, {
+      ...init,
+      signal: init?.signal ?? controller.signal,
+      headers: { ...authHeaders(), ...(init?.headers ?? {}) },
+    });
+  } catch (err) {
+    if (err instanceof DOMException && err.name === "AbortError") {
+      throw new Error(
+        "서버 응답이 없어 요청을 중단했어요. 잠시 후 다시 시도해주세요."
+      );
+    }
+    throw new Error("네트워크 오류가 발생했어요. 연결 상태를 확인해주세요.");
+  } finally {
+    clearTimeout(timeoutId);
+  }
 
   // 401: 토큰 만료 → 자동 로그아웃 후 로그인 페이지로
   if (res.status === 401 && typeof window !== "undefined") {
@@ -186,6 +209,83 @@ export function deleteInventory(id: number) {
   });
 }
 
+// ============================================================
+// 레시피
+// ============================================================
+export type RecipeIngredientApi = {
+  id: number;
+  recipe_id: number;
+  ingredient_master_id: number;
+  quantity: string;
+  unit: string;
+  ingredient_name: string;
+};
+
+export type RecipeStepApi = {
+  id: number;
+  recipe_id: number;
+  step_order: number;
+  description: string;
+  tip?: string;
+};
+
+export type RecipeApi = {
+  id: number;
+  name: string;
+  cook_time_min: number;
+  servings: number;
+  score?: number;
+  rank?: number;
+  ingredients: RecipeIngredientApi[];
+  steps?: RecipeStepApi[];
+};
+
+export function getRecipes(limit = 20, minMatchRate = 0.8) {
+  return request<ApiResponse<{ items: RecipeApi[]; total: number }>>(
+    `/api/v1/recipes?limit=${limit}&min_match_rate=${minMatchRate}`,
+    { method: "GET" }
+  );
+}
+
+export function getRecipeDetail(recipeId: number) {
+  return request<ApiResponse<RecipeApi>>(`/api/v1/recipes/${recipeId}`, {
+    method: "GET",
+  });
+}
+
+// ============================================================
+// 레시피 완료 / 재료 차감
+// ============================================================
+export function completeRecipe(
+  recipeId: number,
+  data: {
+    ingredients: {
+      ingredient_master_id: number;
+      quantity: number;
+    }[];
+  }
+) {
+  return request<
+    ApiResponse<{
+      recipe_id: number;
+      recipe_name: string;
+      deductions: {
+        ingredient_master_id: number;
+        ingredient_name: string;
+        requested: string;
+        deducted: string;
+        rows_affected: {
+          inventory_id: number;
+          deducted: string;
+          deleted: boolean;
+        }[];
+      }[];
+    }>
+  >(`/api/v1/recipes/${recipeId}/complete`, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
 // ============================================================
 // 헬퍼
 // ============================================================

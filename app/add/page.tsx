@@ -1,6 +1,5 @@
 "use client";
 
-
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -8,27 +7,46 @@ import {
   addInventory,
   isLoggedIn,
   searchIngredients,
+  type Ingredient,
 } from "../../lib/api";
-import {
-  categoryNames,
-  ingredientData,
-  IngredientData,
-} from "../data/ingredients";
+import { Button, Card, ErrorBanner, LoadingScreen } from "../../components/ui";
+import { AppShell } from "../../components/layout";
 
-// 백엔드 카테고리는 슬래시 구분이라 화면 표시는 그대로 사용
 function makeDefaultExpiry(days: number): string {
   const d = new Date();
   d.setDate(d.getDate() + days);
   return d.toISOString().split("T")[0];
 }
 
+function getAmountOptions(unit: string) {
+  if (unit === "g") return [100, 300, 500, 1000];
+  if (unit === "kg") return [1, 2, 3, 5];
+  if (unit === "ml") return [100, 300, 500, 1000];
+  if (unit === "L") return [1, 2, 3];
+  if (unit === "큰술") return [1, 2, 3, 5];
+  if (unit === "작은술") return [1, 2, 3, 5];
+
+  return [1, 2, 3, 5];
+}
+
+// ============================================================
+// 임시 단위/중량 옵션
+// 현재 백엔드 ingredients API에는 unit, amounts 값이 없어서
+// 프론트에서 카테고리 기준으로 임시 단위와 중량 버튼을 생성한다.
+// 추후 백엔드에서 unit, amounts를 내려주면 이 함수들은 제거 가능.
+// ============================================================
+
+
+
 export default function AddPage() {
   const router = useRouter();
-  const [isAuthChecking, setIsAuthChecking] = useState(true); // 로그인 검사 중인지 확인하는 상태를 추가 (기본값 true)
+  const [isAuthChecking, setIsAuthChecking] = useState(true);
 
-  const [selectedCategory, setSelectedCategory] = useState(categoryNames[0]);
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [selectedIngredient, setSelectedIngredient] =
-    useState<IngredientData | null>(null);
+    useState<Ingredient | null>(null);
+  const [selectedUnit, setSelectedUnit] = useState("");
   const [selectedAmount, setSelectedAmount] = useState<number | null>(null);
   const [customAmount, setCustomAmount] = useState("");
   const [expireDate, setExpireDate] = useState("");
@@ -36,7 +54,23 @@ export default function AddPage() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // 로그인 체크 (SSR-safe: 클라이언트 마운트 후 localStorage 확인)
+  // 여기 추가!
+  const categoryNames = useMemo(
+    () => Array.from(new Set(ingredients.map((item) => item.category))),
+    [ingredients]
+  );
+
+
+  useEffect(() => {
+    if (selectedIngredient) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setExpireDate(makeDefaultExpiry(selectedIngredient.default_shelf_days));
+      setSelectedUnit(selectedIngredient.allowed_units[0] ?? "");
+      setSelectedAmount(null);
+      setCustomAmount("");
+    }
+  }, [selectedIngredient]);
+
   useEffect(() => {
     if (!isLoggedIn()) {
       router.replace("/login");
@@ -46,21 +80,35 @@ export default function AddPage() {
     setIsAuthChecking(false);
   }, [router]);
 
-  // 식재료 선택 시 기본 소비기한 자동 채움
   useEffect(() => {
     if (selectedIngredient) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
-      setExpireDate(makeDefaultExpiry(selectedIngredient.defaultShelfDays));
+      setExpireDate(makeDefaultExpiry(selectedIngredient.default_shelf_days));
     }
   }, [selectedIngredient]);
 
+  useEffect(() => {
+    if (isAuthChecking) return;
+
+    async function loadIngredients() {
+      try {
+        const res = await searchIngredients({ limit: 500 });
+        setIngredients(res.data ?? []);
+      } catch (e) {
+        setError(e instanceof Error ? e.message : "식재료 목록을 불러오지 못했어요.");
+      }
+    }
+
+    void loadIngredients();
+  }, [isAuthChecking]);
+
   const filteredIngredients = useMemo(
     () =>
-      ingredientData.filter(
+      ingredients.filter(
         (item) =>
           item.category === selectedCategory && item.name.includes(searchKeyword)
       ),
-    [selectedCategory, searchKeyword]
+    [ingredients, selectedCategory, searchKeyword]
   );
 
   async function handleSubmit() {
@@ -78,36 +126,20 @@ export default function AddPage() {
       return;
     }
 
+    if (!selectedUnit) {
+      setError("단위를 선택해주세요.");
+      return;
+    }
     setSubmitting(true);
+
     try {
-      // 1) 백엔드에서 ingredient_master_id 검색
-      const search = await searchIngredients({
-        q: selectedIngredient.name,
-        category: selectedIngredient.category,
-        limit: 5,
-      });
-
-      const match = search.data?.find(
-        (i) =>
-          i.name === selectedIngredient.name &&
-          i.category === selectedIngredient.category
-      );
-
-      if (!match) {
-        throw new Error(
-          `백엔드 DB에 "${selectedIngredient.name}" 식재료가 없어요.`
-        );
-      }
-
-      // 2) 재고 등록 API 호출
       await addInventory({
-        ingredient_master_id: match.id,
+        ingredient_master_id: selectedIngredient.id,
         quantity: finalAmount,
-        unit: selectedIngredient.unit,
+        unit: selectedUnit,
         expire_date: expireDate,
       });
 
-      // 3) 성공 → /fridge로 이동
       router.push("/fridge");
     } catch (e) {
       setError(e instanceof Error ? e.message : "등록에 실패했습니다.");
@@ -116,40 +148,46 @@ export default function AddPage() {
   }
 
   if (isAuthChecking) {
-    return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center pb-32">
-        <span className="text-slate-400 font-bold">인증 정보 확인 중...</span>
-      </div>
-    );
+    return <LoadingScreen message="인증 정보 확인 중..." />;
   }
 
   return (
-    <main className="min-h-screen bg-slate-50 pb-32">
-      <div className="mx-auto max-w-md bg-white shadow-xl">
-        {/* ── 헤더 ── */}
+    <AppShell maxWidth="md" background="default" hideBottomNav>
+      <div className="bg-white shadow-xl md:rounded-3xl md:my-4">
         <header className="sticky top-0 z-10 flex items-center gap-3 border-b border-slate-100 bg-white/95 px-5 py-4 backdrop-blur">
           <Link
             href="/fridge"
             className="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-100 transition hover:bg-slate-200"
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-            >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
               <path d="M15 18l-6-6 6-6" />
             </svg>
           </Link>
           <h1 className="font-extrabold text-slate-800">식재료 추가</h1>
         </header>
 
-        <div className="p-5">
+        <div className="p-5 space-y-6">
+          {/* ── OCR 진입 배너 ── */}
+          <Link
+            href="/add/scan"
+            className="group flex items-center gap-3 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 p-4 text-white shadow-md shadow-emerald-200 transition hover:shadow-lg active:scale-[0.98]"
+          >
+            <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-white/20 text-2xl backdrop-blur">
+              📷
+            </div>
+            <div className="min-w-0 flex-1">
+              <p className="text-sm font-extrabold">
+                영수증 사진으로 한 번에 등록
+              </p>
+              <p className="mt-0.5 text-[11px] text-emerald-50/90">
+                OCR로 식재료를 자동 인식해드려요
+              </p>
+            </div>
+            <span className="text-lg">→</span>
+          </Link>
+
           {/* ── 카테고리 ── */}
-          <section className="mb-6">
+          <section>
             <p className="mb-3 text-xs font-bold uppercase tracking-widest text-slate-400">
               카테고리
             </p>
@@ -180,7 +218,7 @@ export default function AddPage() {
           </section>
 
           {/* ── 식재료 선택 ── */}
-          <section className="mb-6 rounded-2xl border-l-4 border-emerald-400 bg-white p-5 shadow-sm">
+          <Card accent="emerald">
             <div className="mb-4 flex items-center justify-between">
               <h2 className="text-base font-extrabold text-slate-800">
                 {selectedCategory}
@@ -225,10 +263,10 @@ export default function AddPage() {
                 })
               )}
             </div>
-          </section>
+          </Card>
 
           {/* ── 중량 선택 ── */}
-          <section className="mb-6 rounded-2xl border-l-4 border-teal-400 bg-white p-5 shadow-sm">
+          <Card accent="teal">
             <h2 className="mb-4 text-base font-extrabold text-slate-800">
               중량 선택
             </h2>
@@ -239,8 +277,34 @@ export default function AddPage() {
               </p>
             ) : (
               <>
+              <div className="mb-4">
+                <p className="mb-2 text-xs font-bold text-slate-400">단위 선택</p>
                 <div className="flex flex-wrap gap-2">
-                  {selectedIngredient.amounts.map((amount) => {
+                  {selectedIngredient.allowed_units.map((unit) => {
+                    const active = selectedUnit === unit;
+
+                    return (
+                      <button
+                        key={unit}
+                        onClick={() => {
+                          setSelectedUnit(unit);
+                          setSelectedAmount(null);
+                          setCustomAmount("");
+                        }}
+                        className={`rounded-full border px-4 py-2 text-sm font-bold transition ${
+                          active
+                            ? "border-emerald-500 bg-emerald-500 text-white"
+                            : "border-slate-200 bg-slate-50 text-slate-600 hover:border-emerald-300 hover:bg-emerald-50"
+                        }`}
+                      >
+                        {unit}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+                <div className="flex flex-wrap gap-2">
+                  {getAmountOptions(selectedUnit).map((amount) => {
                     const active =
                       selectedAmount === amount && customAmount === "";
                     return (
@@ -257,7 +321,7 @@ export default function AddPage() {
                         }`}
                       >
                         {amount}
-                        {selectedIngredient.unit}
+                        {selectedUnit}
                       </button>
                     );
                   })}
@@ -276,21 +340,22 @@ export default function AddPage() {
                     min={0}
                   />
                   <span className="px-1 text-sm font-bold text-slate-500">
-                    {selectedIngredient.unit}
+                    {selectedUnit}
+
                   </span>
                 </div>
               </>
             )}
-          </section>
+          </Card>
 
           {/* ── 소비기한 ── */}
-          <section className="mb-6 rounded-2xl border-l-4 border-amber-400 bg-white p-5 shadow-sm">
+          <Card accent="amber">
             <h2 className="mb-2 text-base font-extrabold text-slate-800">
               소비기한
             </h2>
             <p className="mb-4 text-xs text-slate-400">
               {selectedIngredient
-                ? `자동 추천: ${selectedIngredient.defaultShelfDays}일 후`
+                ? `자동 추천: ${selectedIngredient.default_shelf_days}일 후`
                 : "식재료 선택 시 자동 추천 날짜가 설정돼요"}
             </p>
             <input
@@ -300,26 +365,25 @@ export default function AddPage() {
               className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 font-bold text-slate-800 outline-none transition focus:border-amber-400 focus:bg-white"
               disabled={!selectedIngredient}
             />
-          </section>
+          </Card>
 
-          {error && (
-            <div className="mb-4 rounded-xl border border-rose-100 bg-rose-50 px-4 py-3 text-sm font-medium text-rose-600">
-              {error}
-            </div>
-          )}
+          {error && <ErrorBanner message={error} />}
         </div>
 
         {/* ── 하단 고정 등록 버튼 ── */}
         <div className="fixed bottom-0 left-1/2 z-30 w-full max-w-md -translate-x-1/2 border-t border-slate-100 bg-white p-4 shadow-[0_-4px_16px_-4px_rgba(0,0,0,0.06)]">
-          <button
+          <Button
             onClick={handleSubmit}
-            disabled={submitting || !selectedIngredient}
-            className="w-full rounded-2xl bg-emerald-500 py-4 text-sm font-extrabold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600 active:scale-95 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:shadow-none"
+            disabled={!selectedIngredient}
+            loading={submitting}
+            size="lg"
+            fullWidth
+            className="!rounded-2xl !py-4"
           >
             {submitting ? "등록 중..." : "냉장고에 추가"}
-          </button>
+          </Button>
         </div>
       </div>
-    </main>
+    </AppShell>
   );
 }

@@ -1,0 +1,71 @@
+import { readFileSync } from "node:fs";
+const DIR = new URL("../sim-data/", import.meta.url).pathname;
+const load = (f) => JSON.parse(readFileSync(`${DIR}/${f}`, "utf8"));
+
+const TODAY = new Date("2026-06-06T00:00:00");
+const dday = (s) => Math.ceil((new Date(s).getTime() - TODAY.getTime()) / 86400000);
+
+const inv = load("inventory.json");
+const recScored = load("recipes_scored.json");
+const recipes = recScored.items;
+
+console.log("=== INVENTORY score 역산 (설계: α×qty/((D-day)²+1)) ===");
+console.log("name | risk | qty | Dday | backend_score | design_formula | ratio");
+const rows = [];
+for (const it of inv) {
+  const risk = parseFloat(it.ingredient.risk_factor);
+  const qty = parseFloat(it.quantity);
+  const d = dday(it.expire_date);
+  const design = risk * qty / (d * d + 1);
+  rows.push({ name: it.ingredient.name, risk, qty, d, score: it.score, design });
+}
+// show a spread
+for (const r of rows.slice(0, 18)) {
+  console.log(`${r.name} | ${r.risk} | ${r.qty} | ${r.d} | ${r.score} | ${r.design.toFixed(2)} | ${(r.score / r.design).toFixed(4)}`);
+}
+
+// try to detect score cap / scaling
+const maxScore = Math.max(...rows.map(r => r.score));
+console.log("\nmax backend score:", maxScore, "| distinct scores:", [...new Set(rows.map(r=>r.score))].slice(0,15));
+
+// fit: is score == min(cap, round(design))? check cap candidates
+console.log("\n=== cap 검출: score < design 인 항목(=캡 걸린 것) ===");
+for (const r of rows) {
+  if (Math.abs(r.score - r.design) > 1 && r.score < r.design - 1) {
+    console.log(`${r.name}: backend ${r.score} < design ${r.design.toFixed(1)} (Dday=${r.d}, qty=${r.qty}, risk=${r.risk})`);
+  }
+}
+console.log("\n=== score==design (캡 안 걸린 것) ===");
+let exact = 0;
+for (const r of rows) {
+  if (Math.abs(r.score - r.design) <= 1) { exact++; }
+}
+console.log(`근사 일치(±1): ${exact}/${rows.length}`);
+
+// RECIPE score: hypothesize sum of matched-inventory item scores
+console.log("\n=== RECIPE score 역산 ===");
+const invByMaster = new Map();
+for (const it of inv) {
+  const m = it.ingredient_master_id;
+  invByMaster.set(m, (invByMaster.get(m) || 0) + it.score);
+}
+const invMasterSet = new Set(inv.map(i => i.ingredient_master_id));
+for (const rec of recipes.slice(0, 8)) {
+  const ingIds = rec.ingredients.map(i => i.ingredient_master_id);
+  const matchedIds = ingIds.filter(id => invMasterSet.has(id));
+  const sumScores = matchedIds.reduce((a, id) => a + (invByMaster.get(id) || 0), 0);
+  console.log(`#${rec.rank} ${rec.name} | backend_score=${rec.score.toFixed(2)} | ingr=${ingIds.length} matched=${matchedIds.length} missing=${rec.missing_count} | sumMatchedInvScore=${sumScores.toFixed(2)} | ratio=${(rec.score/(sumScores||1)).toFixed(4)}`);
+}
+
+console.log("\n=== 레시피 DB 규모/재료 통계 ===");
+const allIng = new Set();
+let totIng = 0;
+for (const r of recipes) { r.ingredients.forEach(i => allIng.add(i.ingredient_master_id)); totIng += r.ingredients.length; }
+console.log(`레시피 ${recipes.length}종, 고유 재료 ${allIng.size}종, 평균 재료수 ${(totIng/recipes.length).toFixed(1)}`);
+const ingMaster = load("ingredients.json");
+console.log(`식재료 마스터 ${ingMaster.length}종`);
+const riskDist = {};
+for (const g of ingMaster) { const r = g.risk_factor; riskDist[r] = (riskDist[r]||0)+1; }
+console.log("risk_factor 분포:", riskDist);
+const shelf = ingMaster.map(g=>g.default_shelf_days).sort((a,b)=>a-b);
+console.log("shelf_days min/median/max:", shelf[0], shelf[Math.floor(shelf.length/2)], shelf[shelf.length-1]);

@@ -1,0 +1,141 @@
+{
+  "config": {
+    "users": 1000,
+    "days": 30,
+    "pantrySize": 22,
+    "cooksPerDay": 2,
+    "restockEvery": 7,
+    "restockCount": 8,
+    "minMatch": 1,
+    "seed": 20260606,
+    "recipeLimit": null,
+    "excludeShelfDaysGte": 21
+  },
+  "main": {
+    "users": 1000,
+    "days": 30,
+    "cooksPerDay": 2,
+    "wasteRandom_g": 18231796,
+    "wasteAlpha_g": 13763817,
+    "avgRandom_g": 18231.796,
+    "avgAlpha_g": 13763.817,
+    "reductionPct": 24.50652146393038,
+    "wasteRateRandom": 0.5651823911599426,
+    "wasteRateAlpha": 0.4266758471599763,
+    "improvedUsersPct": 97,
+    "equalUsersPct": 0
+  },
+  "sweeps": {
+    "recipeCount": [
+      {
+        "recipeCount": 10,
+        "reductionPct": 4.14,
+        "avgRandom_g": 18139,
+        "avgAlpha_g": 17388,
+        "improvedPct": 68.5
+      },
+      {
+        "recipeCount": 20,
+        "reductionPct": 13.96,
+        "avgRandom_g": 18198,
+        "avgAlpha_g": 15657,
+        "improvedPct": 88.5
+      },
+      {
+        "recipeCount": 30,
+        "reductionPct": 19.22,
+        "avgRandom_g": 18286,
+        "avgAlpha_g": 14772,
+        "improvedPct": 92.5
+      },
+      {
+        "recipeCount": 40,
+        "reductionPct": 21.56,
+        "avgRandom_g": 17815,
+        "avgAlpha_g": 13974,
+        "improvedPct": 95
+      },
+      {
+        "recipeCount": 50,
+        "reductionPct": 24.04,
+        "avgRandom_g": 18240,
+        "avgAlpha_g": 13855,
+        "improvedPct": 96.7
+      }
+    ],
+    "cooksPerDay": [
+      {
+        "cooksPerDay": 1,
+        "reductionPct": 14.36,
+        "avgRandom_g": 22310,
+        "avgAlpha_g": 19107,
+        "improvedPct": 95
+      },
+      {
+        "cooksPerDay": 2,
+        "reductionPct": 24.04,
+        "avgRandom_g": 18240,
+        "avgAlpha_g": 13855,
+        "improvedPct": 96.7
+      },
+      {
+        "cooksPerDay": 3,
+        "reductionPct": 31.8,
+        "avgRandom_g": 15346,
+        "avgAlpha_g": 10466,
+        "improvedPct": 98.7
+      },
+      {
+        "cooksPerDay": 4,
+        "reductionPct": 38.93,
+        "avgRandom_g": 13143,
+        "avgAlpha_g": 8026,
+        "improvedPct": 99
+      }
+    ],
+    "pantrySize": [
+      {
+        "pantrySize": 12,
+        "reductionPct": 29.08,
+        "avgRandom_g": 13529,
+        "avgAlpha_g": 9595,
+        "improvedPct": 98
+      },
+      {
+        "pantrySize": 18,
+        "reductionPct": 26.09,
+        "avgRandom_g": 16363,
+        "avgAlpha_g": 12094,
+        "improvedPct": 97.2
+      },
+      {
+        "pantrySize": 22,
+        "reductionPct": 24.04,
+        "avgRandom_g": 18240,
+        "avgAlpha_g": 13855,
+        "improvedPct": 96.7
+      },
+      {
+        "pantrySize": 28,
+        "reductionPct": 21.6,
+        "avgRandom_g": 21278,
+        "avgAlpha_g": 16682,
+        "improvedPct": 96
+      },
+      {
+        "pantrySize": 36,
+        "reductionPct": 19.41,
+        "avgRandom_g": 25363,
+        "avgAlpha_g": 20440,
+        "improvedPct": 96.7
+      }
+    ]
+  },
+  "meta": {
+    "recipes": 50,
+    "ingredientPool": 84,
+    "master": 427,
+    "note": "2 cooks/day, weekly restock(7d), exclude shelf>=21d",
+    "backendFormula": "risk*g/((Dday+1)^2+1)"
+  }
+}

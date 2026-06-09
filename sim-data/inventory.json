@@ -1,0 +1,902 @@
+[
+  {
+    "id": 449,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 192,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-06",
+    "created_at": null,
+    "ingredient": {
+      "id": 192,
+      "bit_id": 235,
+      "name": "새우",
+      "category": "생선/해산물",
+      "default_shelf_days": 2,
+      "risk_factor": "3.00",
+      "allowed_units": []
+    },
+    "traffic_light": "red",
+    "score": 1500
+  },
+  {
+    "id": 444,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 97,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-09",
+    "created_at": null,
+    "ingredient": {
+      "id": 97,
+      "bit_id": 330,
+      "name": "돼지고기",
+      "category": "육류",
+      "default_shelf_days": 5,
+      "risk_factor": "3.00",
+      "allowed_units": []
+    },
+    "traffic_light": "red",
+    "score": 176.47058823529412
+  },
+  {
+    "id": 380,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 25,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 25,
+      "bit_id": 402,
+      "name": "고등어",
+      "category": "생선/해산물",
+      "default_shelf_days": 2,
+      "risk_factor": "3.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 29.702970297029704
+  },
+  {
+    "id": 373,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 87,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 87,
+      "bit_id": 340,
+      "name": "대파",
+      "category": "채소",
+      "default_shelf_days": 14,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 19.801980198019802
+  },
+  {
+    "id": 374,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 263,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 263,
+      "bit_id": 164,
+      "name": "오이",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 19.801980198019802
+  },
+  {
+    "id": 375,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 370,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 370,
+      "bit_id": 57,
+      "name": "피망",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 19.801980198019802
+  },
+  {
+    "id": 379,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 341,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 341,
+      "bit_id": 86,
+      "name": "콩나물",
+      "category": "채소",
+      "default_shelf_days": 3,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 19.801980198019802
+  },
+  {
+    "id": 382,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 5,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 5,
+      "bit_id": 422,
+      "name": "가지",
+      "category": "채소",
+      "default_shelf_days": 10,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 19.801980198019802
+  },
+  {
+    "id": 385,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 79,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 79,
+      "bit_id": 348,
+      "name": "달걀",
+      "category": "계란/콩/두부",
+      "default_shelf_days": 25,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 19.801980198019802
+  },
+  {
+    "id": 371,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 121,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 121,
+      "bit_id": 306,
+      "name": "마늘",
+      "category": "채소",
+      "default_shelf_days": 14,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 9.900990099009901
+  },
+  {
+    "id": 372,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 10,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 10,
+      "bit_id": 417,
+      "name": "감자",
+      "category": "채소",
+      "default_shelf_days": 90,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 9.900990099009901
+  },
+  {
+    "id": 376,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 383,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 383,
+      "bit_id": 44,
+      "name": "호박",
+      "category": "채소",
+      "default_shelf_days": 14,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 9.900990099009901
+  },
+  {
+    "id": 377,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 83,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 83,
+      "bit_id": 344,
+      "name": "당근",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 9.900990099009901
+  },
+  {
+    "id": 459,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 264,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-06",
+    "created_at": null,
+    "ingredient": {
+      "id": 264,
+      "bit_id": 163,
+      "name": "오징어",
+      "category": "생선/해산물",
+      "default_shelf_days": 2,
+      "risk_factor": "3.00",
+      "allowed_units": []
+    },
+    "traffic_light": "red",
+    "score": 1.5
+  },
+  {
+    "id": 465,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 264,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-06",
+    "created_at": null,
+    "ingredient": {
+      "id": 264,
+      "bit_id": 163,
+      "name": "오징어",
+      "category": "생선/해산물",
+      "default_shelf_days": 2,
+      "risk_factor": "3.00",
+      "allowed_units": []
+    },
+    "traffic_light": "red",
+    "score": 1.5
+  },
+  {
+    "id": 369,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 403,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 403,
+      "bit_id": 24,
+      "name": "소금",
+      "category": "조미료",
+      "default_shelf_days": 1095,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.9900990099009901
+  },
+  {
+    "id": 370,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 203,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 203,
+      "bit_id": 224,
+      "name": "설탕",
+      "category": "조미료",
+      "default_shelf_days": 1095,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.9900990099009901
+  },
+  {
+    "id": 378,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 340,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 340,
+      "bit_id": 87,
+      "name": "콩",
+      "category": "계란/콩/두부",
+      "default_shelf_days": 1095,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.9900990099009901
+  },
+  {
+    "id": 381,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 31,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 31,
+      "bit_id": 396,
+      "name": "고추장",
+      "category": "조미료",
+      "default_shelf_days": 486,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.9900990099009901
+  },
+  {
+    "id": 384,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 14,
+    "quantity": "1000",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 14,
+      "bit_id": 413,
+      "name": "건포도",
+      "category": "과일/견과",
+      "default_shelf_days": 365,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.9900990099009901
+  },
+  {
+    "id": 367,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 393,
+    "quantity": "999",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 393,
+      "bit_id": 34,
+      "name": "흑임자",
+      "category": "과일/견과",
+      "default_shelf_days": 360,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.9891089108910892
+  },
+  {
+    "id": 368,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 399,
+    "quantity": "999",
+    "unit": "g",
+    "expire_date": "2026-06-15",
+    "created_at": null,
+    "ingredient": {
+      "id": 399,
+      "bit_id": 28,
+      "name": "쌀",
+      "category": "곡류/면/떡",
+      "default_shelf_days": 365,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.9891089108910892
+  },
+  {
+    "id": 443,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 249,
+    "quantity": "300",
+    "unit": "g",
+    "expire_date": "2026-07-04",
+    "created_at": null,
+    "ingredient": {
+      "id": 249,
+      "bit_id": 178,
+      "name": "양파",
+      "category": "채소",
+      "default_shelf_days": 30,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.35629453681710216
+  },
+  {
+    "id": 391,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 264,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 264,
+      "bit_id": 163,
+      "name": "오징어",
+      "category": "생선/해산물",
+      "default_shelf_days": 2,
+      "risk_factor": "3.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.08108108108108109
+  },
+  {
+    "id": 392,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 101,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 101,
+      "bit_id": 326,
+      "name": "두부",
+      "category": "계란/콩/두부",
+      "default_shelf_days": 25,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.05405405405405406
+  },
+  {
+    "id": 393,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 87,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 87,
+      "bit_id": 340,
+      "name": "대파",
+      "category": "채소",
+      "default_shelf_days": 14,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.05405405405405406
+  },
+  {
+    "id": 395,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 161,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 161,
+      "bit_id": 266,
+      "name": "바나나",
+      "category": "과일/견과",
+      "default_shelf_days": 14,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.05405405405405406
+  },
+  {
+    "id": 386,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 87,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 87,
+      "bit_id": 340,
+      "name": "대파",
+      "category": "채소",
+      "default_shelf_days": 14,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.05405405405405406
+  },
+  {
+    "id": 389,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 318,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 318,
+      "bit_id": 109,
+      "name": "청양고추",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.05405405405405406
+  },
+  {
+    "id": 458,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 318,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 318,
+      "bit_id": 109,
+      "name": "청양고추",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.05405405405405406
+  },
+  {
+    "id": 464,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 318,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 318,
+      "bit_id": 109,
+      "name": "청양고추",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "yellow",
+    "score": 0.05405405405405406
+  },
+  {
+    "id": 388,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 249,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 249,
+      "bit_id": 178,
+      "name": "양파",
+      "category": "채소",
+      "default_shelf_days": 30,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.02702702702702703
+  },
+  {
+    "id": 390,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 83,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 83,
+      "bit_id": 344,
+      "name": "당근",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.02702702702702703
+  },
+  {
+    "id": 456,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 83,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 83,
+      "bit_id": 344,
+      "name": "당근",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.02702702702702703
+  },
+  {
+    "id": 462,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 83,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 83,
+      "bit_id": 344,
+      "name": "당근",
+      "category": "채소",
+      "default_shelf_days": 7,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.02702702702702703
+  },
+  {
+    "id": 455,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 87,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-18",
+    "created_at": null,
+    "ingredient": {
+      "id": 87,
+      "bit_id": 340,
+      "name": "대파",
+      "category": "채소",
+      "default_shelf_days": 14,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.011764705882352941
+  },
+  {
+    "id": 461,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 87,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-18",
+    "created_at": null,
+    "ingredient": {
+      "id": 87,
+      "bit_id": 340,
+      "name": "대파",
+      "category": "채소",
+      "default_shelf_days": 14,
+      "risk_factor": "2.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.011764705882352941
+  },
+  {
+    "id": 422,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 170,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-18",
+    "created_at": null,
+    "ingredient": {
+      "id": 170,
+      "bit_id": 257,
+      "name": "배",
+      "category": "과일/견과",
+      "default_shelf_days": 14,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.0058823529411764705
+  },
+  {
+    "id": 394,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 239,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 239,
+      "bit_id": 188,
+      "name": "아몬드",
+      "category": "과일/견과",
+      "default_shelf_days": 180,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.002702702702702703
+  },
+  {
+    "id": 387,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 340,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-06-11",
+    "created_at": null,
+    "ingredient": {
+      "id": 340,
+      "bit_id": 87,
+      "name": "콩",
+      "category": "계란/콩/두부",
+      "default_shelf_days": 1095,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.002702702702702703
+  },
+  {
+    "id": 448,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 323,
+    "quantity": "500",
+    "unit": "g",
+    "expire_date": "2026-12-01",
+    "created_at": null,
+    "ingredient": {
+      "id": 323,
+      "bit_id": 104,
+      "name": "초고추장",
+      "category": "조미료",
+      "default_shelf_days": 180,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.0015604519068722301
+  },
+  {
+    "id": 454,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 249,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-07-04",
+    "created_at": null,
+    "ingredient": {
+      "id": 249,
+      "bit_id": 178,
+      "name": "양파",
+      "category": "채소",
+      "default_shelf_days": 30,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.0011876484560570072
+  },
+  {
+    "id": 460,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 249,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2026-07-04",
+    "created_at": null,
+    "ingredient": {
+      "id": 249,
+      "bit_id": 178,
+      "name": "양파",
+      "category": "채소",
+      "default_shelf_days": 30,
+      "risk_factor": "1.00",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 0.0011876484560570072
+  },
+  {
+    "id": 457,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 340,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2029-06-03",
+    "created_at": null,
+    "ingredient": {
+      "id": 340,
+      "bit_id": 87,
+      "name": "콩",
+      "category": "계란/콩/두부",
+      "default_shelf_days": 1095,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 8.355356660932107e-8
+  },
+  {
+    "id": 463,
+    "user_id": "efffa04b-78f3-41c1-8efe-30f21558d63f",
+    "ingredient_master_id": 340,
+    "quantity": "1",
+    "unit": "개",
+    "expire_date": "2029-06-03",
+    "created_at": null,
+    "ingredient": {
+      "id": 340,
+      "bit_id": 87,
+      "name": "콩",
+      "category": "계란/콩/두부",
+      "default_shelf_days": 1095,
+      "risk_factor": "0.10",
+      "allowed_units": []
+    },
+    "traffic_light": "green",
+    "score": 8.355356660932107e-8
+  }
+]
